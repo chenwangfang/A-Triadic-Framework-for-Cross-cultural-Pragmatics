@@ -1,0 +1,171 @@
+{
+  "hypothesis": "H2",
+  "hypothesis_description": "Contextual factors systematically moderate DSR's cognitive role",
+  "evidence": {
+    "moderation": {
+      "context_moderation": {
+        "coefficient": 0.14503628888559472,
+        "p_value": 4.562651272513613e-51,
+        "significant": true,
+        "effect_size": 0.14503628888559655
+      },
+      "simple_slopes": {
+        "low_context": 0.037556062104256056,
+        "medium_context": 0.14503313974877996,
+        "high_context": 0.1825923509898526,
+        "slope_differences": {
+          "low_vs_high": 0.14503628888559655
+        }
+      },
+      "model_fit": {
+        "r_squared": 0.17301860335450536,
+        "f_statistic": 418.68514870771895,
+        "p_value": 0.0
+      }
+    },
+    "bayesian_hierarchical": {
+      "r2_variation": {
+        "between_contexts": 0.037887706250172376,
+        "within_contexts": 0.1,
+        "icc": 0.27477218441382995,
+        "variation_significant": true
+      },
+      "context_specific_effects": {
+        "low": -0.009174730207958323,
+        "medium": 0.27861011300002275,
+        "high": 0.46392824885218975,
+        "effect_heterogeneity": 0.19464764640285886
+      },
+      "posterior_distribution": {
+        "mean": 0.24445454388141807,
+        "std": 0.19464764640285886,
+        "credible_interval": [
+          -0.009174730207958323,
+          0.46392824885218975
+        ],
+        "convergence": true
+      }
+    },
+    "heterogeneity": {
+      "causal_forest": {
+        "treatment_heterogeneity": 0.01284549733840787,
+        "significant_heterogeneity": true,
+        "variable_importance": [
+          {
+            "feature": "dsr_tl_interaction",
+            "importance": 0.3559480383957098
+          },
+          {
+            "feature": "outcome_lag1",
+            "importance": 0.16729276474412771
+          },
+          {
+            "feature": "outcome_lag7",
+            "importance": 0.15162829194880284
+          },
+          {
+            "feature": "tl_functional",
+            "importance": 0.12997669177253648
+          },
+          {
+            "feature": "year",
+            "importance": 0.05905431406158458
+          },
+          {
+            "feature": "month",
+            "importance": 0.047750615483704635
+          },
+          {
+            "feature": "treatment_lag7",
+            "importance": 0.02324781548083672
+          },
+          {
+            "feature": "day_of_week",
+            "importance": 0.01842080398390418
+          },
+          {
+            "feature": "has_bridging",
+            "importance": 0.017227942160584014
+          },
+          {
+            "feature": "treatment_lag1",
+            "importance": 0.01237098180338008
+          },
+          {
+            "feature": "sensitivity_code",
+            "importance": 0.008141649808358725
+          },
+          {
+            "feature": "has_engaging",
+            "importance": 0.006311854363837739
+          },
+          {
+            "feature": "has_contextualizing",
+            "importance": 0.0026282359926326038
+          }
+        ],
+        "ate": -0.002462130143493853
+      },
+      "sensitive_subgroups": {
+        "high_sensitivity_count": 2,
+        "high_sensitivity_contexts": [
+          "低响应组",
+          "高响应组"
+        ],
+        "effect_range": {
+          "min": -0.018444519782379737,
+          "max": 0.0141011360588697,
+          "spread": 0.03254565584124944
+        }
+      },
+      "context_patterns": {
+        "strongest_context": "High Response Group",
+        "weakest_context": "Medium-Low Response Group",
+        "context_ranking": [
+          "High Response Group",
+          "Medium-High Response Group",
+          "Medium-Low Response Group",
+          "Low Response Group"
+        ]
+      }
+    },
+    "functional_pattern": {
+      "high_sensitivity_contexts": {
+        "count": 5,
+        "contexts": [
+          "contextualizing",
+          "contextualizing|contextualizing",
+          "contextualizing|contextualizing|contextualizing",
+          "bridging|contextualizing|contextualizing",
+          "contextualizing|contextualizing|engaging"
+        ],
+        "characteristics": {
+          "dominant_function": "contextualizing",
+          "avg_effectiveness": 0.005
+        }
+      },
+      "functional_differentiation": {
+        "profile_diversity": 0.45,
+        "context_specificity": 0.7,
+        "distinct_patterns": 9
+      },
+      "adaptation_evidence": {
+        "adaptation_rate": 0.41006022996405633,
+        "context_switching": 0.6,
+        "learning_curve": -0.2
+      }
+    }
+  },
+  "visualizations": {
+    "main_figure": "..\\output_en\\figures\\H2_system_moderation_analysis.jpg"
+  },
+  "errors": [],
+  "timestamp": "2025-07-07T04:45:00.068435",
+  "support_assessment": "Supported",
+  "significant_findings": [
+    "context_moderation_significant",
+    "r2_variation_significant",
+    "heterogeneity_significant",
+    "high_sensitivity_patterns"
+  ]
+}

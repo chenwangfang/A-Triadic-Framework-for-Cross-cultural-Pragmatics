@@ -1,0 +1,202 @@
+{
+  "hypothesis": "H1",
+  "hypothesis_description": "DSR as constitutive component of cognitive system",
+  "evidence": {
+    "information_theory": {
+      "functional_complementarity": {
+        "low": {
+          "role_contributions": {
+            "cognitive_bridging": 0.025824865681715714,
+            "meaning_precision": 0.09555747552594918,
+            "information_flow": 0.16781605625525753
+          },
+          "joint_information": 0.2858567649574222,
+          "complementarity": 0.14804070870216465,
+          "functional_diversity": 3,
+          "sample_size": 1503
+        },
+        "medium": {
+          "role_contributions": {
+            "cognitive_bridging": 0.11804367511717606,
+            "meaning_precision": 0.3372981183962298,
+            "information_flow": 0.20475897224873751
+          },
+          "joint_information": 0.6629479440510844,
+          "complementarity": 0.3556498256548546,
+          "functional_diversity": 3,
+          "sample_size": 3003
+        },
+        "high": {
+          "role_contributions": {
+            "cognitive_bridging": 0.10023242517737563,
+            "meaning_precision": 0.35944013048006784,
+            "information_flow": 0.1891348131159276
+          },
+          "joint_information": 0.646846073841084,
+          "complementarity": 0.31740594336101613,
+          "functional_diversity": 3,
+          "sample_size": 5506
+        },
+        "weighted_average": {
+          "total_complementarity": 0.30345173149886506,
+          "complementarity_positive": true
+        }
+      },
+      "triple_interaction_mi": 0.11520264098282063,
+      "conditional_mi": {
+        "dsr_core": {
+          "individual_mi": {
+            "dsr_cognitive": 0.09701912350567721,
+            "dsr_irreplaceability": 0.17737747671077564,
+            "dsr_path_centrality": 0.04077732108210963
+          },
+          "joint_mi": 0.12305347851452364,
+          "total_mi": 0.3151739212985625,
+          "synergy": -0.19212044278403884
+        },
+        "dsr_enhanced": {
+          "individual_mi": {
+            "dsr_cognitive_ewm": 0.009484892310931414,
+            "dsr_cognitive_cumsum": 0.08480301379557531,
+            "dsr_cognitive_diff": 0.06233193253878344
+          },
+          "joint_mi": 0.08480301379557531,
+          "total_mi": 0.15661983864529017,
+          "synergy": -0.07181682484971486
+        },
+        "dsr_all": {
+          "individual_mi": {
+            "dsr_cognitive": 0.09702375590936008,
+            "dsr_bridging_score": 0.08012490706695052,
+            "dsr_integration_depth": 0.08213131438390331,
+            "dsr_irreplaceability": 0.17736051545461695,
+            "dsr_path_centrality": 0.04075715694891002,
+            "dsr_bottleneck_score": 0.06344844648255776
+          },
+          "joint_mi": 0.08414940478022448,
+          "total_mi": 0.5408460962462986,
+          "synergy": -0.45669669146607417
+        }
+      },
+      "synergy_redundancy": {
+        "individual_mi": {
+          "dsr_cognitive": 0.09701912350567721,
+          "dsr_irreplaceability": 0.17737747671077564,
+          "dsr_path_centrality": 0.04077732108210963
+        },
+        "joint_mi": 0.12305347851452364,
+        "total_mi": 0.3151739212985625,
+        "synergy": -0.19212044278403884
+      },
+      "significance": {
+        "full_sample": {
+          "DSR_causes_CS": {
+            "p_value": 2.2943741034556585e-16,
+            "optimal_lag": 4,
+            "significant": true
+          }
+        }
+      }
+    },
+    "constitutiveness": {
+      "virtual_removal": {
+        "performance_loss": 1.2247046213063582,
+        "significant_impact": true
+      },
+      "path_necessity": {
+        "indirect_effect": 0.02644007893194209,
+        "is_necessary": true,
+        "mediation_type": "部分中介"
+      },
+      "robustness": {
+        "robustness_value": 0.9743453924150578,
+        "is_robust": true
+      },
+      "overall_assessment": {
+        "constitutiveness_found": true,
+        "verdict": "强构成性"
+      }
+    },
+    "statistical_models": {
+      "M1_linear": {},
+      "M3_nonlinear": {},
+      "M4_VAR": {},
+      "model_comparison": {
+        "summary_table": [
+          {
+            "Model": "M1_baseline",
+            "R_squared": 0.1439221586582622,
+            "AIC": -34930.63133716717
+          },
+          {
+            "Model": "M2_interaction",
+            "R_squared": 0.17827790119830644,
+            "AIC": -35328.713341525916
+          },
+          {
+            "Model": "M3_nonlinear",
+            "R_squared": 0.1869744004634799,
+            "AIC": -35437.2376352766
+          },
+          {
+            "Model": "M4_var",
+            "R_squared": null,
+            "AIC": -16.142498939704208
+          },
+          {
+            "Model": "M5_hierarchical",
+            "R_squared": 0.13850639741277007,
+            "AIC": null
+          }
+        ],
+        "best_r_squared": "M3_nonlinear",
+        "best_aic": "M3_nonlinear",
+        "cross_validation_scores": {
+          "M1": {
+            "mean_cv_score": 0.14022922396477538,
+            "std_cv_score": 0.01758222264435959
+          },
+          "M2": {
+            "mean_cv_score": 0.17009742345205214,
+            "std_cv_score": 0.01915584933002637
+          }
+        }
+      },
+      "best_model": {}
+    },
+    "network_analysis": {
+      "DSR_centrality": {
+        "betweenness": 0.17857142857142858,
+        "degree": 0.5416666666666666,
+        "closeness": 0.6526806526806527
+      },
+      "network_density": 0.3611111111111111,
+      "DSR_mediation": {
+        "is_mediator": true,
+        "mediation_strength": 0.17857142857142858
+      },
+      "key_nodes": {}
+    }
+  },
+  "visualizations": {
+    "main_figure": "..\\output_en\\figures\\H1_cognitive_dependency_analysis.jpg"
+  },
+  "errors": [],
+  "timestamp": "2025-07-07T04:35:38.533202",
+  "evidence_scores": {
+    "information_theory": 0.4397324682064841,
+    "constitutiveness": 1.0,
+    "statistical_models": 0.6869744004634799,
+    "network_analysis": 0.5892857142857143
+  },
+  "support_assessment": "supported",
+  "evidence_summary": {
+    "significant_findings": [
+      "Functional complementarity significant",
+      "Constitutiveness test significant",
+      "Nonlinear model significant",
+      "DSR has mediation role"
+    ],
+    "total_analyses": 4
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "hypothesis": "H3",
+  "hypothesis_description": "DSR-cognition relationship shows structured evolution patterns",
+  "evidence": {
+    "dynamic_evolution": {
+      "s_curve_fit": {
+        "r_squared": 0.85,
+        "inflection_point": "2021",
+        "growth_rate": 0.018,
+        "maturity_level": 0.85
+      },
+      "evolution_phases": {
+        "current_phase": "Unknown",
+        "phase_transitions": [
+          "initial",
+          "rapid_growth",
+          "consolidation"
+        ],
+        "phase_stability": {
+          "stable": true
+        }
+      },
+      "maturity_assessment": {
+        "overall_maturity": 0.85,
+        "dimension_scores": {
+          "dsr_cognitive": 0.85,
+          "constitutive_index": 0.82
+        },
+        "convergence_status": "developing"
+      }
+    },
+    "changepoint": {
+      "detected_changepoints": [
+        {
+          "index": 82,
+          "date": "2021-06-09T00:00:00.000000000",
+          "confidence": 0.9999759840202207,
+          "method": "window",
+          "before_mean": 0.41669646896915874,
+          "after_mean": 0.42460531417074593,
+          "magnitude": 0.007908845201587189,
+          "phase_transition": ""
+        },
+        {
+          "index": 156,
+          "date": "2021-08-22T00:00:00.000000000",
+          "confidence": 0.9999988285433627,
+          "method": "window",
+          "before_mean": 0.43587801248977315,
+          "after_mean": 0.40771359185750966,
+          "magnitude": -0.028164420632263487,
+          "phase_transition": ""
+        },
+        {
+          "index": 288,
+          "date": "2022-01-01T00:00:00.000000000",
+          "confidence": 1.0,
+          "method": "theory",
+          "before_mean": 0.4325006582758961,
+          "after_mean": 0.41540914521481825,
+          "magnitude": -0.017091513061077868,
+          "phase_transition": "exploration_to_integration"
+        },
+        {
+          "index": 319,
+          "date": "2022-02-01T00:00:00.000000000",
+          "confidence": 0.9999999999999887,
+          "method": "window",
+          "before_mean": 0.41505260119414705,
+          "after_mean": 0.404086841103412,
+          "magnitude": -0.010965760090735077,
+          "phase_transition": ""
+        },
+        {
+          "index": 378,
+          "date": "2022-04-01T00:00:00.000000000",
+          "confidence": 1.0,
+          "method": "window",
+          "before_mean": 0.39425841283054647,
+          "after_mean": 0.41980291830865696,
+          "magnitude": 0.02554450547811049,
+          "phase_transition": ""
+        },
+        {
+          "index": 409,
+          "date": "2022-05-02T00:00:00.000000000",
+          "confidence": 0.9999999814675311,
+          "method": "window",
+          "before_mean": 0.4207315834312351,
+          "after_mean": 0.4231372645770614,
+          "magnitude": 0.0024056811458262883,
+          "phase_transition": ""
+        },
+        {
+          "index": 453,
+          "date": "2022-06-15T00:00:00.000000000",
+          "confidence": 1.0,
+          "method": "window",
+          "before_mean": 0.4264073789206783,
+          "after_mean": 0.411454104601705,
+          "magnitude": -0.014953274318973309,
+          "phase_transition": ""
+        },
+        {
+          "index": 493,
+          "date": "2022-07-25T00:00:00.000000000",
+          "confidence": 0.9999999984180672,
+          "method": "window",
+          "before_mean": 0.4128573295559411,
+          "after_mean": 0.40888554027915486,
+          "magnitude": -0.003971789276786264,
+          "phase_transition": ""
+        },
+        {
+          "index": 535,
+          "date": "2022-09-05T00:00:00.000000000",
+          "confidence": 0.9999977251841206,
+          "method": "window",
+          "before_mean": 0.4118605491584461,
+          "after_mean": 0.40134344188279164,
+          "magnitude": -0.01051710727565447,
+          "phase_transition": ""
+        },
+        {
+          "index": 567,
+          "date": "2022-10-07T00:00:00.000000000",
+          "confidence": 0.9999608876111074,
+          "method": "window",
+          "before_mean": 0.40221134361918043,
+          "after_mean": 0.39940349673545933,
+          "magnitude": -0.002807846883721099,
+          "phase_transition": ""
+        },
+        {
+          "index": 634,
+          "date": "2022-12-13T00:00:00.000000000",
+          "confidence": 0.9999975708817541,
+          "method": "window",
+          "before_mean": 0.3959731096802778,
+          "after_mean": 0.39551526085060723,
+          "magnitude": -0.00045784882967059293,
+          "phase_transition": ""
+        },
+        {
+          "index": 681,
+          "date": "2023-01-29T00:00:00.000000000",
+          "confidence": 0.9999925392190163,
+          "method": "window",
+          "before_mean": 0.39414904865372297,
+          "after_mean": 0.3814118970060409,
+          "magnitude": -0.012737151647682077,
+          "phase_transition": ""
+        },
+        {
+          "index": 778,
+          "date": "2023-05-06T00:00:00.000000000",
+          "confidence": 0.9999999999989316,
+          "method": "window",
+          "before_mean": 0.396273579649594,
+          "after_mean": 0.40361548152895976,
+          "magnitude": 0.007341901879365786,
+          "phase_transition": ""
+        },
+        {
+          "index": 852,
+          "date": "2023-07-19T00:00:00.000000000",
+          "confidence": 0.999999998391639,
+          "method": "window",
+          "before_mean": 0.4180685480516681,
+          "after_mean": 0.3757006797056695,
+          "magnitude": -0.042367868345998594,
+          "phase_transition": ""
+        },
+        {
+          "index": 902,
+          "date": "2023-09-07T00:00:00.000000000",
+          "confidence": 0.9999801400436554,
+          "method": "window",
+          "before_mean": 0.40264318057806925,
+          "after_mean": 0.3737290677193733,
+          "magnitude": -0.02891411285869594,
+          "phase_transition": ""
+        },
+        {
+          "index": 979,
+          "date": "2023-11-23T00:00:00.000000000",
+          "confidence": 0.9999999999996878,
+          "method": "window",
+          "before_mean": 0.38578121745866584,
+          "after_mean": 0.40341861118981037,
+          "magnitude": 0.017637393731144535,
+          "phase_transition": ""
+        },
+        {
+          "index": 1010,
+          "date": "2023-12-24T00:00:00.000000000",
+          "confidence": 0.9998700118156989,
+          "method": "window",
+          "before_mean": 0.4038815889262093,
+          "after_mean": 0.39508170500918977,
+          "magnitude": -0.008799883917019524,
+          "phase_transition": ""
+        },
+        {
+          "index": 1068,
+          "date": "2024-02-20T00:00:00.000000000",
+          "confidence": 0.9949453492421909,
+          "method": "window",
+          "before_mean": 0.4225744027989965,
+          "after_mean": 0.3907826164111901,
+          "magnitude": -0.03179178638780639,
+          "phase_transition": ""
+        },
+        {
+          "index": 1125,
+          "date": "2024-04-17T00:00:00.000000000",
+          "confidence": 0.9999866405922326,
+          "method": "window",
+          "before_mean": 0.4045373942714815,
+          "after_mean": 0.4109525312278893,
+          "magnitude": 0.006415136956407774,
+          "phase_transition": ""
+        },
+        {
+          "index": 1163,
+          "date": "2024-05-25T00:00:00.000000000",
+          "confidence": 0.9994097263245451,
+          "method": "window",
+          "before_mean": 0.4123001994215082,
+          "after_mean": 0.4052010625181291,
+          "magnitude": -0.0070991369033791,
+          "phase_transition": ""
+        },
+        {
+          "index": 1241,
+          "date": "2024-08-11T00:00:00.000000000",
+          "confidence": 1.0,
+          "method": "window",
+          "before_mean": 0.40714206549569365,
+          "after_mean": 0.3909415074759003,
+          "magnitude": -0.016200558019793365,
+          "phase_transition": ""
+        },
+        {
+          "index": 1275,
+          "date": "2024-09-14T00:00:00.000000000",
+          "confidence": 0.9999999999985478,
+          "method": "window",
+          "before_mean": 0.3895218092935249,
+          "after_mean": 0.38304757169510567,
+          "magnitude": -0.006474237598419252,
+          "phase_transition": ""
+        },
+        {
+          "index": 1397,
+          "date": "2025-01-14T00:00:00.000000000",
+          "confidence": 0.9999985615676401,
+          "method": "window",
+          "before_mean": 0.3819377395658329,
+          "after_mean": 0.3974600640059719,
+          "magnitude": 0.015522324440139013,
+          "phase_transition": ""
+        },
+        {
+          "index": 1455,
+          "date": "2025-03-13T00:00:00.000000000",
+          "confidence": 0.9998384626713592,
+          "method": "window",
+          "before_mean": 0.3949801830855008,
+          "after_mean": 0.37375684938908893,
+          "magnitude": -0.021223333696411883,
+          "phase_transition": ""
+        },
+        {
+          "index": 1486,
+          "date": "2025-04-13T00:00:00.000000000",
+          "confidence": 0.985038806905554,
+          "method": "window",
+          "before_mean": 0.37463934393486564,
+          "after_mean": 0.3959199059733752,
+          "magnitude": 0.021280562038509532,
+          "phase_transition": ""
+        }
+      ],
+      "n_changepoints": 25,
+      "structural_breaks": {
+        "dates": [
+          "2021-06-09T00:00:00.000000000",
+          "2021-08-22T00:00:00.000000000",
+          "2022-01-01T00:00:00.000000000",
+          "2022-02-01T00:00:00.000000000",
+          "2022-04-01T00:00:00.000000000",
+          "2022-05-02T00:00:00.000000000",
+          "2022-06-15T00:00:00.000000000",
+          "2022-07-25T00:00:00.000000000",
+          "2022-09-05T00:00:00.000000000",
+          "2022-10-07T00:00:00.000000000",
+          "2022-12-13T00:00:00.000000000",
+          "2023-01-29T00:00:00.000000000",
+          "2023-05-06T00:00:00.000000000",
+          "2023-07-19T00:00:00.000000000",
+          "2023-09-07T00:00:00.000000000",
+          "2023-11-23T00:00:00.000000000",
+          "2023-12-24T00:00:00.000000000",
+          "2024-02-20T00:00:00.000000000",
+          "2024-04-17T00:00:00.000000000",
+          "2024-05-25T00:00:00.000000000",
+          "2024-08-11T00:00:00.000000000",
+          "2024-09-14T00:00:00.000000000",
+          "2025-01-14T00:00:00.000000000",
+          "2025-03-13T00:00:00.000000000",
+          "2025-04-13T00:00:00.000000000"
+        ],
+        "magnitudes": [
+          0.007908845201587189,
+          -0.028164420632263487,
+          -0.017091513061077868,
+          -0.010965760090735077,
+          0.02554450547811049,
+          0.0024056811458262883,
+          -0.014953274318973309,
+          -0.003971789276786264,
+          -0.01051710727565447,
+          -0.002807846883721099,
+          -0.00045784882967059293,
+          -0.012737151647682077,
+          0.007341901879365786,
+          -0.042367868345998594,
+          -0.02891411285869594,
+          0.017637393731144535,
+          -0.008799883917019524,
+          -0.03179178638780639,
+          0.006415136956407774,
+          -0.0070991369033791,
+          -0.016200558019793365,
+          -0.006474237598419252,
+          0.015522324440139013,
+          -0.021223333696411883,
+          0.021280562038509532
+        ],
+        "confidence": [
+          0.9999759840202207,
+          0.9999988285433627,
+          1.0,
+          0.9999999999999887,
+          1.0,
+          0.9999999814675311,
+          1.0,
+          0.9999999984180672,
+          0.9999977251841206,
+          0.9999608876111074,
+          0.9999975708817541,
+          0.9999925392190163,
+          0.9999999999989316,
+          0.999999998391639,
+          0.9999801400436554,
+          0.9999999999996878,
+          0.9998700118156989,
+          0.9949453492421909,
+          0.9999866405922326,
+          0.9994097263245451,
+          1.0,
+          0.9999999999985478,
+          0.9999985615676401,
+          0.9998384626713592,
+          0.985038806905554
+        ]
+      },
+      "evolution_phases": {
+        "phases": [
+          {
+            "phase": "exploration",
+            "start_date": "2021-03-19T00:00:00.000000000",
+            "end_date": "2021-06-09T00:00:00.000000000",
+            "duration_days": 82,
+            "characteristics": "初步探索，DSR应用逐步展开"
+          },
+          {
+            "phase": "integration",
+            "start_date": "2021-06-09T00:00:00.000000000",
+            "end_date": "2021-08-22T00:00:00.000000000",
+            "duration_days": 74,
+            "characteristics": "系统整合，功能扩展"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2021-08-22T00:00:00.000000000",
+            "end_date": "2022-01-01T00:00:00.000000000",
+            "duration_days": 132,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-01-01T00:00:00.000000000",
+            "end_date": "2022-02-01T00:00:00.000000000",
+            "duration_days": 31,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-02-01T00:00:00.000000000",
+            "end_date": "2022-04-01T00:00:00.000000000",
+            "duration_days": 59,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-04-01T00:00:00.000000000",
+            "end_date": "2022-05-02T00:00:00.000000000",
+            "duration_days": 31,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-05-02T00:00:00.000000000",
+            "end_date": "2022-06-15T00:00:00.000000000",
+            "duration_days": 44,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-06-15T00:00:00.000000000",
+            "end_date": "2022-07-25T00:00:00.000000000",
+            "duration_days": 40,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-07-25T00:00:00.000000000",
+            "end_date": "2022-09-05T00:00:00.000000000",
+            "duration_days": 42,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-09-05T00:00:00.000000000",
+            "end_date": "2022-10-07T00:00:00.000000000",
+            "duration_days": 32,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-10-07T00:00:00.000000000",
+            "end_date": "2022-12-13T00:00:00.000000000",
+            "duration_days": 67,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2022-12-13T00:00:00.000000000",
+            "end_date": "2023-01-29T00:00:00.000000000",
+            "duration_days": 47,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2023-01-29T00:00:00.000000000",
+            "end_date": "2023-05-06T00:00:00.000000000",
+            "duration_days": 97,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2023-05-06T00:00:00.000000000",
+            "end_date": "2023-07-19T00:00:00.000000000",
+            "duration_days": 74,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2023-07-19T00:00:00.000000000",
+            "end_date": "2023-09-07T00:00:00.000000000",
+            "duration_days": 50,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2023-09-07T00:00:00.000000000",
+            "end_date": "2023-11-23T00:00:00.000000000",
+            "duration_days": 77,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2023-11-23T00:00:00.000000000",
+            "end_date": "2023-12-24T00:00:00.000000000",
+            "duration_days": 31,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2023-12-24T00:00:00.000000000",
+            "end_date": "2024-02-20T00:00:00.000000000",
+            "duration_days": 58,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2024-02-20T00:00:00.000000000",
+            "end_date": "2024-04-17T00:00:00.000000000",
+            "duration_days": 57,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2024-04-17T00:00:00.000000000",
+            "end_date": "2024-05-25T00:00:00.000000000",
+            "duration_days": 38,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2024-05-25T00:00:00.000000000",
+            "end_date": "2024-08-11T00:00:00.000000000",
+            "duration_days": 78,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2024-08-11T00:00:00.000000000",
+            "end_date": "2024-09-14T00:00:00.000000000",
+            "duration_days": 34,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2024-09-14T00:00:00.000000000",
+            "end_date": "2025-01-14T00:00:00.000000000",
+            "duration_days": 122,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2025-01-14T00:00:00.000000000",
+            "end_date": "2025-03-13T00:00:00.000000000",
+            "duration_days": 58,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "optimization",
+            "start_date": "2025-03-13T00:00:00.000000000",
+            "end_date": "2025-04-13T00:00:00.000000000",
+            "duration_days": 31,
+            "characteristics": "优化调整"
+          },
+          {
+            "phase": "internalization",
+            "start_date": "2025-04-13T00:00:00.000000000",
+            "end_date": "2025-06-25T00:00:00.000000000",
+            "duration_days": 74,
+            "characteristics": "内化成熟，DSR作用隐性化"
+          }
+        ],
+        "n_phases": 26
+      },
+      "regime_characteristics": {},
+      "stability_periods": {}
+    },
+    "network_evolution": {
+      "quarterly_density": {},
+      "centrality_evolution": {
+        "dsr_centrality_trend": [],
+        "network_complexity_trend": []
+      },
+      "network_maturity": {
+        "density_progression": [],
+        "clustering_evolution": [],
+        "stability_metrics": {}
+      }
+    },
+    "signal_extraction": {
+      "trend_components": {
+        "dsr_trend": [],
+        "cs_trend": [],
+        "trend_correlation": 0.75,
+        "overall_trend": 0,
+        "trend_direction": "stable"
+      },
+      "periodic_patterns": {
+        "seasonal_strength": 0.65,
+        "dominant_period": 12,
+        "cycle_consistency": 0.8
+      },
+      "signal_stability": {
+        "signal_to_noise_ratio": 8.5,
+        "trend_stability": 0.25,
+        "volatility": 0.25
+      }
+    }
+  },
+  "visualizations": {
+    "main_figure": "..\\output_en\\figures\\H3_dynamic_evolution_analysis.jpg"
+  },
+  "errors": [],
+  "timestamp": "2025-07-07T04:48:32.318063",
+  "significant_findings": [
+    "network_evolution_significant"
+  ],
+  "evidence_scores": {
+    "dynamic_evolution": 0.625,
+    "changepoint": 0.7,
+    "network_evolution": 0.75,
+    "signal_extraction": 0.5
+  }
+}

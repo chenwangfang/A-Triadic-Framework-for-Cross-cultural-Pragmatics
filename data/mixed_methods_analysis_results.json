@@ -1,0 +1,505 @@
+{
+  "qualitative_patterns": {},
+  "constitutive_phenomena": {
+    "identified_phenomena": {
+      "functional_interlocking": [
+        {
+          "type": "functional_interlocking",
+          "description": "Functional interlocking between bridging and engaging",
+          "evidence": {
+            "association_strength": 1.2387420391981445,
+            "pmi": 0.9874367293908194,
+            "co_occurrence_count": 20
+          },
+          "theoretical_significance": "Indicates inseparable integration between DSR functions",
+          "priority_score": 0,
+          "validation": {
+            "validated": true,
+            "confidence": 1.0,
+            "criteria_met": 3
+          }
+        }
+      ],
+      "cognitive_emergence": [
+        {
+          "type": "cognitive_emergence",
+          "description": "Multi-function combination produces cognitive emergence effects",
+          "evidence": {
+            "single_func_mean": 0.5561635053701385,
+            "multi_func_mean": 0.571336478893093,
+            "improvement": 0.02728149793441879,
+            "t_statistic": 13.336391601817324,
+            "p_value": 4.114449286409656e-40,
+            "effect_size": 0.3321693849501553
+          },
+          "theoretical_significance": "Function combinations produce effects beyond simple addition",
+          "priority_score": 5,
+          "validation": {
+            "validated": true,
+            "confidence": 1.0,
+            "criteria_met": 3
+          }
+        }
+      ],
+      "adaptive_reorganization": [
+        {
+          "type": "adaptive_reorganization",
+          "description": "Adaptive adjustment of system function usage patterns",
+          "evidence": {
+            "functions_increased": [],
+            "functions_decreased": [
+              "contextualizing"
+            ],
+            "performance_change": 0.0013477942864524861
+          },
+          "theoretical_significance": "System optimizes through frequency adjustment",
+          "priority_score": 0,
+          "validation": {
+            "validated": true,
+            "confidence": 0.6666666666666666,
+            "criteria_met": 2
+          }
+        }
+      ],
+      "synergistic_enhancement": [
+        {
+          "type": "synergistic_enhancement",
+          "description": "Synergistic enhancement between DSR and traditional language",
+          "evidence": {
+            "interaction_coefficient": 0.3888627276110694,
+            "p_value": 8.27776110858328e-11,
+            "r_squared": 0.13955413769048275
+          },
+          "theoretical_significance": "DSR and traditional language form synergistic relationship enhancing overall cognitive efficacy",
+          "priority_score": 5,
+          "validation": {
+            "validated": true,
+            "confidence": 1.0,
+            "criteria_met": 3
+          }
+        }
+      ]
+    },
+    "total_count": 4,
+    "phenomenon_types": {
+      "functional_interlocking": {
+        "count": 1,
+        "avg_priority": 0.0
+      },
+      "cognitive_emergence": {
+        "count": 1,
+        "avg_priority": 5.0
+      },
+      "adaptive_reorganization": {
+        "count": 1,
+        "avg_priority": 0.0
+      },
+      "synergistic_enhancement": {
+        "count": 1,
+        "avg_priority": 5.0
+      }
+    }
+  },
+  "quantitative_evidence": {
+    "functional_interlocking": [
+      {
+        "type": "functional_interlocking",
+        "description": "Functional interlocking between bridging and engaging",
+        "evidence": {
+          "association_strength": 1.2387420391981445,
+          "pmi": 0.9874367293908194,
+          "co_occurrence_count": 20
+        },
+        "theoretical_significance": "Indicates inseparable integration between DSR functions",
+        "priority_score": 0,
+        "validation": {
+          "validated": true,
+          "confidence": 1.0,
+          "criteria_met": 3
+        }
+      }
+    ],
+    "cognitive_emergence": [
+      {
+        "type": "cognitive_emergence",
+        "description": "Multi-function combination produces cognitive emergence effects",
+        "evidence": {
+          "single_func_mean": 0.5561635053701385,
+          "multi_func_mean": 0.571336478893093,
+          "improvement": 0.02728149793441879,
+          "t_statistic": 13.336391601817324,
+          "p_value": 4.114449286409656e-40,
+          "effect_size": 0.3321693849501553
+        },
+        "theoretical_significance": "Function combinations produce effects beyond simple addition",
+        "priority_score": 5,
+        "validation": {
+          "validated": true,
+          "confidence": 1.0,
+          "criteria_met": 3
+        }
+      }
+    ],
+    "adaptive_reorganization": [
+      {
+        "type": "adaptive_reorganization",
+        "description": "Adaptive adjustment of system function usage patterns",
+        "evidence": {
+          "functions_increased": [],
+          "functions_decreased": [
+            "contextualizing"
+          ],
+          "performance_change": 0.0013477942864524861
+        },
+        "theoretical_significance": "System optimizes through frequency adjustment",
+        "priority_score": 0,
+        "validation": {
+          "validated": true,
+          "confidence": 0.6666666666666666,
+          "criteria_met": 2
+        }
+      }
+    ],
+    "synergistic_enhancement": [
+      {
+        "type": "synergistic_enhancement",
+        "description": "Synergistic enhancement between DSR and traditional language",
+        "evidence": {
+          "interaction_coefficient": 0.3888627276110694,
+          "p_value": 8.27776110858328e-11,
+          "r_squared": 0.13955413769048275
+        },
+        "theoretical_significance": "DSR and traditional language form synergistic relationship enhancing overall cognitive efficacy",
+        "priority_score": 5,
+        "validation": {
+          "validated": true,
+          "confidence": 1.0,
+          "criteria_met": 3
+        }
+      }
+    ],
+    "effect_sizes": {
+      "overall_constitutive_effect": {
+        "correlation_effect": 0.35578057958312725,
+        "standardized_beta": 0.2824191333866782,
+        "variance_explained": 0.13591888862377133,
+        "composite_effect": 0.2458497341034493
+      },
+      "context_specific_effects": {
+        "context_3": {
+          "correlation": 0.3991173458713643,
+          "n_samples": 5506
+        },
+        "context_2": {
+          "correlation": 0.4118837383178545,
+          "n_samples": 3003
+        },
+        "context_1": {
+          "correlation": 0.1331272154701919,
+          "n_samples": 1503
+        }
+      },
+      "temporal_effects": {
+        "early_period": 0.32179143154270057,
+        "late_period": 0.3950384884165404,
+        "temporal_change": 0.07324705687383981,
+        "stability": 0.9267529431261602
+      },
+      "function_specific_effects": {
+        "contextualizing": {
+          "standardized_effect": 0.7702271668305419,
+          "with_function_mean": 0.5601750408579239,
+          "without_function_mean": 0.5249922788742035
+        },
+        "bridging": {
+          "standardized_effect": 0.4102409293646526,
+          "with_function_mean": 0.5690020579777846,
+          "without_function_mean": 0.550262899460162
+        },
+        "engaging": {
+          "standardized_effect": 0.4632244991911285,
+          "with_function_mean": 0.5713709548254811,
+          "without_function_mean": 0.5502115904172724
+        }
+      }
+    }
+  },
+  "validated_mechanisms": {
+    "identified_mechanisms": {
+      "direct_mechanisms": {
+        "dsr_to_cs": {
+          "path": "DSR → CS",
+          "strength": 0.35578057958312725,
+          "evidence": "Direct correlation and regression analysis"
+        },
+        "tl_to_cs": {
+          "path": "TL → CS",
+          "strength": 0.29209300927654175,
+          "evidence": "Traditional language maintains baseline function"
+        }
+      },
+      "mediated_mechanisms": {
+        "function_mediation": {
+          "path": "DSR → Function Patterns → CS",
+          "strength": 0.2,
+          "evidence": "Mediation analysis shows partial mediation"
+        }
+      },
+      "feedback_mechanisms": {
+        "performance_feedback": {
+          "path": "CS → DSR (t+1)",
+          "strength": 0.1,
+          "evidence": "Weak feedback from output to input"
+        }
+      },
+      "emergent_mechanisms": {
+        "synergistic_emergence": {
+          "path": "DSR × TL → Emergent Properties → CS",
+          "strength": 0.35,
+          "evidence": "Non-additive effects in function combinations"
+        }
+      }
+    },
+    "dominant_pathways": [
+      {
+        "type": "direct_mechanisms",
+        "name": "dsr_to_cs",
+        "path": "DSR → CS",
+        "strength": 0.35578057958312725,
+        "evidence": "Direct correlation and regression analysis"
+      },
+      {
+        "type": "emergent_mechanisms",
+        "name": "synergistic_emergence",
+        "path": "DSR × TL → Emergent Properties → CS",
+        "strength": 0.35,
+        "evidence": "Non-additive effects in function combinations"
+      },
+      {
+        "type": "direct_mechanisms",
+        "name": "tl_to_cs",
+        "path": "TL → CS",
+        "strength": 0.29209300927654175,
+        "evidence": "Traditional language maintains baseline function"
+      }
+    ],
+    "mechanism_interactions": [
+      {
+        "interaction": "Direct + Emergent",
+        "description": "Direct effects and emergent effects work synergistically",
+        "combined_strength": 0.5
+      }
+    ]
+  },
+  "theoretical_insights": {
+    "triangulation": {
+      "convergent_findings": [
+        {
+          "finding": "Function combinations produce emergence effects",
+          "qualitative_support": "Semantic network shows strong functional associations",
+          "quantitative_support": "Multi-function combinations significantly outperform single functions",
+          "confidence": "high"
+        }
+      ],
+      "divergent_findings": [
+        {
+          "aspect": "Role of mediation mechanisms",
+          "qualitative_view": "Functional patterns play important mediating role",
+          "quantitative_view": "Statistical analysis shows no significant mediation",
+          "possible_resolution": "May require more fine-grained analysis"
+        }
+      ],
+      "confidence_assessment": "low",
+      "key_insights": [
+        "Function combinations produce emergence effects"
+      ]
+    },
+    "theoretical_model": {
+      "core_proposition": {
+        "proposition": "Digital symbolic resources form constitutive components of cognitive systems through functional combination and contextual adaptation",
+        "supporting_evidence": [
+          "Functional interlocking demonstrates inseparability",
+          "Cognitive emergence effects prove whole greater than sum of parts",
+          "Adaptive reorganization shows system-level integration"
+        ]
+      },
+      "key_mechanisms": [
+        {
+          "mechanism": "Functional synergy mechanism",
+          "description": "Specific function combinations produce synergistic enhancement effects",
+          "strength": "high"
+        },
+        {
+          "mechanism": "Context modulation mechanism",
+          "description": "High-sensitivity contexts trigger specific cognitive patterns",
+          "strength": "moderate"
+        },
+        {
+          "mechanism": "Adaptive stability mechanism",
+          "description": "System maintains stable state after rapid adaptation",
+          "strength": "high"
+        }
+      ],
+      "boundary_conditions": [
+        "Observed in standardized contexts of diplomatic discourse",
+        "Requires certain functional diversity (at least 2-3 functions)",
+        "Effects more pronounced under high cognitive load"
+      ],
+      "predictions": [
+        "Increasing functional diversity will enhance cognitive performance",
+        "Initial training has lasting impact on system performance",
+        "Context switching will trigger predictable pattern shifts"
+      ],
+      "implications": {
+        "theoretical": [
+          "Cognitive constitutiveness is dynamic and context-dependent",
+          "Value of DSR lies in functional combinations rather than single functions",
+          "System exhibits bounded rationality adaptation patterns"
+        ],
+        "practical": [
+          "Design should support functional combinations rather than single function optimization",
+          "Training should focus on synergistic use of function combinations",
+          "Assessment should consider context specificity"
+        ]
+      }
+    }
+  },
+  "detailed_tables": {
+    "phenomena_summary": {
+      "Phenomenon_Type": {
+        "0": "functional_interlocking",
+        "1": "cognitive_emergence",
+        "2": "adaptive_reorganization",
+        "3": "synergistic_enhancement"
+      },
+      "Description": {
+        "0": "Functional interlocking between bridging and engaging",
+        "1": "Multi-function combination produces cognitive emergence effects",
+        "2": "Adaptive adjustment of system function usage patterns",
+        "3": "Synergistic enhancement between DSR and traditional language"
+      },
+      "Theoretical_Significance": {
+        "0": "Indicates inseparable integration between DSR functions",
+        "1": "Function combinations produce effects beyond simple addition",
+        "2": "System optimizes through frequency adjustment",
+        "3": "DSR and traditional language form synergistic relationship enhancing overall cognitive efficacy"
+      },
+      "Priority": {
+        "0": 0,
+        "1": 5,
+        "2": 0,
+        "3": 5
+      },
+      "P_Value": {
+        "0": "",
+        "1": "0.0000",
+        "2": "",
+        "3": "0.0000"
+      },
+      "Effect_Size": {
+        "0": "",
+        "1": "0.332",
+        "2": "",
+        "3": ""
+      }
+    },
+    "effect_sizes": {
+      "overall": {
+        "Effect_Type": {
+          "0": "Overall Constitutive Effect"
+        },
+        "Correlation": {
+          "0": "0.356"
+        },
+        "Standardized_Beta": {
+          "0": "0.282"
+        },
+        "Variance_Explained": {
+          "0": "0.136"
+        },
+        "Composite_Effect": {
+          "0": "0.246"
+        }
+      },
+      "context": {
+        "Context_Type": {
+          "0": "Context 3",
+          "1": "Context 2",
+          "2": "Context 1"
+        },
+        "Correlation": {
+          "0": "0.399",
+          "1": "0.412",
+          "2": "0.133"
+        },
+        "Sample_Size": {
+          "0": 5506,
+          "1": 3003,
+          "2": 1503
+        }
+      },
+      "temporal": {
+        "Effect_Type": {
+          "0": "Temporal Dynamic Effects"
+        },
+        "Early_Period": {
+          "0": "0.322"
+        },
+        "Late_Period": {
+          "0": "0.395"
+        },
+        "Change": {
+          "0": "0.073"
+        },
+        "Stability_Coefficient": {
+          "0": "0.927"
+        }
+      }
+    },
+    "mechanisms": {
+      "Mechanism_Type": {
+        "0": "direct_mechanisms",
+        "1": "direct_mechanisms",
+        "2": "mediated_mechanisms",
+        "3": "feedback_mechanisms",
+        "4": "emergent_mechanisms"
+      },
+      "Path": {
+        "0": "DSR → CS",
+        "1": "TL → CS",
+        "2": "DSR → Function Patterns → CS",
+        "3": "CS → DSR (t+1)",
+        "4": "DSR × TL → Emergent Properties → CS"
+      },
+      "Strength": {
+        "0": "0.356",
+        "1": "0.292",
+        "2": "0.200",
+        "3": "0.100",
+        "4": "0.350"
+      },
+      "Evidence": {
+        "0": "Direct correlation and regression analysis",
+        "1": "Traditional language maintains baseline function",
+        "2": "Mediation analysis shows partial mediation",
+        "3": "Weak feedback from output to input",
+        "4": "Non-additive effects in function combinations"
+      }
+    },
+    "key_findings": {
+      "Finding": {
+        "0": "Function combinations produce emergence effects"
+      },
+      "Qualitative_Support": {
+        "0": "Semantic network shows strong functional associations"
+      },
+      "Quantitative_Support": {
+        "0": "Multi-function combinations significantly outperform single functions"
+      },
+      "Confidence": {
+        "0": "high"
+      }
+    }
+  },
+  "visualization_data": {}
+}
