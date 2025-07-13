@@ -1,0 +1,535 @@
+<corpus>
+  <!-- 案例1：新冠溯源问题回应 - 高敏感话题，关系建构策略弱化 -->
+  <unit id="2021-08-26-Q12" date="2021-08-26" session="01" sequence="12" timeline_position="234">
+    <metadata>
+      <spokesperson>赵立坚</spokesperson>
+      <media_source culture="Western">香港中评社</media_source>
+      <topic category="GG" sensitivity="high">新冠病毒溯源</topic>
+    </metadata>
+    
+    <question>
+      <text>据报道，美国政府一名匿名高级官员称，中国拒绝向国际社会提供关于新冠疫情信息的接触渠道。他还称，如果有可靠的、技术上可信的理由应对美国进行调查，美国当然会支持，但没有这样的理由。中方对此有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="82" clauses="5" terms="3"/>
+        <content_complexity entities="4" timespan="0" logic_steps="3"/>
+        <question_type>stance</question_type>
+        <cognitive_load_index>
+          <value>4.20</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>溯源是科学问题，中方始终支持并将继续参与科学溯源。美方一些政客和官员不思考如何控制美国疫情、拯救人民生命，妄图凭借一份情报机构的栽赃报告，推卸自身抗疫失败责任、向中国甩锅推责，这只会干扰和破坏国际溯源和全球抗疫合作。美方声称中国拒绝提供必要信息，不过是其掩饰情报溯源失败的借口。既然美方口口声声称，只要有理由，就支持对美国进行溯源调查。那么请美方回答：第一，美国威斯康星州2019年7月大规模暴发电子烟肺炎的症状与新冠肺炎症状极其相似。这算不算理由？第二，美国国立卫生研究院网站显示，研究发现美国5个州的新冠病毒感染证据在2019年12月就已出现。这算不算理由？第三，佛罗里达州卫生部网站曾发布当地2020年1月和2月出现新冠肺炎症状或新冠病毒检测结果为阳性的171名患者数据。这算不算理由？第四，美国国会参议员呼吁澄清美军传染病医学研究所和"电子烟疾病"、大流感和新冠肺炎之间关系。这算不算理由？第五，脸书等社交媒体上曾有超过200位来自美国或与美国有密切关联国家的人留言表示，他们本人或家人、好友在2019年11月前后感染了疑似新冠肺炎的疾病。这算不算理由？</text>
+      
+      <!-- 话语单元结构特征 -->
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>3</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <!-- 认知适应维度 -->
+      <cognitive_adaptation>
+        <frame_shift type="perspective" success="5">
+          <marker>不过是</marker>
+        </frame_shift>
+        <conceptual_bridging density="5" type="analogy">
+          <bridge_expression>威斯康星州电子烟肺炎症状相似性类比</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>通过连续数据罗列强化论证力度</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>3</strategy_transition_count>
+        <transition_smoothness>4</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>4</clarity>
+          <cultural_accessibility>3</cultural_accessibility>
+          <target_audience>Global</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <!-- 语用策略标注（包含关系建构策略） -->
+      <pragmatic_strategies>
+        <strategy id="S1" type="PC" start="1" end="25">
+          <marker>溯源是科学问题</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="RP" start="26" end="50">
+          <marker>中方始终支持并将继续参与科学溯源</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="RF" start="51" end="180">
+          <marker>不过是其掩饰情报溯源失败的借口</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S4" type="FP" start="181" end="450">
+          <marker>2019年7月、5个州、171名患者、200位</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S5" type="TS" start="451" end="500">
+          <marker>那么请美方回答</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        
+        <!-- 关系建构策略特别标注 -->
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>1</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="elaboration"/>
+          <transition from="S2" to="S3" reason="contrast"/>
+          <transition from="S3" to="S4" reason="support"/>
+          <transition from="S4" to="S5" reason="challenge"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>offensive</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <!-- 文化图式标注 -->
+      <cultural_schemas>
+        <schema id="C1" type="CFP" function="norm">
+          <marker depth="middle">科学溯源</marker>
+          <activation_intensity>3</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links></network_links>
+          <associated_strategies>S2</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>0.8</traditional>
+          <innovative>0.0</innovative>
+          <total>0.8</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <!-- 数字媒介适应标注 -->
+      <digital_media_adaptation>
+        <soundbite_design memorability="4">
+          <expression>不过是其掩饰情报溯源失败的借口</expression>
+          <viral_potential>medium</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="indignation" intensity="4">
+            <content>美方甩锅推责</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="3">
+          <innovative_expression>不过是...的借口</innovative_expression>
+          <cultural_adaptability>易于理解的揭露式表达</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>防止断章取义理解中方立场</anticipation>
+          <clarification>开篇明确"溯源是科学问题"</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">完整的反问序列</semantic_unit>
+          <misquote_prevention>通过编号列举防止选择性引用</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>1</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.85</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <!-- 系统耦合标注 -->
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="5">
+          <evidence>高认知负荷（4.2）驱动立场维护策略选择，关系建构策略完全缺失</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="independent">
+          <co_occurrence>策略与文化符号各自独立发挥作用</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="indirect" strength="3">
+          <impact>CFP激活强化论证框架但不影响关系建构</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>climax</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>fast</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <!-- 整体评估 -->
+      <overall_assessment>
+        <cognitive_adaptation_success>5</cognitive_adaptation_success>
+        <cultural_resonance>3</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例2：春节经济数据展示 - 低敏感话题，关系建构策略丰富 -->
+  <unit id="2025-02-12-Q03" date="2025-02-12" session="01" sequence="03" timeline_position="1440">
+    <metadata>
+      <spokesperson>郭嘉昆</spokesperson>
+      <media_source culture="CN">总台央视</media_source>
+      <topic category="CE" sensitivity="low">春节经济消费</topic>
+    </metadata>
+    
+    <question>
+      <text>近日，全球多家金融机构发布的2025年经济展望报告认为，中国高质量发展正逐步显现成效，中国经济持续向好将为世界经济复苏注入强劲动力。中国春节假期消费数据也引发外媒关注。发言人对此有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="86" clauses="3" terms="4"/>
+        <content_complexity entities="3" timespan="1" logic_steps="2"/>
+        <question_type>comprehensive</question_type>
+        <cognitive_load_index>
+          <value>3.20</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>蛇年春节，中国消费市场春潮涌动：国潮文化、非遗体验、冰雪经济、消费品以旧换新等热度空前。春节档电影票房再创历史新高，国内游客出游人次和花费均创历史新高，入出境旅游人数大幅增长。在刚刚过去的春节假期，中国消费相关行业日均销售收入同比增长10.8%，其中商品消费和服务消费同比分别增长9.9%和12.3%、跨境游整体订单同比增长三成。这充分展现了中国经济的强大韧性和活力，也为全球经济注入了信心和动力。我们相信，随着各项政策措施持续发力显效，中国经济将继续保持向好态势，为世界经济复苏和增长作出更大贡献。</text>
+      
+      <response_structure>
+        <opening_type>contextual</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="temporal" success="5">
+          <marker>蛇年春节</marker>
+        </frame_shift>
+        <conceptual_bridging density="4" type="common_ground">
+          <bridge_expression>春潮涌动</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="5">
+          <compensation_strategy>文化意象与经济数据融合呈现</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>0</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>5</cultural_accessibility>
+          <target_audience>CN</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="EE" start="1" end="50">
+          <marker>春潮涌动、热度空前</marker>
+          <cultural_symbols>C1,C2</cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="FP" start="51" end="200">
+          <marker>10.8%、9.9%、12.3%、三成</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="EE" start="201" end="250">
+          <marker>充分展现、强大韧性和活力</marker>
+          <cultural_symbols>C3</cultural_symbols>
+        </strategy>
+        <strategy id="S4" type="EM" start="251" end="320">
+          <marker>我们相信、继续保持向好态势</marker>
+          <cultural_symbols>C3</cultural_symbols>
+        </strategy>
+        
+        <!-- 关系建构策略详细测量 -->
+        <relationship_building_strategies>
+          <ee_count>2</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>2</total_rb_frequency>
+          <rb_intensity>4</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>5.2</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.25</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="support"/>
+          <transition from="S2" to="S3" reason="elaboration"/>
+          <transition from="S3" to="S4" reason="extension"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>relationship_building</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="MTE" function="emotion">
+          <marker depth="middle">春潮涌动</marker>
+          <activation_intensity>5</activation_intensity>
+          <innovation level="fusion"/>
+          <network_links>C2,C3</network_links>
+          <associated_strategies>S1</associated_strategies>
+        </schema>
+        <schema id="C2" type="MTE" function="support">
+          <marker depth="surface">国潮文化</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="fusion"/>
+          <network_links>C1</network_links>
+          <associated_strategies>S1</associated_strategies>
+        </schema>
+        <schema id="C3" type="CSF" function="support">
+          <marker depth="deep">为世界经济复苏和增长作出贡献</marker>
+          <activation_intensity>5</activation_intensity>
+          <innovation level="transfer"/>
+          <network_links>C1</network_links>
+          <associated_strategies>S3,S4</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>0.5</traditional>
+          <innovative>3.0</innovative>
+          <total>3.5</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="5">
+          <expression>春潮涌动</expression>
+          <viral_potential>high</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="pride" intensity="5">
+            <content>春节档电影票房再创历史新高</content>
+          </trigger>
+          <trigger type="empathy" intensity="4">
+            <content>为全球经济注入信心和动力</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="4">
+          <innovative_expression>春潮涌动</innovative_expression>
+          <cultural_adaptability>传统意象与现代经济结合</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>防止数据被断章取义</anticipation>
+          <clarification>提供完整数据组合</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">数据与结论紧密结合</semantic_unit>
+          <misquote_prevention>多组数据相互支撑</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>1</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.92</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="P→C" strength="3">
+          <evidence>低认知负荷（3.2）允许丰富的情感表达策略</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="reinforcing">
+          <co_occurrence>S1-C1-C2,S3-C3,S4-C3</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="direct" strength="5">
+          <impact>MTE和CSF全面激活增强正面情感</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>optimization</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>5</cognitive_adaptation_success>
+        <cultural_resonance>5</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例3：面对西方媒体的中等敏感话题 -->
+  <unit id="2025-02-07-Q11" date="2025-02-07" session="01" sequence="11" timeline_position="1438">
+    <metadata>
+      <spokesperson>林剑</spokesperson>
+      <media_source culture="Western">彭博社</media_source>
+      <topic category="BR" sensitivity="medium">中美关系</topic>
+    </metadata>
+    
+    <question>
+      <text>美国国会众议院"中国特设委"主席莫伦纳昨天接受采访时称，美近期采取的措施旨在反击"中国共产党咄咄逼人的行为"，他还呼吁重置美中关系。外交部对其言论有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="76" clauses="3" terms="4"/>
+        <content_complexity entities="3" timespan="1" logic_steps="2"/>
+        <question_type>stance</question_type>
+        <cognitive_load_index>
+          <value>3.45</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>美方政客有关言论充斥着意识形态偏见和冷战零和思维。任何抹黑攻击中国共产党、诋毁中国道路和制度的企图，任何想把中国共产党同中国人民分割对立起来的企图，都是痴心妄想、自不量力，都会遭到14亿多中国人民的坚决反对，注定失败。中美关系的本质是互利共赢。双方应该相互尊重、和平共处、合作共赢，这是两国正确相处之道，符合两国和两国人民根本利益，也是国际社会普遍期待。</text>
+      
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="category" success="4">
+          <marker>中美关系的本质是互利共赢</marker>
+        </frame_shift>
+        <conceptual_bridging density="3" type="redefinition">
+          <bridge_expression>正确相处之道</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="3">
+          <compensation_strategy>原则立场与未来愿景结合</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>1</strategy_transition_count>
+        <transition_smoothness>4</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>4</clarity>
+          <cultural_accessibility>3</cultural_accessibility>
+          <target_audience>Western</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="PC" start="1" end="50">
+          <marker>充斥着意识形态偏见和冷战零和思维</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="RP" start="51" end="150">
+          <marker>14亿多中国人民的坚决反对</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="RF" start="151" end="200">
+          <marker>中美关系的本质是互利共赢</marker>
+          <cultural_symbols>C2</cultural_symbols>
+        </strategy>
+        <strategy id="S4" type="LP" start="201" end="280">
+          <marker>应该相互尊重、和平共处</marker>
+          <cultural_symbols>C2,C3</cultural_symbols>
+        </strategy>
+        
+        <!-- 关系建构策略测量（面对西方媒体的调整） -->
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>1</lp_count>
+          <total_rb_frequency>1</total_rb_frequency>
+          <rb_intensity>2</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>2.8</density_per_hundred_words>
+          <contextual_appropriateness>4</contextual_appropriateness>
+          <cross_cultural_calibration>
+            <western_media_adjustment>-0.65</western_media_adjustment>
+            <strategy_shift>从情感表达转向原则阐述</strategy_shift>
+          </cross_cultural_calibration>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="elaboration"/>
+          <transition from="S2" to="S3" reason="contrast"/>
+          <transition from="S3" to="S4" reason="extension"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>defensive</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>4</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CFP" function="boundary">
+          <marker depth="deep">14亿多中国人民</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C2</network_links>
+          <associated_strategies>S2</associated_strategies>
+        </schema>
+        <schema id="C2" type="CSF" function="support">
+          <marker depth="middle">互利共赢、合作共赢</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C1,C3</network_links>
+          <associated_strategies>S3,S4</associated_strategies>
+        </schema>
+        <schema id="C3" type="CFP" function="norm">
+          <marker depth="middle">相互尊重、和平共处</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C2</network_links>
+          <associated_strategies>S4</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>2.8</traditional>
+          <innovative>0.0</innovative>
+          <total>2.8</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="3">
+          <expression>痴心妄想、自不量力</expression>
+          <viral_potential>medium</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="indignation" intensity="3">
+            <content>意识形态偏见和冷战零和思维</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="2">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>传统外交表达</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>防止曲解为对抗立场</anticipation>
+          <clarification>强调"互利共赢"本质</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="4">批判与建设并重</semantic_unit>
+          <misquote_prevention>完整呈现立场</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.15</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="4">
+          <evidence>中等认知负荷（3.45）导致平衡的策略选择</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="complementary">
+          <co_occurrence>S2-C1,S3-C2,S4-C2-C3</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="indirect" strength="3">
+          <impact>传统外交术语强化立场表达</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>development</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>4</cultural_resonance>
+        <strategic_effectiveness>4</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+</corpus>

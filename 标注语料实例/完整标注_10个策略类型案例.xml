@@ -1,0 +1,1568 @@
+<corpus>
+  <!-- 案例1：信息限制（IL）策略案例 -->
+  <unit id="2021-12-22-Q15" date="2021-12-22" session="01" sequence="15" timeline_position="286">
+    <metadata>
+      <spokesperson>汪文斌</spokesperson>
+      <media_source culture="Western">法新社</media_source>
+      <topic category="SD" sensitivity="high">涉美学者案件</topic>
+    </metadata>
+    
+    <question>
+      <text>你刚才提到美国学者陈慧霞非法向境外提供国家秘密案。相关审判何时、何地举行？有无美方官员获准出席旁听？</text>
+      <cognitive_load>
+        <linguistic_complexity words="42" clauses="3" terms="2"/>
+        <content_complexity entities="2" timespan="0" logic_steps="2"/>
+        <question_type>fact</question_type>
+        <cognitive_load_index>
+          <value>2.45</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>你提到的具体情况我不了解。</text>
+      
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>1</argumentation_layers>
+        <closure_type>summary</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="none" success="0">
+          <marker></marker>
+        </frame_shift>
+        <conceptual_bridging density="0" type="none">
+          <bridge_expression></bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="1">
+          <compensation_strategy>简洁回应，避免信息泄露</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>0</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>5</cultural_accessibility>
+          <target_audience>Global</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="IL" start="1" end="13">
+          <marker>我不了解</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>1</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.0</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition></transition>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>defensive</pattern_type>
+          <dominant_function>information_control</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema_density>
+          <traditional>0.0</traditional>
+          <innovative>0.0</innovative>
+          <total>0.0</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="1">
+          <expression></expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers></emotional_triggers>
+        <meme_potential score="1">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>标准外交回应</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免产生推测空间</anticipation>
+          <clarification>明确不了解情况</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">完整独立单元</semantic_unit>
+          <misquote_prevention>无可断章取义内容</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.0</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="5">
+          <evidence>低认知负荷支持信息限制策略</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="independent">
+          <co_occurrence>无文化符号使用</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="none" strength="0">
+          <impact>无文化图式激活</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>initial</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>fast</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>5</cognitive_adaptation_success>
+        <cultural_resonance>1</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例2：原则重申（RP）策略案例 -->
+  <unit id="2022-01-03-Q07" date="2022-01-03" session="01" sequence="07" timeline_position="291">
+    <metadata>
+      <spokesperson>汪文斌</spokesperson>
+      <media_source culture="Other">韩联社</media_source>
+      <topic category="GG" sensitivity="medium">防疫措施与北京冬奥</topic>
+    </metadata>
+    
+    <question>
+      <text>今天韩国政府宣布收紧对自华入境人员防疫措施。考虑到春节即将到来以及北京冬奥会，中方对此有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="46" clauses="2" terms="2"/>
+        <content_complexity entities="3" timespan="2" logic_steps="2"/>
+        <question_type>stance</question_type>
+        <cognitive_load_index>
+          <value>2.85</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>我们希望各国的防疫措施应当科学适度，不应影响国家间的正常人员交往和交流合作。</text>
+      
+      <response_structure>
+        <opening_type>indirect</opening_type>
+        <argumentation_layers>1</argumentation_layers>
+        <closure_type>summary</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="category" success="4">
+          <marker>科学适度</marker>
+        </frame_shift>
+        <conceptual_bridging density="2" type="redefinition">
+          <bridge_expression>科学适度</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="3">
+          <compensation_strategy>原则性回应避免具体化</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>0</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>4</clarity>
+          <cultural_accessibility>4</cultural_accessibility>
+          <target_audience>Regional</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="RP" start="1" end="40">
+          <marker>应当科学适度</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="LP" start="1" end="10">
+          <marker>我们希望</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>1</lp_count>
+          <total_rb_frequency>1</total_rb_frequency>
+          <rb_intensity>2</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>5.3</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.2</variance_coefficient>
+            <adjustment_range>0.1</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition></transition>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>4</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CFP" function="norm">
+          <marker depth="middle">科学适度</marker>
+          <activation_intensity>3</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links></network_links>
+          <associated_strategies>S1</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>1.2</traditional>
+          <innovative>0.0</innovative>
+          <total>1.2</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="2">
+          <expression>科学适度</expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers></emotional_triggers>
+        <meme_potential score="1">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>标准外交表达</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免被解读为批评</anticipation>
+          <clarification>使用希望语气</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">原则立场完整</semantic_unit>
+          <misquote_prevention>通过原则性表述避免曲解</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.1</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="3">
+          <evidence>中等认知负荷支持原则性回应</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="reinforcing">
+          <co_occurrence>S1-C1</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="indirect" strength="3">
+          <impact>CFP原则强化温和立场</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>development</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>3</cultural_resonance>
+        <strategic_effectiveness>4</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例3：重新框定（RF）策略案例 -->
+  <unit id="2025-04-25-Q09" date="2025-04-25" session="01" sequence="09" timeline_position="1495">
+    <metadata>
+      <spokesperson>毛宁</spokesperson>
+      <media_source culture="Western">彭博社</media_source>
+      <topic category="BR" sensitivity="high">TikTok禁令与关税</topic>
+    </metadata>
+    
+    <question>
+      <text>拜登总统今天签署了一项法案，其中包括要求字节跳动剥离TikTok美国业务，否则将在美国被禁的内容。他还宣布提高对华钢铝关税。外交部对此有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="68" clauses="3" terms="4"/>
+        <content_complexity entities="5" timespan="1" logic_steps="3"/>
+        <question_type>stance</question_type>
+        <cognitive_load_index>
+          <value>3.65</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>你提到的问题反映出美国的霸权主义和单边主义。美方一方面整天把公平竞争挂在嘴边，另一方面却不断对他国企业进行打压、实施制裁，这种做法违背了国际贸易规则，破坏了国际经济秩序。中方将采取一切必要措施，坚定维护自身正当权益。</text>
+      
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="perspective" success="5">
+          <marker>反映出美国的霸权主义和单边主义</marker>
+        </frame_shift>
+        <conceptual_bridging density="3" type="redefinition">
+          <bridge_expression>霸权主义和单边主义</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>对比强化论证效果</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>1</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>4</cultural_accessibility>
+          <target_audience>Global</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="RF" start="1" end="30">
+          <marker>反映出美国的霸权主义和单边主义</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="PC" start="31" end="100">
+          <marker>违背了国际贸易规则</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="RP" start="101" end="135">
+          <marker>坚定维护自身正当权益</marker>
+          <cultural_symbols>C2</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>1</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <cross_cultural_calibration>
+            <western_media_adjustment>-0.8</western_media_adjustment>
+            <strategy_shift>批判性立场无关系建构</strategy_shift>
+          </cross_cultural_calibration>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="elaboration"/>
+          <transition from="S2" to="S3" reason="support"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>offensive</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CFP" function="boundary">
+          <marker depth="deep">霸权主义和单边主义</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C2</network_links>
+          <associated_strategies>S1</associated_strategies>
+        </schema>
+        <schema id="C2" type="CFP" function="norm">
+          <marker depth="middle">正当权益</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C1</network_links>
+          <associated_strategies>S3</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>2.4</traditional>
+          <innovative>0.0</innovative>
+          <total>2.4</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="4">
+          <expression>整天把公平竞争挂在嘴边</expression>
+          <viral_potential>medium</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="indignation" intensity="4">
+            <content>霸权主义和单边主义</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="3">
+          <innovative_expression>挂在嘴边</innovative_expression>
+          <cultural_adaptability>批判性表达易传播</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>防止过度解读对抗意图</anticipation>
+          <clarification>强调维护权益的合法性</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">逻辑链完整</semantic_unit>
+          <misquote_prevention>通过完整论证避免断章</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>1</platform_terminology_count>
+          <overall_intensity>0.45</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="4">
+          <evidence>较高认知负荷推动框架重构</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="reinforcing">
+          <co_occurrence>S1-C1,S3-C2</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="direct" strength="4">
+          <impact>CFP框架强化批判立场</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>climax</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>fast</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>5</cognitive_adaptation_success>
+        <cultural_resonance>4</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例4：情感表达（EE）策略案例 -->
+  <unit id="2021-12-30-Q08" date="2021-12-30" session="01" sequence="08" timeline_position="294">
+    <metadata>
+      <spokesperson>汪文斌</spokesperson>
+      <media_source culture="Other">蒙古国记者</media_source>
+      <topic category="GG" sensitivity="low">北京冬奥会支持</topic>
+    </metadata>
+    
+    <question>
+      <text>今天，蒙古国对外关系部宣布，蒙古国作为第14个国家，支持北京冬奥会。中方对此有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="38" clauses="2" terms="1"/>
+        <content_complexity entities="2" timespan="0" logic_steps="1"/>
+        <question_type>stance</question_type>
+        <cognitive_load_index>
+          <value>1.95</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>中方对蒙古国支持北京冬奥会表示热烈欢迎和衷心感谢。蒙古国作为中国的友好邻邦和全面战略伙伴，一直积极支持北京冬奥会，蒙古国总统呼日勒苏赫将出席北京冬奥会开幕式。我们相信，在包括蒙古国在内的国际社会大力支持下，北京冬奥会一定能够取得圆满成功，成为一届简约、安全、精彩的奥运盛会。</text>
+      
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="none" success="0">
+          <marker></marker>
+        </frame_shift>
+        <conceptual_bridging density="3" type="common_ground">
+          <bridge_expression>友好邻邦和全面战略伙伴</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>情感强化双边关系</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>0</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>5</cultural_accessibility>
+          <target_audience>Regional</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="EE" start="1" end="30">
+          <marker>热烈欢迎和衷心感谢</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="FP" start="31" end="100">
+          <marker>第14个国家、总统将出席</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="EE" start="101" end="160">
+          <marker>一定能够取得圆满成功</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>2</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>2</total_rb_frequency>
+          <rb_intensity>5</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>4.6</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.1</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="support"/>
+          <transition from="S2" to="S3" reason="extension"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>relationship_building</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="MTE" function="emotion">
+          <marker depth="surface">简约、安全、精彩</marker>
+          <activation_intensity>3</activation_intensity>
+          <innovation level="transfer"/>
+          <network_links></network_links>
+          <associated_strategies>S3</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>0.5</traditional>
+          <innovative>0.8</innovative>
+          <total>1.3</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="3">
+          <expression>热烈欢迎和衷心感谢</expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="pride" intensity="4">
+            <content>国际社会大力支持</content>
+          </trigger>
+          <trigger type="empathy" intensity="4">
+            <content>友好邻邦</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="2">
+          <innovative_expression>简约、安全、精彩</innovative_expression>
+          <cultural_adaptability>奥运主题词汇</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>无需预防</anticipation>
+          <clarification>正面回应无歧义</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">感谢完整表达</semantic_unit>
+          <misquote_prevention>正面内容不易曲解</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.2</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="P→C" strength="3">
+          <evidence>低认知负荷允许充分情感表达</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="complementary">
+          <co_occurrence>S3-C1</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="indirect" strength="3">
+          <impact>MTE烘托积极氛围</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>optimization</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>4</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例5：语言礼貌（LP）策略案例 -->
+  <unit id="2022-12-30-Q04" date="2022-12-30" session="01" sequence="04" timeline_position="723">
+    <metadata>
+      <spokesperson>毛宁</spokesperson>
+      <media_source culture="Other">《马尼拉时报》</media_source>
+      <topic category="BR" sensitivity="medium">中菲关系</topic>
+    </metadata>
+    
+    <question>
+      <text>新年将至。明年1月3日至5日，菲律宾总统马科斯将对中国进行国事访问。这将是马科斯总统就职后首次访华，也是杜特尔特总统访华后菲律宾总统近7年来首次访华。中方如何评价马科斯总统此访对中菲关系的意义？对此访有何期待？</text>
+      <cognitive_load>
+        <linguistic_complexity words="102" clauses="5" terms="2"/>
+        <content_complexity entities="4" timespan="7" logic_steps="3"/>
+        <question_type>comprehensive</question_type>
+        <cognitive_load_index>
+          <value>3.55</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>马科斯总统即将对中国进行国事访问。中菲是隔海相望的近邻，两国人民之间有着悠久的友好交往史。建交48年来，中菲关系取得长足发展，给两国人民带来实实在在的利益。当前，中菲关系正处在重要发展阶段。中方愿同菲方一道，以马科斯总统此访为契机，增进政治互信，深化各领域合作，妥善管控分歧，推动中菲关系健康稳定发展。</text>
+      
+      <response_structure>
+        <opening_type>indirect</opening_type>
+        <argumentation_layers>3</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="temporal" success="4">
+          <marker>悠久的友好交往史</marker>
+        </frame_shift>
+        <conceptual_bridging density="4" type="common_ground">
+          <bridge_expression>隔海相望的近邻</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>历史纵深强化友好基础</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>1</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>4</cultural_accessibility>
+          <target_audience>Regional</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="LP" start="1" end="50">
+          <marker>中菲是隔海相望的近邻</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="FP" start="51" end="100">
+          <marker>建交48年来</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="LP" start="101" end="150">
+          <marker>中方愿同菲方一道</marker>
+          <cultural_symbols>C2</cultural_symbols>
+        </strategy>
+        <strategy id="S4" type="EM" start="151" end="200">
+          <marker>推动中菲关系健康稳定发展</marker>
+          <cultural_symbols>C2</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>2</lp_count>
+          <total_rb_frequency>2</total_rb_frequency>
+          <rb_intensity>4</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>3.8</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.15</variance_coefficient>
+            <adjustment_range>0.05</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="support"/>
+          <transition from="S2" to="S3" reason="elaboration"/>
+          <transition from="S3" to="S4" reason="extension"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>relationship_building</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="TCV" function="emotion">
+          <marker depth="middle">隔海相望、悠久交往史</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C2</network_links>
+          <associated_strategies>S1</associated_strategies>
+        </schema>
+        <schema id="C2" type="CFP" function="support">
+          <marker depth="middle">健康稳定发展</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C1</network_links>
+          <associated_strategies>S3,S4</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>2.2</traditional>
+          <innovative>0.0</innovative>
+          <total>2.2</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="2">
+          <expression>隔海相望的近邻</expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="empathy" intensity="3">
+            <content>悠久的友好交往史</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="1">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>传统外交辞令</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免触及分歧话题</anticipation>
+          <clarification>强调妥善管控分歧</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">完整外交表态</semantic_unit>
+          <misquote_prevention>平衡表述难以断章</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.05</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="3">
+          <evidence>中等认知负荷支持礼貌策略展开</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="reinforcing">
+          <co_occurrence>S1-C1,S3-C2,S4-C2</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="direct" strength="4">
+          <impact>TCV和CFP共同支撑友好基调</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>development</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>4</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例6：权威引用（CA）策略案例 -->
+  <unit id="2023-12-29-Q02" date="2023-12-29" session="01" sequence="02" timeline_position="1006">
+    <metadata>
+      <spokesperson>毛宁</spokesperson>
+      <media_source culture="CN">新华社</media_source>
+      <topic category="BR" sensitivity="low">中越关系</topic>
+    </metadata>
+    
+    <question>
+      <text>昨天，国家主席习近平在北京同来华进行国事访问的越共中央总书记阮富仲举行会谈，两国发表了《关于进一步深化和提升全面战略合作伙伴关系、构建具有战略意义的中越命运共同体的联合声明》。请问发言人，中越双方将如何落实两国最高领导人达成的重要共识？</text>
+      <cognitive_load>
+        <linguistic_complexity words="138" clauses="4" terms="5"/>
+        <content_complexity entities="5" timespan="1" logic_steps="2"/>
+        <question_type>comprehensive</question_type>
+        <cognitive_load_index>
+          <value>3.80</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>昨天，习近平主席同越共中央总书记阮富仲举行会谈。两国领导人就新形势下进一步深化中越全面战略合作伙伴关系达成重要共识，一致同意朝着构建具有战略意义的中越命运共同体这一目标迈进。双方发表的联合声明，为新时期中越关系发展指明了方向，擘画了蓝图。习近平主席指出，中越两党两国关系发展的实践充分证明，双方完全可以通过友好协商妥善管控和解决各种问题，共同把握好两国关系前进方向。中方愿同越方一道，落实好两国领导人重要共识，推动中越关系沿着正确轨道向前发展。</text>
+      
+      <response_structure>
+        <opening_type>contextual</opening_type>
+        <argumentation_layers>3</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="none" success="0">
+          <marker></marker>
+        </frame_shift>
+        <conceptual_bridging density="3" type="common_ground">
+          <bridge_expression>中越命运共同体</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>权威强化共识基础</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>1</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>4</cultural_accessibility>
+          <target_audience>Regional</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="FP" start="1" end="80">
+          <marker>两国领导人达成重要共识</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="CA" start="81" end="180">
+          <marker>习近平主席指出</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="RP" start="181" end="250">
+          <marker>落实好两国领导人重要共识</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>3</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.0</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="support"/>
+          <transition from="S2" to="S3" reason="elaboration"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CSF" function="support">
+          <marker depth="deep">中越命运共同体</marker>
+          <activation_intensity>5</activation_intensity>
+          <innovation level="transfer"/>
+          <network_links></network_links>
+          <associated_strategies>S2,S3</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>0.5</traditional>
+          <innovative>1.5</innovative>
+          <total>2.0</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="3">
+          <expression>指明了方向，擘画了蓝图</expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers></emotional_triggers>
+        <meme_potential score="2">
+          <innovative_expression>擘画蓝图</innovative_expression>
+          <cultural_adaptability>书面语特征明显</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免过度解读</anticipation>
+          <clarification>强调落实共识</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">权威引用完整</semantic_unit>
+          <misquote_prevention>直接引用领导人表述</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.1</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="3">
+          <evidence>较高认知负荷需要权威支撑</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="reinforcing">
+          <co_occurrence>S2-C1,S3-C1</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="direct" strength="5">
+          <impact>CSF概念强化合作框架</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>optimization</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>slow</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>5</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例7：期望管理（EM）策略案例 -->
+  <unit id="2023-12-29-Q06" date="2023-12-29" session="01" sequence="06" timeline_position="1010">
+    <metadata>
+      <spokesperson>毛宁</spokesperson>
+      <media_source culture="CN">总台央视</media_source>
+      <topic category="BR" sensitivity="low">新年外交活动</topic>
+    </metadata>
+    
+    <question>
+      <text>我们注意到，新年将至，一些外国领导人将访华。请介绍有关情况。</text>
+      <cognitive_load>
+        <linguistic_complexity words="28" clauses="2" terms="0"/>
+        <content_complexity entities="1" timespan="1" logic_steps="1"/>
+        <question_type>fact</question_type>
+        <cognitive_load_index>
+          <value>1.65</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>新年伊始，中国外交将迎来一系列重要活动。马尔代夫总统穆伊兹、不丹国王旺楚克、巴布亚新几内亚总理马拉佩等外国领导人将相继访华。中方期待通过这些访问，进一步深化同有关国家的友好合作关系，推动双边关系取得新的发展。</text>
+      
+      <response_structure>
+        <opening_type>contextual</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="temporal" success="3">
+          <marker>新年伊始</marker>
+        </frame_shift>
+        <conceptual_bridging density="2" type="common_ground">
+          <bridge_expression>友好合作关系</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="3">
+          <compensation_strategy>列举强化期待感</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>0</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>5</cultural_accessibility>
+          <target_audience>CN</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="FP" start="1" end="50">
+          <marker>马尔代夫总统、不丹国王、巴新总理</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="EM" start="51" end="110">
+          <marker>中方期待、推动双边关系取得新的发展</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>3</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.0</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="elaboration"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>information_control</dominant_function>
+          <effectiveness_score>4</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CFP" function="support">
+          <marker depth="surface">友好合作关系</marker>
+          <activation_intensity>3</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links></network_links>
+          <associated_strategies>S2</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>1.0</traditional>
+          <innovative>0.0</innovative>
+          <total>1.0</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="2">
+          <expression>一系列重要活动</expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers></emotional_triggers>
+        <meme_potential score="1">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>标准外交表达</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免过度承诺</anticipation>
+          <clarification>使用期待而非承诺</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">信息完整</semantic_unit>
+          <misquote_prevention>事实陈述为主</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.0</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="P→C" strength="2">
+          <evidence>低认知负荷支持简洁表达</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="complementary">
+          <co_occurrence>S2-C1</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="indirect" strength="3">
+          <impact>CFP设定合作基调</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>development</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>3</cognitive_adaptation_success>
+        <cultural_resonance>3</cultural_resonance>
+        <strategic_effectiveness>4</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例8：话题转移（TS）策略案例 -->
+  <unit id="2024-12-24-Q11" date="2024-12-24" session="01" sequence="11" timeline_position="1368">
+    <metadata>
+      <spokesperson>毛宁</spokesperson>
+      <media_source culture="Western">《华尔街日报》</media_source>
+      <topic category="SD" sensitivity="high">靖国神社涂鸦事件</topic>
+    </metadata>
+    
+    <question>
+      <text>中国公民权平在日本靖国神社涂鸦一事引发关注。中方对此有何评论？</text>
+      <cognitive_load>
+        <linguistic_complexity words="30" clauses="2" terms="1"/>
+        <content_complexity entities="3" timespan="0" logic_steps="1"/>
+        <question_type>stance</question_type>
+        <cognitive_load_index>
+          <value>2.15</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>我注意到有关报道。中国政府一贯要求海外中国公民遵守当地法律法规。同时我们也希望，有关国家正视历史，以史为鉴，避免历史悲剧重演。</text>
+      
+      <response_structure>
+        <opening_type>indirect</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>4</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="perspective" success="4">
+          <marker>正视历史</marker>
+        </frame_shift>
+        <conceptual_bridging density="2" type="redefinition">
+          <bridge_expression>以史为鉴</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="3">
+          <compensation_strategy>从个案转向历史问题</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>1</strategy_transition_count>
+        <transition_smoothness>4</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>4</clarity>
+          <cultural_accessibility>4</cultural_accessibility>
+          <target_audience>Global</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="RP" start="1" end="40">
+          <marker>一贯要求海外中国公民遵守当地法律法规</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="TS" start="41" end="80">
+          <marker>同时我们也希望</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>2</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>4</contextual_appropriateness>
+          <cross_cultural_calibration>
+            <western_media_adjustment>-0.6</western_media_adjustment>
+            <strategy_shift>避免直接评论转向原则立场</strategy_shift>
+          </cross_cultural_calibration>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="contrast"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>defensive</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>4</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="TCV" function="norm">
+          <marker depth="deep">以史为鉴</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links></network_links>
+          <associated_strategies>S2</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>1.5</traditional>
+          <innovative>0.0</innovative>
+          <total>1.5</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="3">
+          <expression>正视历史，以史为鉴</expression>
+          <viral_potential>medium</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="concern" intensity="3">
+            <content>避免历史悲剧重演</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="2">
+          <innovative_expression>以史为鉴</innovative_expression>
+          <cultural_adaptability>中国传统表达</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免被解读为支持违法</anticipation>
+          <clarification>明确要求遵守法律</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="4">两层意思并列</semantic_unit>
+          <misquote_prevention>平衡表述防断章</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.15</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="4">
+          <evidence>敏感话题推动话题转移</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="complementary">
+          <co_occurrence>S2-C1</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="direct" strength="4">
+          <impact>TCV提供转移支点</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>climax</phase>
+          <coupling_stability>fluctuating</coupling_stability>
+          <adaptation_speed>fast</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>4</cultural_resonance>
+        <strategic_effectiveness>4</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例9：事实陈述（FP）策略案例 -->
+  <unit id="2021-12-06-Q03" date="2021-12-06" session="01" sequence="03" timeline_position="270">
+    <metadata>
+      <spokesperson>赵立坚</spokesperson>
+      <media_source culture="CN">新华社</media_source>
+      <topic category="CR" sensitivity="low">菲律宾台风援助</topic>
+    </metadata>
+    
+    <question>
+      <text>据报道，强台风"雷伊"目前正在菲律宾造成严重灾害。请问中方是否计划向菲律宾提供援助？</text>
+      <cognitive_load>
+        <linguistic_complexity words="38" clauses="2" terms="1"/>
+        <content_complexity entities="2" timespan="0" logic_steps="1"/>
+        <question_type>fact</question_type>
+        <cognitive_load_index>
+          <value>1.85</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>中方对菲律宾遭受强台风"雷伊"袭击，造成人员伤亡和财产损失表示慰问。中国政府决定向菲律宾提供2000万元人民币紧急人道主义援助，包括1万件家庭包等菲方急需的救灾物资。中国红十字会将向菲律宾红十字会提供10万美元紧急人道主义现汇援助。</text>
+      
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>2</argumentation_layers>
+        <closure_type>summary</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="none" success="0">
+          <marker></marker>
+        </frame_shift>
+        <conceptual_bridging density="2" type="common_ground">
+          <bridge_expression>人道主义援助</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>具体数据展示援助力度</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>0</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>5</cultural_accessibility>
+          <target_audience>Regional</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="EE" start="1" end="30">
+          <marker>表示慰问</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="FP" start="31" end="120">
+          <marker>2000万元人民币、1万件家庭包、10万美元</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>1</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>1</total_rb_frequency>
+          <rb_intensity>3</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>3.5</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.0</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="support"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>balanced</pattern_type>
+          <dominant_function>information_control</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CSF" function="support">
+          <marker depth="surface">人道主义援助</marker>
+          <activation_intensity>3</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links></network_links>
+          <associated_strategies>S2</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>0.8</traditional>
+          <innovative>0.0</innovative>
+          <total>0.8</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="3">
+          <expression>2000万元人民币紧急援助</expression>
+          <viral_potential>medium</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="empathy" intensity="3">
+            <content>表示慰问</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="1">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>事实陈述为主</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>无需预防</anticipation>
+          <clarification>直接陈述援助事实</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">援助信息完整</semantic_unit>
+          <misquote_prevention>具体数据难以曲解</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.6</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="P→C" strength="2">
+          <evidence>低认知负荷支持事实陈述</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="complementary">
+          <co_occurrence>S2-C1</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="indirect" strength="3">
+          <impact>CSF支撑援助合理性</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>initial</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>fast</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>3</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+
+  <!-- 案例10：立场澄清（PC）策略案例 -->
+  <unit id="2025-05-29-Q09" date="2025-05-29" session="01" sequence="09" timeline_position="1518">
+    <metadata>
+      <spokesperson>毛宁</spokesperson>
+      <media_source culture="Other">共同社</media_source>
+      <topic category="SD" sensitivity="high">日本水产品进口限制</topic>
+    </metadata>
+    
+    <question>
+      <text>据报道，日本水产品对华出口4月同比增长。但仍有部分日本水产品因福岛核污染水排海问题被中国限制进口。中方何时会解除相关限制？</text>
+      <cognitive_load>
+        <linguistic_complexity words="68" clauses="3" terms="3"/>
+        <content_complexity entities="3" timespan="1" logic_steps="2"/>
+        <question_type>comprehensive</question_type>
+        <cognitive_load_index>
+          <value>3.25</value>
+          <calculation_method>weighted_average</calculation_method>
+        </cognitive_load_index>
+      </cognitive_load>
+    </question>
+    
+    <response>
+      <text>关于日本水产品进口问题，中方的立场是一贯的、明确的。中方始终将食品安全和中国消费者健康放在首位。日方应当正视各方合理关切，以负责任方式处置福岛核污染水，接受严格国际监督。在此基础上，中方愿通过对话协商，逐步寻找妥善解决办法。</text>
+      
+      <response_structure>
+        <opening_type>direct</opening_type>
+        <argumentation_layers>3</argumentation_layers>
+        <closure_type>forward-looking</closure_type>
+        <coherence_score>5</coherence_score>
+      </response_structure>
+      
+      <cognitive_adaptation>
+        <frame_shift type="category" success="4">
+          <marker>食品安全和消费者健康</marker>
+        </frame_shift>
+        <conceptual_bridging density="3" type="redefinition">
+          <bridge_expression>负责任方式</bridge_expression>
+        </conceptual_bridging>
+        <multimodal_integration effectiveness="4">
+          <compensation_strategy>原则立场与灵活性结合</compensation_strategy>
+        </multimodal_integration>
+        <strategy_transition_count>1</strategy_transition_count>
+        <transition_smoothness>5</transition_smoothness>
+        <bridging_effectiveness>
+          <clarity>5</clarity>
+          <cultural_accessibility>4</cultural_accessibility>
+          <target_audience>Regional</target_audience>
+        </bridging_effectiveness>
+      </cognitive_adaptation>
+      
+      <pragmatic_strategies>
+        <strategy id="S1" type="PC" start="1" end="50">
+          <marker>立场是一贯的、明确的</marker>
+          <cultural_symbols></cultural_symbols>
+        </strategy>
+        <strategy id="S2" type="RP" start="51" end="100">
+          <marker>食品安全和消费者健康放在首位</marker>
+          <cultural_symbols>C1</cultural_symbols>
+        </strategy>
+        <strategy id="S3" type="EM" start="101" end="150">
+          <marker>愿通过对话协商</marker>
+          <cultural_symbols>C2</cultural_symbols>
+        </strategy>
+        
+        <relationship_building_strategies>
+          <ee_count>0</ee_count>
+          <lp_count>0</lp_count>
+          <total_rb_frequency>0</total_rb_frequency>
+          <rb_intensity>2</rb_intensity>
+          <diversity_index>0.0</diversity_index>
+          <density_per_hundred_words>0.0</density_per_hundred_words>
+          <contextual_appropriateness>5</contextual_appropriateness>
+          <temporal_stability>
+            <variance_coefficient>0.0</variance_coefficient>
+            <adjustment_range>0</adjustment_range>
+          </temporal_stability>
+        </relationship_building_strategies>
+        
+        <strategy_sequence>
+          <transition from="S1" to="S2" reason="elaboration"/>
+          <transition from="S2" to="S3" reason="contrast"/>
+        </strategy_sequence>
+        
+        <strategy_pattern>
+          <pattern_type>defensive</pattern_type>
+          <dominant_function>position_maintenance</dominant_function>
+          <effectiveness_score>5</effectiveness_score>
+        </strategy_pattern>
+      </pragmatic_strategies>
+      
+      <cultural_schemas>
+        <schema id="C1" type="CFP" function="norm">
+          <marker depth="middle">食品安全</marker>
+          <activation_intensity>4</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C2</network_links>
+          <associated_strategies>S2</associated_strategies>
+        </schema>
+        <schema id="C2" type="CFP" function="support">
+          <marker depth="middle">对话协商</marker>
+          <activation_intensity>3</activation_intensity>
+          <innovation level="traditional"/>
+          <network_links>C1</network_links>
+          <associated_strategies>S3</associated_strategies>
+        </schema>
+        <schema_density>
+          <traditional>1.8</traditional>
+          <innovative>0.0</innovative>
+          <total>1.8</total>
+        </schema_density>
+      </cultural_schemas>
+      
+      <digital_media_adaptation>
+        <soundbite_design memorability="3">
+          <expression>一贯的、明确的</expression>
+          <viral_potential>low</viral_potential>
+        </soundbite_design>
+        <emotional_triggers>
+          <trigger type="concern" intensity="3">
+            <content>消费者健康</content>
+          </trigger>
+        </emotional_triggers>
+        <meme_potential score="1">
+          <innovative_expression></innovative_expression>
+          <cultural_adaptability>标准外交表达</cultural_adaptability>
+        </meme_potential>
+        <preventive_clarification>
+          <anticipation>避免被解读为贸易保护</anticipation>
+          <clarification>强调食品安全关切</clarification>
+        </preventive_clarification>
+        <context_protection>
+          <semantic_unit completeness="5">立场表述完整</semantic_unit>
+          <misquote_prevention>原则与灵活性并存</misquote_prevention>
+        </context_protection>
+        <digital_intensity>
+          <social_media_metaphor_count>0</social_media_metaphor_count>
+          <platform_terminology_count>0</platform_terminology_count>
+          <overall_intensity>0.05</overall_intensity>
+        </digital_intensity>
+      </digital_media_adaptation>
+      
+      <system_coupling>
+        <cognitive_pragmatic direction="C→P" strength="4">
+          <evidence>中等认知负荷支持立场澄清</evidence>
+        </cognitive_pragmatic>
+        <pragmatic_cultural type="reinforcing">
+          <co_occurrence>S2-C1,S3-C2</co_occurrence>
+        </pragmatic_cultural>
+        <cultural_cognitive feedback="direct" strength="4">
+          <impact>CFP原则强化立场合理性</impact>
+        </cultural_cognitive>
+        <coupling_dynamics>
+          <phase>development</phase>
+          <coupling_stability>stable</coupling_stability>
+          <adaptation_speed>moderate</adaptation_speed>
+        </coupling_dynamics>
+      </system_coupling>
+      
+      <overall_assessment>
+        <cognitive_adaptation_success>4</cognitive_adaptation_success>
+        <cultural_resonance>4</cultural_resonance>
+        <strategic_effectiveness>5</strategic_effectiveness>
+      </overall_assessment>
+    </response>
+  </unit>
+</corpus>
