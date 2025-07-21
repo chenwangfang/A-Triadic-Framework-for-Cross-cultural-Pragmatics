@@ -1,0 +1,383 @@
+{
+  "treatment_effects": {
+    "ate": -0.002462130143493853,
+    "ate_se": 0.00028716227093856974,
+    "ate_ci": [
+      -0.0030249681945334495,
+      -0.0018992920924542564
+    ],
+    "cate_distribution": {
+      "mean": -0.002462130143493853,
+      "std": 0.01284549733840787,
+      "min": -0.0476808146146223,
+      "max": 0.045231291438036565,
+      "q25": -0.010815388126087499,
+      "q50": -0.002852693131562708,
+      "q75": 0.005847918562729907
+    }
+  },
+  "heterogeneity_analysis": {
+    "feature_importance": [
+      {
+        "feature": "dsr_tl_interaction",
+        "importance": 0.3559480383957098
+      },
+      {
+        "feature": "outcome_lag1",
+        "importance": 0.16729276474412771
+      },
+      {
+        "feature": "outcome_lag7",
+        "importance": 0.15162829194880284
+      },
+      {
+        "feature": "tl_functional",
+        "importance": 0.12997669177253648
+      },
+      {
+        "feature": "year",
+        "importance": 0.05905431406158458
+      },
+      {
+        "feature": "month",
+        "importance": 0.047750615483704635
+      },
+      {
+        "feature": "treatment_lag7",
+        "importance": 0.02324781548083672
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 0.01842080398390418
+      },
+      {
+        "feature": "has_bridging",
+        "importance": 0.017227942160584014
+      },
+      {
+        "feature": "treatment_lag1",
+        "importance": 0.01237098180338008
+      },
+      {
+        "feature": "sensitivity_code",
+        "importance": 0.008141649808358725
+      },
+      {
+        "feature": "has_engaging",
+        "importance": 0.006311854363837739
+      },
+      {
+        "feature": "has_contextualizing",
+        "importance": 0.0026282359926326038
+      }
+    ],
+    "subgroup_effects": {
+      "sensitivity_1": {
+        "mean_effect": -0.0014395246992027896,
+        "std_effect": 0.014493287643850997,
+        "n_samples": 280
+      },
+      "sensitivity_2": {
+        "mean_effect": -0.002270273682404794,
+        "std_effect": 0.013254008113118401,
+        "n_samples": 617
+      },
+      "sensitivity_3": {
+        "mean_effect": -0.0028287107240132802,
+        "std_effect": 0.012132706164324951,
+        "n_samples": 1104
+      },
+      "year_2021": {
+        "mean_effect": -0.0012907838839012985,
+        "std_effect": 0.011936773035477558,
+        "n_samples": 410
+      },
+      "year_2022": {
+        "mean_effect": -0.006856505381417864,
+        "std_effect": 0.013264671277789025,
+        "n_samples": 486
+      },
+      "year_2023": {
+        "mean_effect": -0.0032462698779344343,
+        "std_effect": 0.01214413612955516,
+        "n_samples": 480
+      },
+      "year_2024": {
+        "mean_effect": 0.0009750693143688933,
+        "std_effect": 0.012150631946326318,
+        "n_samples": 430
+      },
+      "year_2025": {
+        "mean_effect": 0.000377899112140096,
+        "std_effect": 0.013411897453468314,
+        "n_samples": 195
+      },
+      "function_contextualizing": {
+        "mean_effect": -0.0029925415230324195,
+        "std_effect": 0.011954656875042123,
+        "n_samples": 1470
+      },
+      "function_bridging": {
+        "mean_effect": -0.0047683876190707,
+        "std_effect": 0.013613775701934422,
+        "n_samples": 65
+      },
+      "function_engaging": {
+        "mean_effect": -0.007586235064101502,
+        "std_effect": 0.012509329550375653,
+        "n_samples": 51
+      },
+      "sensitivity_test": {
+        "f_statistic": 1.4054765390846558,
+        "p_value": 0.24549252148770995,
+        "significant": false
+      }
+    },
+    "heterogeneity_measure": 0.01284549733840787
+  },
+  "subgroup_effects": {
+    "profiles": {
+      "group_1": {
+        "size": 501,
+        "mean_effect": -0.018444519782379737,
+        "effect_range": [
+          -0.0476808146146223,
+          -0.010815388126087499
+        ],
+        "characteristics": {
+          "tl_functional": 0.39015213035738283,
+          "sensitivity_code": 2.399201596806387,
+          "month": 6.2235528942115765,
+          "year": 2022.566866267465,
+          "day_of_week": 2.0518962075848304,
+          "has_contextualizing": 0.7225548902195609,
+          "has_bridging": 0.03592814371257485,
+          "has_engaging": 0.04790419161676647,
+          "dsr_tl_interaction": 0.12737468407131855,
+          "outcome_lag1": 0.56041102448742,
+          "treatment_lag1": 0.5069860279441117,
+          "outcome_lag7": 0.5393471022807543,
+          "treatment_lag7": 0.5548902195608783
+        },
+        "label": "低响应组",
+        "description": "DSR效应最小的群体"
+      },
+      "group_2": {
+        "size": 500,
+        "mean_effect": -0.006745962537360193,
+        "effect_range": [
+          -0.010755919349882502,
+          -0.002852693131562708
+        ],
+        "characteristics": {
+          "tl_functional": 0.38051575623659756,
+          "sensitivity_code": 2.472,
+          "month": 6.28,
+          "year": 2022.692,
+          "day_of_week": 1.834,
+          "has_contextualizing": 0.772,
+          "has_bridging": 0.046,
+          "has_engaging": 0.014,
+          "dsr_tl_interaction": 0.1267270638526443,
+          "outcome_lag1": 0.5575085917585841,
+          "treatment_lag1": 0.496,
+          "outcome_lag7": 0.5492379071897453,
+          "treatment_lag7": 0.508
+        },
+        "label": "中低响应组",
+        "description": "DSR效应偏低的群体"
+      },
+      "group_3": {
+        "size": 500,
+        "mean_effect": 0.0012727904661725905,
+        "effect_range": [
+          -0.002841480114081927,
+          0.005847918562729907
+        ],
+        "characteristics": {
+          "tl_functional": 0.37641305190646324,
+          "sensitivity_code": 2.456,
+          "month": 6.41,
+          "year": 2022.792,
+          "day_of_week": 1.984,
+          "has_contextualizing": 0.774,
+          "has_bridging": 0.02,
+          "has_engaging": 0.03,
+          "dsr_tl_interaction": 0.12466093643135127,
+          "outcome_lag1": 0.5526770666744747,
+          "treatment_lag1": 0.49,
+          "outcome_lag7": 0.5555663672288906,
+          "treatment_lag7": 0.434
+        },
+        "label": "中高响应组",
+        "description": "DSR效应偏高的群体"
+      },
+      "group_4": {
+        "size": 500,
+        "mean_effect": 0.0141011360588697,
+        "effect_range": [
+          0.005928086167267947,
+          0.045231291438036565
+        ],
+        "characteristics": {
+          "tl_functional": 0.359191535240509,
+          "sensitivity_code": 2.32,
+          "month": 6.384,
+          "year": 2022.978,
+          "day_of_week": 1.922,
+          "has_contextualizing": 0.67,
+          "has_bridging": 0.028,
+          "has_engaging": 0.01,
+          "dsr_tl_interaction": 0.10960524437886127,
+          "outcome_lag1": 0.5335820059573716,
+          "treatment_lag1": 0.456,
+          "outcome_lag7": 0.5546875350462332,
+          "treatment_lag7": 0.448
+        },
+        "label": "高响应组",
+        "description": "DSR效应最大的群体"
+      }
+    },
+    "decision_rules": [
+      {
+        "rule": "outcome_lag1 <= 0.493 & outcome_lag7 <= 0.604 & outcome_lag1 <= 0.463",
+        "class": 4,
+        "samples": 53
+      },
+      {
+        "rule": "outcome_lag1 <= 0.493 & outcome_lag7 <= 0.604 & outcome_lag1 > 0.463",
+        "class": 4,
+        "samples": 135
+      },
+      {
+        "rule": "outcome_lag1 <= 0.493 & outcome_lag7 > 0.604 & outcome_lag1 <= 0.491",
+        "class": 3,
+        "samples": 15
+      },
+      {
+        "rule": "outcome_lag1 <= 0.493 & outcome_lag7 > 0.604 & outcome_lag1 > 0.491",
+        "class": 2,
+        "samples": 2
+      },
+      {
+        "rule": "outcome_lag1 > 0.493 & outcome_lag7 <= 0.563 & year <= 2023.500",
+        "class": 1,
+        "samples": 692
+      },
+      {
+        "rule": "outcome_lag1 > 0.493 & outcome_lag7 <= 0.563 & year > 2023.500",
+        "class": 3,
+        "samples": 348
+      },
+      {
+        "rule": "outcome_lag1 > 0.493 & outcome_lag7 > 0.563 & dsr_tl_interaction <= 0.147",
+        "class": 4,
+        "samples": 452
+      },
+      {
+        "rule": "outcome_lag1 > 0.493 & outcome_lag7 > 0.563 & dsr_tl_interaction > 0.147",
+        "class": 1,
+        "samples": 304
+      }
+    ],
+    "n_groups": 4
+  },
+  "policy_recommendations": {
+    "policy_rules": [],
+    "cost_benefit_analysis": {
+      "no_treatment": {
+        "cost": 0,
+        "benefit": 0,
+        "net_value": 0
+      },
+      "treat_all": {
+        "cost": 0.1,
+        "benefit": -0.002462130143493853,
+        "net_value": -0.10246213014349385
+      },
+      "simple_policy": {
+        "cost": 0.04112943528235882,
+        "benefit": -0.007341385842460912,
+        "net_value": -0.048470821124819735
+      },
+      "threshold_policy": {
+        "cost": 0.024987506246876564,
+        "benefit": -0.00956773074381434,
+        "net_value": -0.03455523699069091
+      }
+    },
+    "optimal_policy": "no_treatment",
+    "implementation_guidance": [
+      "DSR整体效应不明显，需要更精细的使用策略"
+    ]
+  },
+  "validation_metrics": {
+    "confidence_interval_coverage": 1.0,
+    "robustness_checks": {
+      "sensitivity_analysis": [
+        {
+          "threshold": 0.4,
+          "ate": 0.02600417121744847,
+          "treated_n": 6003,
+          "control_n": 4002
+        },
+        {
+          "threshold": 0.5,
+          "ate": 0.022473609556876495,
+          "treated_n": 5002,
+          "control_n": 5003
+        },
+        {
+          "threshold": 0.6,
+          "ate": 0.021498474913792753,
+          "treated_n": 4002,
+          "control_n": 6003
+        }
+      ],
+      "overlap_assumption": {
+        "min_ps_treated": 0.021397189210030542,
+        "max_ps_control": 0.8696640764546699,
+        "common_support": 0.7181409295352323,
+        "overlap_quality": "good"
+      },
+      "trimmed_analysis": {
+        "ate_original": -0.002462130143493853,
+        "ate_trimmed": -0.0025707418163704154,
+        "difference": 0.0001086116728765624,
+        "robust": true
+      },
+      "temporal_stability": {
+        "yearly_effects": [
+          {
+            "year": 2021,
+            "ate": -0.0012907838839012985,
+            "n_samples": 410
+          },
+          {
+            "year": 2022,
+            "ate": -0.006856505381417864,
+            "n_samples": 486
+          },
+          {
+            "year": 2023,
+            "ate": -0.0032462698779344343,
+            "n_samples": 480
+          },
+          {
+            "year": 2024,
+            "ate": 0.0009750693143688933,
+            "n_samples": 430
+          },
+          {
+            "year": 2025,
+            "ate": 0.000377899112140096,
+            "n_samples": 195
+          }
+        ],
+        "coefficient_of_variation": -1.411080930866921,
+        "stable": true
+      }
+    },
+    "overall_robustness": 1.0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "dsr_metrics": {
+    "mean": 0.3077449907784049,
+    "std": 0.12674073880987438,
+    "components": {
+      "dsr_bridging_score": 0.34575134838194177,
+      "dsr_integration_depth": 0.2973788875110847,
+      "dsr_irreplaceability": 0.15498069007756424,
+      "dsr_path_centrality": 0.48840684342355983,
+      "dsr_bottleneck_score": 0.4811685976827806,
+      "dsr_cascade_impact": 0.2251943035024637
+    }
+  },
+  "tl_metrics": {
+    "mean": 0.3745059944397589,
+    "std": 0.0766227298306803,
+    "components": {
+      "tl_conventional_density": 0.41525196430949535,
+      "tl_structural_complexity": 0.36169976491835026,
+      "tl_pragmatic_richness": 0.5876685577307231,
+      "tl_dsr_interaction": 0.06294162242321007
+    }
+  },
+  "cs_metrics": {
+    "mean": 0.550676538496558,
+    "std": 0.045678422547073,
+    "components": {
+      "cs_immediate_effects": 0.5590141789852178,
+      "cs_system_properties": 0.7049458506934535,
+      "cs_emergent_features": 0.5685568318018378,
+      "cs_adaptability": 0.2764890491410308,
+      "cs_stability": 0.6602060827007591,
+      "cs_integration_level": 0.4872849160996462
+    }
+  },
+  "composite_scores": {
+    "constitutive_index_mean": 0.3619108107108983,
+    "constitutive_index_std": 0.08012310770264694,
+    "dsr_tl_correlation": 0.6046439004698918,
+    "dsr_cs_correlation": 0.35578057958312737
+  }
+}

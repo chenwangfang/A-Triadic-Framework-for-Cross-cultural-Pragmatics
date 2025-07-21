@@ -1,0 +1,361 @@
+{
+  "context_moderation": {
+    "main_effects": {
+      "low": {
+        "n_samples": 1503,
+        "dsr_cs_correlation": 0.13312721547019185,
+        "mean_dsr": 0.2104090515616431,
+        "mean_cs": 0.5527258609594727
+      },
+      "medium": {
+        "n_samples": 3003,
+        "dsr_cs_correlation": 0.41188373831785485,
+        "mean_dsr": 0.28296219225124947,
+        "mean_cs": 0.5386105563439761
+      },
+      "high": {
+        "n_samples": 5506,
+        "dsr_cs_correlation": 0.3991173458713644,
+        "mean_dsr": 0.347831925144522,
+        "mean_cs": 0.5566979719768416
+      }
+    },
+    "interaction_effects": {
+      "model_summary": {
+        "r_squared": 0.17301860335450536,
+        "adj_r_squared": 0.17260536060183418,
+        "f_statistic": 418.68514870771895,
+        "p_value": 0.0
+      },
+      "coefficients": {
+        "dsr_baseline": 0.03755606210425822,
+        "context_medium_effect": 0,
+        "context_high_effect": 0,
+        "interaction_medium": 0.10747707764452381,
+        "interaction_high": 0.14503628888559472
+      },
+      "p_values": {
+        "interaction_medium": 1.3401289788861898e-28,
+        "interaction_high": 4.562651272513613e-51
+      }
+    },
+    "simple_slopes": {
+      "low": {
+        "slope": 0.037556062104256056,
+        "se": 0.007216720301983431,
+        "p_value": 2.2197380173507305e-07,
+        "ci_lower": 0.5483842692186047,
+        "ci_upper": 0.05171198877048279
+      },
+      "medium": {
+        "slope": 0.14503313974877996,
+        "se": 0.005857208277598376,
+        "p_value": 2.5154088307445817e-123,
+        "ci_lower": 0.5011595172689224,
+        "ci_upper": 0.15651768894457113
+      },
+      "high": {
+        "slope": 0.1825923509898526,
+        "se": 0.005654115411666277,
+        "p_value": 1.1215671859826696e-209,
+        "ci_lower": 0.49719713058268444,
+        "ci_upper": 0.1936766510602938
+      }
+    },
+    "moderation_strength": {
+      "slope_range": 0.14503628888559655,
+      "slope_variance": 0.0037775046290849726,
+      "significant_differences": 2
+    }
+  },
+  "platform_moderation": {
+    "platform_effects": {
+      "early": {
+        "n_samples": 4578,
+        "dsr_cs_correlation": 0.31647159324435536,
+        "mean_integration_depth": 0.313176916737277,
+        "dsr_effectiveness": 2.6173554128261767
+      },
+      "mature": {
+        "n_samples": 4436,
+        "dsr_cs_correlation": 0.3875012302585803,
+        "mean_integration_depth": 0.28702416430122085,
+        "dsr_effectiveness": 2.8137976542369403
+      },
+      "advanced": {
+        "n_samples": 998,
+        "dsr_cs_correlation": 0.3915678097580751,
+        "mean_integration_depth": 0.27093617645041074,
+        "dsr_effectiveness": 3.1114268361122845
+      }
+    },
+    "evolution_patterns": [
+      {
+        "year": 2021,
+        "dsr_cs_correlation": 0.31765104593417276,
+        "mean_dsr": 0.33875535968909826,
+        "mean_integration": 0.327811297498521
+      },
+      {
+        "year": 2022,
+        "dsr_cs_correlation": 0.3384512768037168,
+        "mean_dsr": 0.31128358250795213,
+        "mean_integration": 0.30047706856136275
+      },
+      {
+        "year": 2023,
+        "dsr_cs_correlation": 0.36196952732618526,
+        "mean_dsr": 0.29483110231888665,
+        "mean_integration": 0.28658105396487893
+      },
+      {
+        "year": 2024,
+        "dsr_cs_correlation": 0.426583162495046,
+        "mean_dsr": 0.3003457574083842,
+        "mean_integration": 0.2875113130524382
+      },
+      {
+        "year": 2025,
+        "dsr_cs_correlation": 0.3915678097580751,
+        "mean_dsr": 0.27868827735170065,
+        "mean_integration": 0.27093617645041074
+      }
+    ],
+    "platform_x_context": {
+      "early": {
+        "low": {
+          "n_samples": 661,
+          "dsr_cs_correlation": 0.11003884674675382,
+          "mean_performance": 0.5522488188858896
+        },
+        "medium": {
+          "n_samples": 1295,
+          "dsr_cs_correlation": 0.3816280122069864,
+          "mean_performance": 0.5410556622730706
+        },
+        "high": {
+          "n_samples": 2622,
+          "dsr_cs_correlation": 0.3512685719949703,
+          "mean_performance": 0.5574376639152512
+        }
+      },
+      "mature": {
+        "low": {
+          "n_samples": 666,
+          "dsr_cs_correlation": 0.16104007357359595,
+          "mean_performance": 0.5516270490722481
+        },
+        "medium": {
+          "n_samples": 1401,
+          "dsr_cs_correlation": 0.42651252963642683,
+          "mean_performance": 0.5355292976896733
+        },
+        "high": {
+          "n_samples": 2369,
+          "dsr_cs_correlation": 0.4345606370946806,
+          "mean_performance": 0.5558033398917868
+        }
+      },
+      "advanced": {
+        "low": {
+          "n_samples": 176,
+          "dsr_cs_correlation": 0.15264256107786794,
+          "mean_performance": 0.5586754832749841
+        },
+        "medium": {
+          "n_samples": 307,
+          "dsr_cs_correlation": 0.458411221292315,
+          "mean_performance": 0.5423578892316023
+        },
+        "high": {
+          "n_samples": 515,
+          "dsr_cs_correlation": 0.4769984415743247,
+          "mean_performance": 0.5570473140098212
+        }
+      }
+    }
+  },
+  "interaction_effects": {
+    "three_way_interaction": {},
+    "decomposed_effects": [
+      {
+        "context": "low",
+        "platform": "early",
+        "marginal_effect": 0.03017526062063257,
+        "se": 0.010617368874929967,
+        "n": 661
+      },
+      {
+        "context": "low",
+        "platform": "mature",
+        "marginal_effect": 0.04799247713526705,
+        "se": 0.011414302553849785,
+        "n": 666
+      },
+      {
+        "context": "low",
+        "platform": "advanced",
+        "marginal_effect": 0.03981921330674311,
+        "se": 0.01954443213220828,
+        "n": 176
+      },
+      {
+        "context": "medium",
+        "platform": "early",
+        "marginal_effect": 0.14268332782555015,
+        "se": 0.00961068163759393,
+        "n": 1295
+      },
+      {
+        "context": "medium",
+        "platform": "mature",
+        "marginal_effect": 0.1473195512205794,
+        "se": 0.008352557964631966,
+        "n": 1401
+      },
+      {
+        "context": "medium",
+        "platform": "advanced",
+        "marginal_effect": 0.14995516396006003,
+        "se": 0.01664681272061841,
+        "n": 307
+      },
+      {
+        "context": "high",
+        "platform": "early",
+        "marginal_effect": 0.1755650818756274,
+        "se": 0.009142216663018485,
+        "n": 2622
+      },
+      {
+        "context": "high",
+        "platform": "mature",
+        "marginal_effect": 0.19364939678630122,
+        "se": 0.0082493382002038,
+        "n": 2369
+      },
+      {
+        "context": "high",
+        "platform": "advanced",
+        "marginal_effect": 0.1811224621819663,
+        "se": 0.014734594236524044,
+        "n": 515
+      }
+    ],
+    "synergy_analysis": {
+      "max_effect": 0.19364939678630122,
+      "min_effect": 0.03017526062063257,
+      "effect_range": 0.16347413616566864,
+      "optimal_condition": "high_mature",
+      "suboptimal_condition": "low_early"
+    }
+  },
+  "threshold_detection": {
+    "threshold_points": {
+      "low": {
+        "threshold_value": 0.102084,
+        "slope_change": 304.4894584863665,
+        "before_threshold_n": 728,
+        "after_threshold_n": 775
+      },
+      "medium": {
+        "threshold_value": 0.365885177839851,
+        "slope_change": 301.24286581394324,
+        "before_threshold_n": 1870,
+        "after_threshold_n": 1133
+      },
+      "high": {
+        "threshold_value": 0.3824816067044382,
+        "slope_change": 575.077825013022,
+        "before_threshold_n": 3157,
+        "after_threshold_n": 2349
+      }
+    },
+    "nonlinear_regions": {
+      "low": {
+        "linear_r2": 0.017722855498847,
+        "quadratic_r2": 0.022233943503749076,
+        "r2_improvement": 0.004511088004902075,
+        "quadratic_coef": 0.41712116963992285,
+        "quadratic_pvalue": 0.008608559186658751,
+        "is_nonlinear": true
+      },
+      "medium": {
+        "linear_r2": 0.16964821389069096,
+        "quadratic_r2": 0.1697048282639928,
+        "r2_improvement": 5.661437330184427e-05,
+        "quadratic_coef": 0.05208009391238711,
+        "quadratic_pvalue": 0.6510997277133959,
+        "is_nonlinear": false
+      },
+      "high": {
+        "linear_r2": 0.15929465577540236,
+        "quadratic_r2": 0.1592989057289329,
+        "r2_improvement": 4.249953530544026e-06,
+        "quadratic_coef": -0.012638731590635222,
+        "quadratic_pvalue": 0.8675411033988403,
+        "is_nonlinear": false
+      }
+    },
+    "saturation_effects": {
+      "low": {
+        "low_dsr_slope": 0.030106779474180924,
+        "high_dsr_slope": -0.27475373148590976,
+        "saturation_ratio": -9.125975487399241,
+        "is_saturated": true
+      },
+      "medium": {
+        "low_dsr_slope": 0.14334656188695297,
+        "high_dsr_slope": -0.16328153192249317,
+        "saturation_ratio": -1.139068351365563,
+        "is_saturated": true
+      },
+      "high": {
+        "low_dsr_slope": 0.18469620468775105,
+        "high_dsr_slope": 0.31147328709751065,
+        "saturation_ratio": 1.6864087035469408,
+        "is_saturated": false
+      }
+    }
+  },
+  "moderation_patterns": {
+    "pattern_summary": {
+      "context_pattern": {
+        "type": "enhancing",
+        "strength": 0.14503628888559655,
+        "optimal_context": "high"
+      },
+      "platform_pattern": {
+        "type": "progressive",
+        "evolution_trend": 0.07509621651371973,
+        "current_stage": "advanced"
+      }
+    },
+    "moderation_typology": {
+      "identified_types": [
+        "significant_interaction",
+        "nonlinear_moderation",
+        "threshold_moderation"
+      ],
+      "complexity_level": 3,
+      "primary_type": "significant_interaction"
+    },
+    "policy_implications": [
+      {
+        "area": "context_sensitivity",
+        "recommendation": "在高敏感度语境中加强DSR应用",
+        "priority": "high"
+      },
+      {
+        "area": "platform_development",
+        "recommendation": "持续推进平台功能升级以增强DSR效果",
+        "priority": "medium"
+      },
+      {
+        "area": "resource_allocation",
+        "recommendation": "识别并优先支持接近阈值的应用场景",
+        "priority": "high"
+      }
+    ]
+  }
+}

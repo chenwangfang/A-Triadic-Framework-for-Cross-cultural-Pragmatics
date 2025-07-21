@@ -1,0 +1,386 @@
+{
+  "virtual_removal": {
+    "baseline_performance": {
+      "mean_output": 0.550676538496558,
+      "std_output": 0.04567842254707301,
+      "max_output": 0.7263921768368617,
+      "adaptability": 0.2764890491410308,
+      "stability": 0.6602060827007591,
+      "integration": 0.4872849160996462,
+      "weighted_performance": 0.5050666249869105,
+      "overall_performance": 0.5050666249869105
+    },
+    "reduced_performance": {
+      "mean_output": 0.550676538496558,
+      "std_output": 0.04567842254707301,
+      "max_output": 0.7263921768368617,
+      "adaptability": 0.2764890491410308,
+      "stability": 0.6602060827007591,
+      "integration": 0.4872849160996462,
+      "weighted_performance": 0.5050666249869105,
+      "overall_performance": 0.5050666249869105
+    },
+    "performance_loss": {
+      "overall_performance": 1.2247046213063582
+    },
+    "feature_importance": [
+      {
+        "feature": "dsr_irreplaceability",
+        "importance": 0.3847889016781535
+      },
+      {
+        "feature": "dsr_path_centrality",
+        "importance": 0.17414157728520094
+      },
+      {
+        "feature": "tl_dsr_interaction",
+        "importance": 0.17161579292652912
+      },
+      {
+        "feature": "tl_structural_complexity",
+        "importance": 0.053056852618331464
+      },
+      {
+        "feature": "tl_conventional_density",
+        "importance": 0.05083292806070444
+      },
+      {
+        "feature": "dsr_tl_interaction",
+        "importance": 0.041243662972961566
+      },
+      {
+        "feature": "tl_pragmatic_richness",
+        "importance": 0.037826891880025415
+      },
+      {
+        "feature": "tl_functional",
+        "importance": 0.02107721020688761
+      },
+      {
+        "feature": "dsr_integration_depth",
+        "importance": 0.019697769356183982
+      },
+      {
+        "feature": "dsr_cascade_impact",
+        "importance": 0.012826905424133265
+      },
+      {
+        "feature": "dsr_cognitive",
+        "importance": 0.007904357266231959
+      },
+      {
+        "feature": "dsr_cognitive_wavelet_denoised",
+        "importance": 0.006470791545316598
+      },
+      {
+        "feature": "dsr_cognitive_reconstructed",
+        "importance": 0.005723274226899781
+      },
+      {
+        "feature": "tl_functional_wavelet_denoised",
+        "importance": 0.004174656233834501
+      },
+      {
+        "feature": "tl_functional_reconstructed",
+        "importance": 0.0034842605453686616
+      },
+      {
+        "feature": "dsr_bottleneck_score",
+        "importance": 0.0033506202176088705
+      },
+      {
+        "feature": "dsr_bridging_score",
+        "importance": 0.0017835475556282976
+      }
+    ],
+    "model_based_removal": {
+      "baseline": {
+        "mean": 0.5506765384965577,
+        "std": 0.03526663979905952,
+        "r2": 0.7141533224026235,
+        "rmse": 0.02442058043871179,
+        "correlation": 0.8485244317868111
+      },
+      "reduced": {
+        "mean": 0.522845809333635,
+        "std": 0.022512138882362486,
+        "r2": -0.4464479874177232,
+        "rmse": 0.05493394882739349,
+        "correlation": 0.17014881203174909
+      },
+      "loss": {
+        "r2_loss": 1.6251430517969723,
+        "rmse_increase": 1.249493985831375,
+        "correlation_loss": 0.7994768262907268,
+        "overall_loss": 1.2247046213063582
+      }
+    },
+    "progressive_removal": [
+      {
+        "removed_features": 1,
+        "performance": 0.09412548248218722,
+        "loss_rate": 0.8681998955553113
+      },
+      {
+        "removed_features": 2,
+        "performance": -0.043095814788329134,
+        "loss_rate": 1.0603453256274746
+      },
+      {
+        "removed_features": 3,
+        "performance": -0.22961841573582698,
+        "loss_rate": 1.3215253763202033
+      },
+      {
+        "removed_features": 4,
+        "performance": -0.30509592362302373,
+        "loss_rate": 1.4272134765075244
+      },
+      {
+        "removed_features": 5,
+        "performance": -0.37449665802711096,
+        "loss_rate": 1.5243925166758214
+      },
+      {
+        "removed_features": 6,
+        "performance": -0.438091478425783,
+        "loss_rate": 1.6134417703917043
+      },
+      {
+        "removed_features": 7,
+        "performance": -0.4946843825586873,
+        "loss_rate": 1.6926865240848035
+      },
+      {
+        "removed_features": 8,
+        "performance": -0.43506953532509085,
+        "loss_rate": 1.60921026574712
+      },
+      {
+        "removed_features": 9,
+        "performance": -0.4364974718863708,
+        "loss_rate": 1.6112097475341343
+      },
+      {
+        "removed_features": 10,
+        "performance": -0.4464479874177232,
+        "loss_rate": 1.6251430517969723
+      }
+    ]
+  },
+  "path_necessity": {
+    "direct_effect": {
+      "coefficient": 0.10178621831743484,
+      "p_value": 6.934302496522527e-126,
+      "through": "DSR → CS（控制TL）"
+    },
+    "indirect_effect": {
+      "value": 0.02644007893194209,
+      "proportion": 0.2061985684615141,
+      "through": "DSR → TL → CS"
+    },
+    "mediation_analysis": {
+      "a_path": 0.36554518037781597,
+      "b_path": 0.07233053628176538,
+      "c_path": 0.12822629724937684,
+      "c_prime": 0.10178621831743484,
+      "indirect_effect": 0.02644007893194209,
+      "calculated_total": 0.12822629724937692,
+      "discrepancy": 8.326672684688674e-17,
+      "mediation_type": "部分中介"
+    },
+    "path_contribution": {
+      "only_dsr": {
+        "r_squared": 0.12657982080850583,
+        "aic": -34735.83630381392,
+        "features": [
+          "dsr_cognitive"
+        ]
+      },
+      "only_tl": {
+        "r_squared": 0.08531832606822609,
+        "aic": -34273.688767089334,
+        "features": [
+          "tl_functional"
+        ]
+      },
+      "dsr_plus_tl": {
+        "r_squared": 0.13591888862377133,
+        "aic": -34841.46632163349,
+        "features": [
+          "dsr_cognitive",
+          "tl_functional"
+        ]
+      },
+      "all_features": {
+        "r_squared": 0.5064740801563332,
+        "aic": -40297.69834153824,
+        "features": [
+          "dsr_bridging_score",
+          "dsr_integration_depth",
+          "dsr_irreplaceability",
+          "dsr_path_centrality",
+          "dsr_bottleneck_score",
+          "dsr_cascade_impact",
+          "dsr_cognitive",
+          "tl_conventional_density",
+          "tl_structural_complexity",
+          "tl_pragmatic_richness",
+          "tl_dsr_interaction",
+          "tl_functional",
+          "dsr_tl_interaction",
+          "dsr_cognitive_sq",
+          "tl_functional_sq",
+          "dsr_cognitive_wavelet_denoised",
+          "tl_functional_wavelet_denoised",
+          "dsr_cognitive_reconstructed",
+          "tl_functional_reconstructed",
+          "dsr_cognitive_ma30"
+        ]
+      }
+    },
+    "total_effect": {
+      "coefficient": 0.12822629724937684,
+      "p_value": 1.4874921644671204e-296,
+      "r_squared": 0.12657982080850583
+    },
+    "necessity_verdict": {
+      "is_necessary": true,
+      "criteria_met": [
+        "direct_effect_significant",
+        "substantial_indirect_effect",
+        "model_improvement"
+      ],
+      "confidence": 1.0
+    }
+  },
+  "robustness_tests": {
+    "noise_resistance": {
+      "test_results": [
+        {
+          "noise_level": 0.05,
+          "correlation": 0.35485207082745357,
+          "correlation_change": 0.0009285087556710203
+        },
+        {
+          "noise_level": 0.1,
+          "correlation": 0.3546204385926388,
+          "correlation_change": 0.0011601409904857807
+        },
+        {
+          "noise_level": 0.2,
+          "correlation": 0.3479178089802778,
+          "correlation_change": 0.007862770602846791
+        }
+      ],
+      "average_stability": 0.9966828598836655
+    },
+    "subsample_stability": {
+      "test_results": [
+        {
+          "sample_size": 0.5,
+          "mean_correlation": 0.359164397264609,
+          "std_correlation": 0.005560906361817862
+        },
+        {
+          "sample_size": 0.7,
+          "mean_correlation": 0.3565032633745565,
+          "std_correlation": 0.004291669137737704
+        },
+        {
+          "sample_size": 0.9,
+          "mean_correlation": 0.35671160162243004,
+          "std_correlation": 0.0025851340986617817
+        }
+      ],
+      "stability_score": 0.9958540968005942
+    },
+    "temporal_consistency": {
+      "yearly_correlations": [
+        {
+          "year": 2021,
+          "correlation": 0.3176510459341726,
+          "n_samples": 2127
+        },
+        {
+          "year": 2022,
+          "correlation": 0.33845127680372167,
+          "n_samples": 2451
+        },
+        {
+          "year": 2023,
+          "correlation": 0.3619695273261835,
+          "n_samples": 2323
+        },
+        {
+          "year": 2024,
+          "correlation": 0.42658316249504813,
+          "n_samples": 2113
+        },
+        {
+          "year": 2025,
+          "correlation": 0.3915678097580755,
+          "n_samples": 998
+        }
+      ],
+      "consistency_score": 0.9614537005947723
+    },
+    "cross_validation": {
+      "cv_scores": [
+        -0.001240173117914414,
+        -0.001065601039041605,
+        -0.0012177318183049022,
+        -0.0011930903166181659,
+        -0.0011131728651487208
+      ],
+      "mean_score": -0.0011659538314055615,
+      "std_score": 6.600358260151404e-05,
+      "stability": 0.9433909123811991
+    },
+    "overall_robustness": 0.9743453924150578
+  },
+  "integrated_evidence": {
+    "information_theory": {
+      "criteria_passed": 7,
+      "total_criteria": 10,
+      "pass_rate": 0.7,
+      "key_evidence": [
+        "联合互信息: 0.123",
+        "DSR→CS传递熵: 0.000",
+        "功能互补性: 0.356",
+        "非线性互信息: 0.552"
+      ]
+    },
+    "statistical_tests": {
+      "evidence_list": [
+        "直接效应显著",
+        "路径必要性确认"
+      ],
+      "strength": 1.0
+    },
+    "experimental_tests": {
+      "evidence_list": [
+        "虚拟移除显示显著性能损失",
+        "高鲁棒性得分: 0.974"
+      ],
+      "strength": 1.0
+    },
+    "convergence_analysis": {
+      "mean_strength": 0.9,
+      "std_strength": 0.14142135623730953,
+      "convergence_level": "high"
+    }
+  },
+  "constitutiveness_score": {
+    "component_scores": {
+      "information_theory": 0.7,
+      "path_necessity": 1.0,
+      "performance_loss": 1,
+      "robustness": 0.9743453924150578
+    },
+    "weighted_score": 0.9048690784830116,
+    "confidence_level": "high",
+    "verdict": "强构成性",
+    "interpretation": "信息论证据中等支持构成性 | DSR是认知系统的必要路径 | 移除DSR导致显著性能损失 | 构成性关系具有高鲁棒性"
+  }
+}

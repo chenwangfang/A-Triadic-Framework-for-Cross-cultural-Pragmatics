@@ -1,0 +1,1420 @@
+{
+  "functional_patterns": {
+    "ded_combinations": [
+      {
+        "pattern": "contextualizing",
+        "sample_size": 5342,
+        "cognitive_profile": {
+          "dsr_mean": 0.31059139859554086,
+          "dsr_std": 0.12511551337663587,
+          "tl_mean": 0.37805328453952264,
+          "cs_mean": 0.5536509257925899
+        },
+        "context_distribution": {
+          "3": 2936,
+          "2": 1623,
+          "1": 783
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2023": 1830,
+            "2022": 1726,
+            "2021": 1339,
+            "2024": 447
+          },
+          "peak_months": [
+            "2023-02",
+            "2023-03",
+            "2021-12"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": 0.005401332884368989,
+          "stability": 0.00439404394116838,
+          "combined_score": 0.0048976884127686846
+        },
+        "count": 5342,
+        "percentage": 53.355972832600884
+      },
+      {
+        "pattern": "contextualizing|contextualizing",
+        "sample_size": 852,
+        "cognitive_profile": {
+          "dsr_mean": 0.32530593178799316,
+          "dsr_std": 0.117130958198286,
+          "tl_mean": 0.38730480984830984,
+          "cs_mean": 0.5555328227404135
+        },
+        "context_distribution": {
+          "3": 483,
+          "2": 236,
+          "1": 133
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 311,
+            "2022": 304,
+            "2023": 204,
+            "2024": 33
+          },
+          "peak_months": [
+            "2022-05",
+            "2021-05",
+            "2021-11"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": 0.008818760024013425,
+          "stability": -0.028407429288879182,
+          "combined_score": -0.009794334632432879
+        },
+        "count": 852,
+        "percentage": 8.509788254095085
+      },
+      {
+        "pattern": "contextualizing|contextualizing|contextualizing",
+        "sample_size": 752,
+        "cognitive_profile": {
+          "dsr_mean": 0.3034949072351389,
+          "dsr_std": 0.12981259250050728,
+          "tl_mean": 0.37519647421197944,
+          "cs_mean": 0.5504683852500795
+        },
+        "context_distribution": {
+          "3": 402,
+          "2": 244,
+          "1": 106
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 270,
+            "2022": 258,
+            "2023": 205,
+            "2024": 19
+          },
+          "peak_months": [
+            "2021-11",
+            "2021-07",
+            "2022-03"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": -0.0003779954872360956,
+          "stability": -0.020501265562062,
+          "combined_score": -0.010439630524649047
+        },
+        "count": 752,
+        "percentage": 7.510986815821015
+      },
+      {
+        "pattern": "bridging|contextualizing|contextualizing",
+        "sample_size": 77,
+        "cognitive_profile": {
+          "dsr_mean": 0.3378511361149564,
+          "dsr_std": 0.11272312508600438,
+          "tl_mean": 0.39215486770737706,
+          "cs_mean": 0.555506775802814
+        },
+        "context_distribution": {
+          "3": 42,
+          "2": 20,
+          "1": 15
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 30,
+            "2022": 30,
+            "2023": 17
+          },
+          "peak_months": [
+            "2022-05",
+            "2021-05",
+            "2021-04"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": 0.008771460137821511,
+          "stability": -0.07416386820490684,
+          "combined_score": -0.03269620403354266
+        },
+        "count": 77,
+        "percentage": 0.7690771074710347
+      },
+      {
+        "pattern": "contextualizing|contextualizing|engaging",
+        "sample_size": 75,
+        "cognitive_profile": {
+          "dsr_mean": 0.3262386218967526,
+          "dsr_std": 0.11682192644365597,
+          "tl_mean": 0.3894382239026338,
+          "cs_mean": 0.5478058330708603
+        },
+        "context_distribution": {
+          "3": 44,
+          "2": 18,
+          "1": 13
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 31,
+            "2022": 26,
+            "2023": 14,
+            "2024": 4
+          },
+          "peak_months": [
+            "2021-06",
+            "2021-05",
+            "2022-12"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": -0.005213051991528809,
+          "stability": 0.011338243511296975,
+          "combined_score": 0.0030625957598840827
+        },
+        "count": 75,
+        "percentage": 0.7491010787055533
+      },
+      {
+        "pattern": "bridging|contextualizing",
+        "sample_size": 66,
+        "cognitive_profile": {
+          "dsr_mean": 0.3509577053744182,
+          "dsr_std": 0.1040409949635649,
+          "tl_mean": 0.3882054387562819,
+          "cs_mean": 0.5582066818211666
+        },
+        "context_distribution": {
+          "3": 46,
+          "1": 11,
+          "2": 9
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 31,
+            "2022": 28,
+            "2023": 7
+          },
+          "peak_months": [
+            "2021-11",
+            "2022-05",
+            "2022-01"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": 0.0136743492743803,
+          "stability": -0.07987255346578137,
+          "combined_score": -0.033099102095700536
+        },
+        "count": 66,
+        "percentage": 0.6592089492608869
+      },
+      {
+        "pattern": "contextualizing|engaging",
+        "sample_size": 66,
+        "cognitive_profile": {
+          "dsr_mean": 0.3137748996682794,
+          "dsr_std": 0.11856885020909601,
+          "tl_mean": 0.3835187103777203,
+          "cs_mean": 0.547182355402852
+        },
+        "context_distribution": {
+          "3": 34,
+          "2": 22,
+          "1": 10
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 32,
+            "2022": 18,
+            "2023": 14,
+            "2024": 2
+          },
+          "peak_months": [
+            "2021-06",
+            "2021-07",
+            "2022-01"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": -0.006345255062519451,
+          "stability": -0.20799353548023247,
+          "combined_score": -0.10716939527137596
+        },
+        "count": 66,
+        "percentage": 0.6592089492608869
+      },
+      {
+        "pattern": "engaging",
+        "sample_size": 39,
+        "cognitive_profile": {
+          "dsr_mean": 0.3105280613743251,
+          "dsr_std": 0.1275447194992133,
+          "tl_mean": 0.37467438948166876,
+          "cs_mean": 0.5436806900124573
+        },
+        "context_distribution": {
+          "3": 24,
+          "2": 12,
+          "1": 3
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 16,
+            "2022": 13,
+            "2023": 9,
+            "2024": 1
+          },
+          "peak_months": [
+            "2021-07",
+            "2021-10",
+            "2022-05"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": -0.012704097587306869,
+          "stability": -0.12407717924750794,
+          "combined_score": -0.0683906384174074
+        },
+        "count": 39,
+        "percentage": 0.38953256092688776
+      },
+      {
+        "pattern": "bridging",
+        "sample_size": 38,
+        "cognitive_profile": {
+          "dsr_mean": 0.3332163407760045,
+          "dsr_std": 0.1087604640811862,
+          "tl_mean": 0.37816572133164894,
+          "cs_mean": 0.5527422103421117
+        },
+        "context_distribution": {
+          "3": 20,
+          "2": 12,
+          "1": 6
+        },
+        "temporal_distribution": {
+          "yearly_distribution": {
+            "2021": 15,
+            "2022": 14,
+            "2023": 7,
+            "2024": 2
+          },
+          "peak_months": [
+            "2021-09",
+            "2022-01",
+            "2021-12"
+          ],
+          "trend": "decreasing"
+        },
+        "effectiveness": {
+          "relative_effectiveness": 0.0037511528114006275,
+          "stability": -0.10255778761885415,
+          "combined_score": -0.04940331740372676
+        },
+        "count": 38,
+        "percentage": 0.37954454654414704
+      }
+    ],
+    "cognitive_patterns": [
+      {
+        "cluster_id": 0,
+        "size": 7283,
+        "centroid": {
+          "dsr": 0.3810276116651994,
+          "tl": 0.39936989975339626,
+          "cs": 0.5605433352660533
+        },
+        "cognitive_load_level": "medium"
+      },
+      {
+        "cluster_id": 1,
+        "size": 2537,
+        "centroid": {
+          "dsr": 0.09796208422020757,
+          "tl": 0.2992985670646031,
+          "cs": 0.5252415841169779
+        },
+        "cognitive_load_level": "low"
+      }
+    ],
+    "context_patterns": [
+      {
+        "context": 1,
+        "size": 1503,
+        "dsr_response": {
+          "mean": 0.2104090515616431,
+          "variability": 0.1378571168912525
+        },
+        "functional_adaptations": {
+          "contextualizing": 623,
+          "engaging": 62,
+          "bridging": 59
+        },
+        "performance": 0.5527258609594727
+      },
+      {
+        "context": 2,
+        "size": 3003,
+        "dsr_response": {
+          "mean": 0.28296219225124947,
+          "variability": 0.132425485006094
+        },
+        "functional_adaptations": {
+          "contextualizing": 2366,
+          "engaging": 56,
+          "bridging": 54
+        },
+        "performance": 0.5386105563439761
+      },
+      {
+        "context": 3,
+        "size": 5506,
+        "dsr_response": {
+          "mean": 0.347831925144522,
+          "variability": 0.09966990831429774
+        },
+        "functional_adaptations": {
+          "contextualizing": 7037,
+          "engaging": 121,
+          "bridging": 118
+        },
+        "performance": 0.5566979719768416
+      }
+    ],
+    "pattern_summary": {
+      "total_patterns": 9,
+      "high_effectiveness_patterns": 0,
+      "average_effectiveness": -0.03367025980068694,
+      "dominant_pattern": "contextualizing",
+      "dominant_pattern_coverage": 53.355972832600884
+    }
+  },
+  "session_analysis": {
+    "n_sessions": 948,
+    "session_details": [
+      {
+        "session_id": 0,
+        "date": "2021-03-19",
+        "duration_minutes": 0.0,
+        "n_exchanges": 10,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3558077270531401,
+          "end_level": 0.3586726045510455,
+          "peak": 0.4185087257444765,
+          "trough": 0.093485
+        },
+        "functional_diversity": -0.0,
+        "performance_metrics": {
+          "mean_cs": 0.5344596937272745,
+          "cs_trend": 0.0051526451914062675,
+          "peak_performance": 0.5935949711815561,
+          "stability": 0.9386985403015914
+        },
+        "context_complexity": {
+          "changes": 6,
+          "diversity": 3,
+          "dominant": 2,
+          "complexity_score": 0.8
+        }
+      },
+      {
+        "session_id": 1,
+        "date": "2021-03-22",
+        "duration_minutes": 0.0,
+        "n_exchanges": 14,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.125812,
+          "end_level": 0.4208819322344322,
+          "peak": 0.4568867832047986,
+          "trough": 0.093505
+        },
+        "functional_diversity": 0.24493002679463532,
+        "performance_metrics": {
+          "mean_cs": 0.5510002547771412,
+          "cs_trend": 0.004404431965870642,
+          "peak_performance": 0.6155332661674608,
+          "stability": 0.9253677367448926
+        },
+        "context_complexity": {
+          "changes": 5,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.6785714285714286
+        }
+      },
+      {
+        "session_id": 2,
+        "date": "2021-03-23",
+        "duration_minutes": 0.0,
+        "n_exchanges": 19,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3578211794582392,
+          "end_level": 0.3619567237442923,
+          "peak": 0.4778117699115043,
+          "trough": 0.1083069999999999
+        },
+        "functional_diversity": 0.22863187358286127,
+        "performance_metrics": {
+          "mean_cs": 0.5541346168042529,
+          "cs_trend": -0.00034197872905690734,
+          "peak_performance": 0.610066881260097,
+          "stability": 0.9523915824535062
+        },
+        "context_complexity": {
+          "changes": 6,
+          "diversity": 2,
+          "dominant": 3,
+          "complexity_score": 0.49122807017543857
+        }
+      },
+      {
+        "session_id": 3,
+        "date": "2021-03-24",
+        "duration_minutes": 0.0,
+        "n_exchanges": 19,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3802467753623188,
+          "end_level": 0.3584546045510455,
+          "peak": 0.4386755446171559,
+          "trough": 0.087621
+        },
+        "functional_diversity": 0.19144408195771734,
+        "performance_metrics": {
+          "mean_cs": 0.5481656931995047,
+          "cs_trend": 0.001170597659421159,
+          "peak_performance": 0.6281900652173913,
+          "stability": 0.9102699177191578
+        },
+        "context_complexity": {
+          "changes": 11,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.7894736842105263
+        }
+      },
+      {
+        "session_id": 4,
+        "date": "2021-03-25",
+        "duration_minutes": 0.0,
+        "n_exchanges": 14,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3662866839762612,
+          "end_level": 0.112077,
+          "peak": 0.4201945757575757,
+          "trough": 0.100835
+        },
+        "functional_diversity": 0.22371807606583377,
+        "performance_metrics": {
+          "mean_cs": 0.5498626874518912,
+          "cs_trend": 0.002647495321482709,
+          "peak_performance": 0.5896506328671329,
+          "stability": 0.9456554195251738
+        },
+        "context_complexity": {
+          "changes": 6,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.7142857142857143
+        }
+      },
+      {
+        "session_id": 5,
+        "date": "2021-03-26",
+        "duration_minutes": 0.0,
+        "n_exchanges": 18,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.4835949074074073,
+          "end_level": 0.3998635909090909,
+          "peak": 0.4835949074074073,
+          "trough": 0.088323
+        },
+        "functional_diversity": 0.3887343902209295,
+        "performance_metrics": {
+          "mean_cs": 0.5473086487356731,
+          "cs_trend": -0.001222701484204163,
+          "peak_performance": 0.5849361666666666,
+          "stability": 0.9526766330872735
+        },
+        "context_complexity": {
+          "changes": 12,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.8333333333333333
+        }
+      },
+      {
+        "session_id": 6,
+        "date": "2021-03-29",
+        "duration_minutes": 0.0,
+        "n_exchanges": 11,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3642601258503401,
+          "end_level": 0.3278193548256286,
+          "peak": 0.3835951790123457,
+          "trough": 0.08069
+        },
+        "functional_diversity": 0.45056120886630463,
+        "performance_metrics": {
+          "mean_cs": 0.5436921785930756,
+          "cs_trend": 0.0030916197059351045,
+          "peak_performance": 0.5943566836734694,
+          "stability": 0.9372182937789163
+        },
+        "context_complexity": {
+          "changes": 7,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.8181818181818181
+        }
+      },
+      {
+        "session_id": 7,
+        "date": "2021-03-30",
+        "duration_minutes": 0.0,
+        "n_exchanges": 10,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3520032245263697,
+          "end_level": 0.348786599811676,
+          "peak": 0.4248836666666666,
+          "trough": 0.10145
+        },
+        "functional_diversity": 0.6779087256441981,
+        "performance_metrics": {
+          "mean_cs": 0.5184835032814921,
+          "cs_trend": 0.00931379988051907,
+          "peak_performance": 0.5917314905660377,
+          "stability": 0.8819785600706086
+        },
+        "context_complexity": {
+          "changes": 6,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.8
+        }
+      },
+      {
+        "session_id": 8,
+        "date": "2021-03-31",
+        "duration_minutes": 0.0,
+        "n_exchanges": 10,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3703387435897436,
+          "end_level": 0.3620600197740112,
+          "peak": 0.4447055593869731,
+          "trough": 0.3620600197740112
+        },
+        "functional_diversity": 0.5566469035821068,
+        "performance_metrics": {
+          "mean_cs": 0.5590118970407809,
+          "cs_trend": 0.0021082248490467644,
+          "peak_performance": 0.6151874141799953,
+          "stability": 0.9323131381038468
+        },
+        "context_complexity": {
+          "changes": 5,
+          "diversity": 3,
+          "dominant": 1,
+          "complexity_score": 0.75
+        }
+      },
+      {
+        "session_id": 9,
+        "date": "2021-04-01",
+        "duration_minutes": 0.0,
+        "n_exchanges": 14,
+        "cognitive_trajectory": {
+          "type": "stable",
+          "start_level": 0.3511857549019607,
+          "end_level": 0.3538926751751751,
+          "peak": 0.4232228694499668,
+          "trough": 0.3511857549019607
+        },
+        "functional_diversity": 0.24493002679463532,
+        "performance_metrics": {
+          "mean_cs": 0.550950587530837,
+          "cs_trend": -0.0020896776867792084,
+          "peak_performance": 0.6083219670329671,
+          "stability": 0.9007007758225455
+        },
+        "context_complexity": {
+          "changes": 7,
+          "diversity": 3,
+          "dominant": 3,
+          "complexity_score": 0.75
+        }
+      }
+    ],
+    "session_patterns": [
+      {
+        "pattern_type": "stable_trajectory",
+        "n_sessions": 948,
+        "avg_performance": 0.5506584548799994,
+        "avg_duration": 0.0,
+        "characteristics": {
+          "avg_exchanges": 10.410337552742616,
+          "avg_diversity": 0.12099996433250201,
+          "stability_range": [
+            0.8181536946421147,
+            0.980190159417927
+          ]
+        }
+      }
+    ],
+    "session_statistics": {
+      "total_sessions": 948,
+      "avg_session_performance": 0.5506584548799994,
+      "performance_std": 0.02204660376165866,
+      "avg_duration": 0.0,
+      "high_performance_sessions": 237
+    }
+  },
+  "critical_moments": {
+    "n_moments": 1513,
+    "moment_types": {
+      "high_cognitive_load": 1002,
+      "cognitive_jump": 501,
+      "high_synergy": 10
+    },
+    "top_moments": [
+      {
+        "type": "cognitive_jump",
+        "index": 3767,
+        "date": "2022-08-08 00:00:00",
+        "jump_magnitude": 0.4262988333333334,
+        "before_value": 0.5098898333333334,
+        "after_value": 0.083591,
+        "context": 2,
+        "significance": 3.3635501681336297
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 4154,
+        "date": "2022-10-17 00:00:00",
+        "jump_magnitude": 0.3918160225035161,
+        "before_value": 0.4902070225035161,
+        "after_value": 0.098391,
+        "context": 1,
+        "significance": 3.0914765542852405
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 7043,
+        "date": "2024-01-22 00:00:00",
+        "jump_magnitude": 0.39045470530654297,
+        "before_value": 0.472780705306543,
+        "after_value": 0.082326,
+        "context": 2,
+        "significance": 3.08073559435589
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 3128,
+        "date": "2022-05-18 00:00:00",
+        "jump_magnitude": 0.3903580041407868,
+        "before_value": 0.0884729999999999,
+        "after_value": 0.4788310041407867,
+        "context": 3,
+        "significance": 3.079972610277809
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 3372,
+        "date": "2022-06-17 00:00:00",
+        "jump_magnitude": 0.3896661102756892,
+        "before_value": 0.4805841102756892,
+        "after_value": 0.090918,
+        "context": 1,
+        "significance": 3.074513482679259
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 1204,
+        "date": "2021-09-02 00:00:00",
+        "jump_magnitude": 0.3851207769423559,
+        "before_value": 0.4995197769423559,
+        "after_value": 0.114399,
+        "context": 3,
+        "significance": 3.038650244260302
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 6643,
+        "date": "2023-11-17 00:00:00",
+        "jump_magnitude": 0.3846178559463986,
+        "before_value": 0.4710898559463986,
+        "after_value": 0.086472,
+        "context": 1,
+        "significance": 3.034682135815615
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 4153,
+        "date": "2022-10-17 00:00:00",
+        "jump_magnitude": 0.3839860225035161,
+        "before_value": 0.106221,
+        "after_value": 0.4902070225035161,
+        "context": 3,
+        "significance": 3.029696892327092
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 4835,
+        "date": "2023-02-14 00:00:00",
+        "jump_magnitude": 0.3835496433203633,
+        "before_value": 0.4864346433203632,
+        "after_value": 0.1028849999999999,
+        "context": 2,
+        "significance": 3.026253806960457
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 6829,
+        "date": "2023-12-15 00:00:00",
+        "jump_magnitude": 0.38318867395967393,
+        "before_value": 0.4865266739596739,
+        "after_value": 0.103338,
+        "context": 3,
+        "significance": 3.023405714357566
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 3876,
+        "date": "2022-08-29 00:00:00",
+        "jump_magnitude": 0.3824344938271605,
+        "before_value": 0.4738354938271605,
+        "after_value": 0.091401,
+        "context": 2,
+        "significance": 3.0174551404568977
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 6828,
+        "date": "2023-12-15 00:00:00",
+        "jump_magnitude": 0.38238967395967394,
+        "before_value": 0.104137,
+        "after_value": 0.4865266739596739,
+        "context": 3,
+        "significance": 3.017101506196064
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 403,
+        "date": "2021-05-11 00:00:00",
+        "jump_magnitude": 0.38070195302773063,
+        "before_value": 0.095232,
+        "after_value": 0.4759339530277306,
+        "context": 3,
+        "significance": 3.003785180697322
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 6120,
+        "date": "2023-08-25 00:00:00",
+        "jump_magnitude": 0.378602220657277,
+        "before_value": 0.467728220657277,
+        "after_value": 0.089126,
+        "context": 2,
+        "significance": 2.9872180343308847
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 3838,
+        "date": "2022-08-15 00:00:00",
+        "jump_magnitude": 0.3760927627627627,
+        "before_value": 0.4767477627627627,
+        "after_value": 0.100655,
+        "context": 1,
+        "significance": 2.967418103242596
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 5221,
+        "date": "2023-03-29 00:00:00",
+        "jump_magnitude": 0.37328177477477475,
+        "before_value": 0.100299,
+        "after_value": 0.4735807747747748,
+        "context": 3,
+        "significance": 2.945239062672186
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 76,
+        "date": "2021-03-26 00:00:00",
+        "jump_magnitude": 0.3715179074074073,
+        "before_value": 0.112077,
+        "after_value": 0.4835949074074073,
+        "context": 3,
+        "significance": 2.9313219324429434
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 2275,
+        "date": "2022-01-21 00:00:00",
+        "jump_magnitude": 0.3707535567240281,
+        "before_value": 0.084963,
+        "after_value": 0.4557165567240281,
+        "context": 3,
+        "significance": 2.9252911116464366
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 1521,
+        "date": "2021-10-21 00:00:00",
+        "jump_magnitude": 0.3698512664092664,
+        "before_value": 0.1017809999999999,
+        "after_value": 0.4716322664092663,
+        "context": 3,
+        "significance": 2.9181719302116873
+      },
+      {
+        "type": "cognitive_jump",
+        "index": 1760,
+        "date": "2021-11-22 00:00:00",
+        "jump_magnitude": 0.369445489687292,
+        "before_value": 0.095265,
+        "after_value": 0.464710489687292,
+        "context": 2,
+        "significance": 2.9149703020234288
+      }
+    ],
+    "common_patterns": {
+      "high_cognitive_load": {
+        "count": 1002,
+        "dominant_context": 3,
+        "avg_significance": 0.0,
+        "temporal_clustering": "highly_clustered"
+      },
+      "cognitive_jump": {
+        "count": 501,
+        "dominant_context": 3,
+        "avg_significance": 2.6357814715113257,
+        "temporal_clustering": "highly_clustered"
+      },
+      "high_synergy": {
+        "count": 10,
+        "dominant_context": 3,
+        "avg_significance": 0.7527555816918042,
+        "temporal_clustering": "highly_clustered"
+      }
+    }
+  },
+  "pattern_based_metrics": {
+    "new_metrics": [
+      "pattern_efficiency",
+      "cognitive_adaptability",
+      "context_responsiveness",
+      "synergy_effectiveness",
+      "constitutiveness_revised"
+    ],
+    "metric_statistics": {
+      "pattern_efficiency": {
+        "count": 10012.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "cognitive_adaptability": {
+        "count": 10012.0,
+        "mean": 0.7197291126045152,
+        "std": 0.06256353360861719,
+        "min": 0.565302092637543,
+        "25%": 0.6767062638648318,
+        "50%": 0.7133635567154821,
+        "75%": 0.760778142629543,
+        "max": 0.9638423635481775
+      },
+      "context_responsiveness": {
+        "count": 10012.0,
+        "mean": 1.3307221105976095,
+        "std": 0.8569638460078141,
+        "min": 0.3691769432949556,
+        "25%": 0.8094476364533101,
+        "50%": 0.9197875474417587,
+        "75%": 1.917339599204054,
+        "max": 4.3069811332240535
+      },
+      "synergy_effectiveness": {
+        "count": 10012.0,
+        "mean": 0.025705719615927717,
+        "std": 0.06457957953128986,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.5122647721371724
+      },
+      "constitutiveness_revised": {
+        "count": 10012.0,
+        "mean": 0.487204299824062,
+        "std": 0.16687789734386912,
+        "min": 0.2820271396169378,
+        "25%": 0.3807621090210524,
+        "50%": 0.40904967708780393,
+        "75%": 0.5926154420116205,
+        "max": 1.0767540281493362
+      }
+    },
+    "metric_correlations": {
+      "pattern_efficiency": {
+        "pattern_efficiency": NaN,
+        "cognitive_adaptability": NaN,
+        "context_responsiveness": NaN,
+        "synergy_effectiveness": NaN,
+        "constitutiveness_revised": NaN
+      },
+      "cognitive_adaptability": {
+        "pattern_efficiency": NaN,
+        "cognitive_adaptability": 1.0,
+        "context_responsiveness": -0.28812141017682097,
+        "synergy_effectiveness": 0.3197106441790156,
+        "constitutiveness_revised": -0.15869992911497313
+      },
+      "context_responsiveness": {
+        "pattern_efficiency": NaN,
+        "cognitive_adaptability": -0.28812141017682097,
+        "context_responsiveness": 1.0,
+        "synergy_effectiveness": -0.07852275154961047,
+        "constitutiveness_revised": 0.9885719469918299
+      },
+      "synergy_effectiveness": {
+        "pattern_efficiency": NaN,
+        "cognitive_adaptability": 0.3197106441790156,
+        "context_responsiveness": -0.07852275154961047,
+        "synergy_effectiveness": 1.0,
+        "constitutiveness_revised": 0.03270865974080758
+      },
+      "constitutiveness_revised": {
+        "pattern_efficiency": NaN,
+        "cognitive_adaptability": -0.15869992911497313,
+        "context_responsiveness": 0.9885719469918299,
+        "synergy_effectiveness": 0.03270865974080758,
+        "constitutiveness_revised": 1.0
+      }
+    },
+    "improvement_over_original": {
+      "correlation_improvement": -0.6702626433481907,
+      "old_correlation": 0.4126347144535651,
+      "new_correlation": -0.25762792889462566,
+      "entropy_ratio": 0.9721287584821002
+    }
+  },
+  "aggregated_analysis": {
+    "daily": {
+      "n_days": 989,
+      "avg_stability": 0.8210780271771813,
+      "autocorrelation": [
+        0.5563921527798775,
+        0.5806320469617693,
+        0.53815825876401,
+        0.5689410722620376,
+        0.5626483182964988
+      ],
+      "trend": {
+        "linear_slope": -3.2688052640641454e-06,
+        "linear_r2": 0.0017623995910400515,
+        "linear_p": 0.1871209098444475,
+        "nonlinear_coefficient": -2.5230919985508445e-08,
+        "trend_type": "stable"
+      },
+      "data_sample": {
+        "dsr_cognitive_mean": {
+          "2021-03-19": 0.2916337577857713,
+          "2021-03-22": 0.30502767928635593,
+          "2021-03-23": 0.3754438599421294,
+          "2021-03-24": 0.32505504682193587,
+          "2021-03-25": 0.32219727429525286,
+          "2021-03-26": 0.3473399984434077,
+          "2021-03-29": 0.2840899121663264,
+          "2021-03-30": 0.33037901745694714,
+          "2021-03-31": 0.38674219848183095,
+          "2021-04-01": 0.3854459404563103
+        },
+        "dsr_cognitive_std": {
+          "2021-03-19": 0.1347077036222877,
+          "2021-03-22": 0.13212319806961026,
+          "2021-03-23": 0.07309479779931674,
+          "2021-03-24": 0.12302575192331405,
+          "2021-03-25": 0.11959056904947128,
+          "2021-03-26": 0.09988291143428267,
+          "2021-03-29": 0.12581753167002574,
+          "2021-03-30": 0.11713993687216302,
+          "2021-03-31": 0.027290718233442278,
+          "2021-04-01": 0.02655071887917662
+        },
+        "dsr_cognitive_max": {
+          "2021-03-19": 0.4185087257444765,
+          "2021-03-22": 0.4568867832047986,
+          "2021-03-23": 0.4778117699115043,
+          "2021-03-24": 0.4386755446171559,
+          "2021-03-25": 0.4201945757575757,
+          "2021-03-26": 0.4835949074074073,
+          "2021-03-29": 0.3835951790123457,
+          "2021-03-30": 0.4248836666666666,
+          "2021-03-31": 0.4447055593869731,
+          "2021-04-01": 0.4232228694499668
+        },
+        "tl_functional_mean": {
+          "2021-03-19": 0.3445927288354702,
+          "2021-03-22": 0.409317094992728,
+          "2021-03-23": 0.43563147123241786,
+          "2021-03-24": 0.3883576251702029,
+          "2021-03-25": 0.4100342412874255,
+          "2021-03-26": 0.4329206750587492,
+          "2021-03-29": 0.39994064979123567,
+          "2021-03-30": 0.4614104395776735,
+          "2021-03-31": 0.4699679964166621,
+          "2021-04-01": 0.4463084751074029
+        },
+        "tl_functional_std": {
+          "2021-03-19": 0.06116547309095876,
+          "2021-03-22": 0.08266663253179078,
+          "2021-03-23": 0.07714425755515307,
+          "2021-03-24": 0.06210253148272054,
+          "2021-03-25": 0.08985944219586318,
+          "2021-03-26": 0.08255047106684377,
+          "2021-03-29": 0.06232291598907042,
+          "2021-03-30": 0.07015232311865342,
+          "2021-03-31": 0.07393112348358973,
+          "2021-04-01": 0.07653606485474904
+        },
+        "cs_output_mean": {
+          "2021-03-19": 0.5344596937272745,
+          "2021-03-22": 0.5510002547771411,
+          "2021-03-23": 0.5541346168042529,
+          "2021-03-24": 0.5481656931995047,
+          "2021-03-25": 0.5498626874518913,
+          "2021-03-26": 0.5473086487356731,
+          "2021-03-29": 0.5436921785930756,
+          "2021-03-30": 0.5184835032814921,
+          "2021-03-31": 0.5590118970407809,
+          "2021-04-01": 0.5509505875308369
+        },
+        "cs_output_std": {
+          "2021-03-19": 0.03276315937544633,
+          "2021-03-22": 0.041122396068158824,
+          "2021-03-23": 0.02638147221378323,
+          "2021-03-24": 0.04918695275432651,
+          "2021-03-25": 0.02988205706833351,
+          "2021-03-26": 0.025900487998626844,
+          "2021-03-29": 0.03413392263113142,
+          "2021-03-30": 0.06119216963691698,
+          "2021-03-31": 0.037837761073306005,
+          "2021-04-01": 0.054708965901924866
+        },
+        "cs_output_max": {
+          "2021-03-19": 0.5935949711815561,
+          "2021-03-22": 0.6155332661674608,
+          "2021-03-23": 0.610066881260097,
+          "2021-03-24": 0.6281900652173913,
+          "2021-03-25": 0.5896506328671329,
+          "2021-03-26": 0.5849361666666666,
+          "2021-03-29": 0.5943566836734694,
+          "2021-03-30": 0.5917314905660377,
+          "2021-03-31": 0.6151874141799953,
+          "2021-04-01": 0.6083219670329671
+        },
+        "constitutiveness_revised_mean": {
+          "2021-03-19": 0.4876048462252596,
+          "2021-03-22": 0.4990006503237431,
+          "2021-03-23": 0.4429598124199942,
+          "2021-03-24": 0.4644374859572156,
+          "2021-03-25": 0.46762174212493435,
+          "2021-03-26": 0.422678987448325,
+          "2021-03-29": 0.4884819750168243,
+          "2021-03-30": 0.47269860093290134,
+          "2021-03-31": 0.4476887593624229,
+          "2021-04-01": 0.4741815883421655
+        }
+      }
+    },
+    "weekly": {
+      "n_weeks": 213,
+      "stability_improvement": 0.6084009831468037,
+      "pattern_clarity": 0.8572377609808981,
+      "data_sample": {
+        "dsr_cognitive_mean": {
+          "2021-03-15/2021-03-21": 0.2916337577857713,
+          "2021-03-22/2021-03-28": 0.33741367322191784,
+          "2021-03-29/2021-04-04": 0.3495765420945655,
+          "2021-04-05/2021-04-11": 0.33845677655680934,
+          "2021-04-12/2021-04-18": 0.3241626829424714,
+          "2021-04-19/2021-04-25": 0.329307694150315,
+          "2021-04-26/2021-05-02": 0.3373149575403439,
+          "2021-05-03/2021-05-09": 0.3095771627314406,
+          "2021-05-10/2021-05-16": 0.38140766772796225,
+          "2021-05-17/2021-05-23": 0.3105427645908948
+        },
+        "dsr_cognitive_std": {
+          "2021-03-15/2021-03-21": 0.1347077036222877,
+          "2021-03-22/2021-03-28": 0.10982734918056691,
+          "2021-03-29/2021-04-04": 0.09367764427103534,
+          "2021-04-05/2021-04-11": 0.10965513583708715,
+          "2021-04-12/2021-04-18": 0.120651856848164,
+          "2021-04-19/2021-04-25": 0.11430807687692897,
+          "2021-04-26/2021-05-02": 0.11136486817896693,
+          "2021-05-03/2021-05-09": 0.12614052055271205,
+          "2021-05-10/2021-05-16": 0.054383834466758485,
+          "2021-05-17/2021-05-23": 0.13104534890066574
+        },
+        "tl_functional_mean": {
+          "2021-03-15/2021-03-21": 0.3445927288354702,
+          "2021-03-22/2021-03-28": 0.4157057582217789,
+          "2021-03-29/2021-04-04": 0.44089482552103926,
+          "2021-04-05/2021-04-11": 0.39826594614895483,
+          "2021-04-12/2021-04-18": 0.38582924367262833,
+          "2021-04-19/2021-04-25": 0.3878683963564401,
+          "2021-04-26/2021-05-02": 0.38216908431964913,
+          "2021-05-03/2021-05-09": 0.3852498044665519,
+          "2021-05-10/2021-05-16": 0.4356516197272689,
+          "2021-05-17/2021-05-23": 0.38626984245886786
+        },
+        "tl_functional_std": {
+          "2021-03-15/2021-03-21": 0.06116547309095876,
+          "2021-03-22/2021-03-28": 0.07871802507852496,
+          "2021-03-29/2021-04-04": 0.072728332645575,
+          "2021-04-05/2021-04-11": 0.07073171889277698,
+          "2021-04-12/2021-04-18": 0.0903788457920992,
+          "2021-04-19/2021-04-25": 0.08433011929934006,
+          "2021-04-26/2021-05-02": 0.08282128587496573,
+          "2021-05-03/2021-05-09": 0.07065773655919506,
+          "2021-05-10/2021-05-16": 0.08071303379639327,
+          "2021-05-17/2021-05-23": 0.07605518073354275
+        },
+        "cs_output_mean": {
+          "2021-03-15/2021-03-21": 0.5344596937272745,
+          "2021-03-22/2021-03-28": 0.5500874137919043,
+          "2021-03-29/2021-04-04": 0.5447711234184855,
+          "2021-04-05/2021-04-11": 0.552304204942497,
+          "2021-04-12/2021-04-18": 0.5488584704107875,
+          "2021-04-19/2021-04-25": 0.543662404968447,
+          "2021-04-26/2021-05-02": 0.5299057528459685,
+          "2021-05-03/2021-05-09": 0.5442354152708389,
+          "2021-05-10/2021-05-16": 0.5302891511181774,
+          "2021-05-17/2021-05-23": 0.5437002673920946
+        },
+        "cs_output_std": {
+          "2021-03-15/2021-03-21": 0.03276315937544633,
+          "2021-03-22/2021-03-28": 0.034987930818211194,
+          "2021-03-29/2021-04-04": 0.04810658983863534,
+          "2021-04-05/2021-04-11": 0.03785840527849613,
+          "2021-04-12/2021-04-18": 0.03280943582253139,
+          "2021-04-19/2021-04-25": 0.040848051383894315,
+          "2021-04-26/2021-05-02": 0.03585323011787888,
+          "2021-05-03/2021-05-09": 0.0370778509710895,
+          "2021-05-10/2021-05-16": 0.051496090394004185,
+          "2021-05-17/2021-05-23": 0.039887264365649794
+        },
+        "sensitivity_code_<lambda>": {
+          "2021-03-15/2021-03-21": 2,
+          "2021-03-22/2021-03-28": 3,
+          "2021-03-29/2021-04-04": 3,
+          "2021-04-05/2021-04-11": 3,
+          "2021-04-12/2021-04-18": 3,
+          "2021-04-19/2021-04-25": 3,
+          "2021-04-26/2021-05-02": 3,
+          "2021-05-03/2021-05-09": 3,
+          "2021-05-10/2021-05-16": 3,
+          "2021-05-17/2021-05-23": 3
+        }
+      }
+    },
+    "adaptive": {
+      "n_windows": 482,
+      "avg_window_size": 41.906639004149376,
+      "window_details": [
+        {
+          "start": 0,
+          "end": 43,
+          "size": 43,
+          "stability": 0.9391235210742257,
+          "mean_performance": 0.5485385633356634,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 21,
+          "end": 43,
+          "size": 22,
+          "stability": 0.949115641912756,
+          "mean_performance": 0.5564834257627304,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 32,
+          "end": 103,
+          "size": 71,
+          "stability": 0.9373644675721526,
+          "mean_performance": 0.5470972800555608,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 67,
+          "end": 88,
+          "size": 21,
+          "stability": 0.9540620881149785,
+          "mean_performance": 0.5550339315238327,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 77,
+          "end": 103,
+          "size": 26,
+          "stability": 0.9506628904267621,
+          "mean_performance": 0.5413761858636338,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 90,
+          "end": 189,
+          "size": 99,
+          "stability": 0.9209448277836558,
+          "mean_performance": 0.5477232964029097,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 139,
+          "end": 236,
+          "size": 97,
+          "stability": 0.936588154183578,
+          "mean_performance": 0.5519185814345791,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 187,
+          "end": 234,
+          "size": 47,
+          "stability": 0.943476938263546,
+          "mean_performance": 0.5504641297588644,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 210,
+          "end": 234,
+          "size": 24,
+          "stability": 0.9585671750626584,
+          "mean_performance": 0.5588706459928489,
+          "dominant_pattern": "contextualizing"
+        },
+        {
+          "start": 222,
+          "end": 249,
+          "size": 27,
+          "stability": 0.9449464086760916,
+          "mean_performance": 0.554484302471008,
+          "dominant_pattern": "contextualizing"
+        }
+      ],
+      "stability_distribution": {
+        "mean": 0.932097569469123,
+        "std": 0.009846397907983084,
+        "high_stability_windows": 482,
+        "low_stability_windows": 0
+      }
+    },
+    "comparison": {
+      "daily_stability": 0.8210780271771813,
+      "weekly_stability": 0.6084009831468037,
+      "adaptive_stability": 0.932097569469123,
+      "recommendation": "adaptive",
+      "reason": "自适应窗口最好地平衡了稳定性和时间分辨率"
+    },
+    "optimal_level": "adaptive"
+  },
+  "revised_hypotheses": {
+    "test_results": {
+      "H1_revised": {
+        "hypothesis": "DSR通过功能模式中介影响认知系统",
+        "total_effect": 0.12822629724937684,
+        "direct_effect": 0.12822629724937662,
+        "indirect_effect": 0.0,
+        "mediation_ratio": 0.0,
+        "sobel_z": NaN,
+        "sobel_p": NaN,
+        "significant_mediation": false,
+        "conclusion": "不支持"
+      },
+      "H2_revised": {
+        "hypothesis": "存在离散的认知模式",
+        "n_discrete_modes": 2,
+        "separation_index": 2.369305045743173,
+        "well_separated": true,
+        "context_specific": true,
+        "mode_stability": 1.0,
+        "conclusion": "支持"
+      },
+      "H3_revised": {
+        "hypothesis": "认知系统表现为稳态适应",
+        "trend_type": "stable",
+        "is_stable": true,
+        "low_temporal_dependence": false,
+        "convergence_time": 100,
+        "post_convergence_stability": 0.9168842053268875,
+        "conclusion": "部分支持"
+      },
+      "H4_new": {
+        "hypothesis": "功能模式随时间变得更加专门化",
+        "pattern_concentration": 0.3380427455418401,
+        "diversity_trend": "decreasing",
+        "dominant_patterns_share": 0.7089492608869357,
+        "specialization_increasing": true,
+        "conclusion": "支持"
+      }
+    },
+    "summary": {
+      "total_tests": 4,
+      "supported": 2,
+      "partially_supported": 1,
+      "not_supported": 1,
+      "key_findings": [
+        {
+          "hypothesis": "H2_revised",
+          "finding": "存在离散的认知模式",
+          "evidence": "支持"
+        },
+        {
+          "hypothesis": "H3_revised",
+          "finding": "认知系统表现为稳态适应",
+          "evidence": "部分支持"
+        },
+        {
+          "hypothesis": "H4_new",
+          "finding": "功能模式随时间变得更加专门化",
+          "evidence": "支持"
+        }
+      ]
+    },
+    "implications": {
+      "theoretical": [
+        "认知系统存在离散的工作模式，而非连续变化",
+        "系统表现为快速适应后的稳态，而非持续演化",
+        "功能使用趋向专门化，形成稳定的认知策略"
+      ],
+      "practical": [
+        "识别和培养特定语境下的最优模式",
+        "关注初期培训和模式建立的关键期",
+        "支持和强化已证明有效的功能模式"
+      ]
+    }
+  }
+}

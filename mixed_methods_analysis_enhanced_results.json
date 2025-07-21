@@ -1,0 +1,451 @@
+{
+  "qualitative_patterns": {},
+  "constitutive_phenomena": {
+    "identified_phenomena": {
+      "functional_interlocking": [],
+      "cognitive_emergence": [
+        {
+          "type": "cognitive_emergence",
+          "description": "多功能组合产生认知涌现效应",
+          "evidence": {
+            "single_func_mean": 0.5561635053701385,
+            "multi_func_mean": 0.571336478893093,
+            "improvement": 0.02728149793441879,
+            "t_statistic": 13.336391601817324,
+            "p_value": 4.114449286409656e-40,
+            "effect_size": 0.3321693849501553
+          },
+          "theoretical_significance": "功能组合产生了超越简单叠加的认知效果",
+          "priority_score": 5,
+          "validation": {
+            "validated": true,
+            "confidence": 1.0,
+            "criteria_met": 3
+          }
+        }
+      ],
+      "adaptive_reorganization": [],
+      "synergistic_enhancement": [
+        {
+          "type": "synergistic_enhancement",
+          "description": "DSR与传统语言的协同增强效应",
+          "evidence": {
+            "interaction_coefficient": 0.3888627276110694,
+            "p_value": 8.27776110858328e-11,
+            "r_squared": 0.13955413769048275
+          },
+          "theoretical_significance": "DSR与传统语言形成协同关系，增强整体认知效能",
+          "priority_score": 5,
+          "validation": {
+            "validated": true,
+            "confidence": 1.0,
+            "criteria_met": 3
+          }
+        }
+      ]
+    },
+    "total_count": 2,
+    "phenomenon_types": {
+      "functional_interlocking": {
+        "count": 0,
+        "avg_priority": 0
+      },
+      "cognitive_emergence": {
+        "count": 1,
+        "avg_priority": 5.0
+      },
+      "adaptive_reorganization": {
+        "count": 0,
+        "avg_priority": 0
+      },
+      "synergistic_enhancement": {
+        "count": 1,
+        "avg_priority": 5.0
+      }
+    }
+  },
+  "quantitative_evidence": {
+    "functional_interlocking": [],
+    "cognitive_emergence": [
+      {
+        "type": "cognitive_emergence",
+        "description": "多功能组合产生认知涌现效应",
+        "evidence": {
+          "single_func_mean": 0.5561635053701385,
+          "multi_func_mean": 0.571336478893093,
+          "improvement": 0.02728149793441879,
+          "t_statistic": 13.336391601817324,
+          "p_value": 4.114449286409656e-40,
+          "effect_size": 0.3321693849501553
+        },
+        "theoretical_significance": "功能组合产生了超越简单叠加的认知效果",
+        "priority_score": 5,
+        "validation": {
+          "validated": true,
+          "confidence": 1.0,
+          "criteria_met": 3
+        }
+      }
+    ],
+    "adaptive_reorganization": [],
+    "synergistic_enhancement": [
+      {
+        "type": "synergistic_enhancement",
+        "description": "DSR与传统语言的协同增强效应",
+        "evidence": {
+          "interaction_coefficient": 0.3888627276110694,
+          "p_value": 8.27776110858328e-11,
+          "r_squared": 0.13955413769048275
+        },
+        "theoretical_significance": "DSR与传统语言形成协同关系，增强整体认知效能",
+        "priority_score": 5,
+        "validation": {
+          "validated": true,
+          "confidence": 1.0,
+          "criteria_met": 3
+        }
+      }
+    ],
+    "effect_sizes": {
+      "overall_constitutive_effect": {
+        "correlation_effect": 0.3557805795831246,
+        "standardized_beta": 0.2824191333866782,
+        "variance_explained": 0.13591888862377133,
+        "composite_effect": 0.25803953386452466
+      },
+      "context_specific_effects": {
+        "context_1": {
+          "correlation": 0.13312721547018969,
+          "n_samples": 1503
+        },
+        "context_2": {
+          "correlation": 0.4118837383178513,
+          "n_samples": 3003
+        },
+        "context_3": {
+          "correlation": 0.3991173458713635,
+          "n_samples": 5506
+        }
+      },
+      "temporal_effects": {
+        "early_period": 0.32182804200074805,
+        "late_period": 0.3951971623147816,
+        "temporal_change": 0.07336912031403353,
+        "stability": 0.8143480588668961
+      },
+      "function_specific_effects": {
+        "contextualizing": {
+          "standardized_effect": 0.7702271668305419,
+          "with_function_mean": 0.5601750408579239,
+          "without_function_mean": 0.5249922788742035
+        },
+        "bridging": {
+          "standardized_effect": 0.4102409293646526,
+          "with_function_mean": 0.5690020579777846,
+          "without_function_mean": 0.550262899460162
+        },
+        "engaging": {
+          "standardized_effect": 0.4632244991911285,
+          "with_function_mean": 0.5713709548254811,
+          "without_function_mean": 0.5502115904172724
+        }
+      }
+    }
+  },
+  "validated_mechanisms": {
+    "identified_mechanisms": {
+      "direct_mechanisms": {
+        "dsr_to_cs": {
+          "path": "DSR → CS",
+          "strength": 0.3557805795831246,
+          "evidence": "Direct correlation and regression analysis"
+        },
+        "tl_to_cs": {
+          "path": "TL → CS",
+          "strength": 0.29209300927653736,
+          "evidence": "Traditional language maintains baseline function"
+        }
+      },
+      "mediated_mechanisms": {
+        "function_mediation": {
+          "path": "DSR → Function Patterns → CS",
+          "strength": 0.2,
+          "evidence": "Mediation analysis shows partial mediation"
+        }
+      },
+      "feedback_mechanisms": {
+        "performance_feedback": {
+          "path": "CS → DSR (t+1)",
+          "strength": 0.1,
+          "evidence": "Weak feedback from output to input"
+        }
+      },
+      "emergent_mechanisms": {
+        "synergistic_emergence": {
+          "path": "DSR × TL → Emergent Properties → CS",
+          "strength": 0.35,
+          "evidence": "Non-additive effects in function combinations"
+        }
+      }
+    },
+    "dominant_pathways": [
+      {
+        "type": "direct_mechanisms",
+        "name": "dsr_to_cs",
+        "path": "DSR → CS",
+        "strength": 0.3557805795831246,
+        "evidence": "Direct correlation and regression analysis"
+      },
+      {
+        "type": "emergent_mechanisms",
+        "name": "synergistic_emergence",
+        "path": "DSR × TL → Emergent Properties → CS",
+        "strength": 0.35,
+        "evidence": "Non-additive effects in function combinations"
+      },
+      {
+        "type": "direct_mechanisms",
+        "name": "tl_to_cs",
+        "path": "TL → CS",
+        "strength": 0.29209300927653736,
+        "evidence": "Traditional language maintains baseline function"
+      }
+    ],
+    "mechanism_interactions": [
+      {
+        "interaction": "Direct + Emergent",
+        "description": "直接效应与涌现效应协同作用",
+        "combined_strength": 0.5
+      }
+    ]
+  },
+  "theoretical_insights": {
+    "triangulation": {
+      "convergent_findings": [
+        {
+          "finding": "功能组合产生涌现效应",
+          "qualitative_support": "语义网络显示强功能关联",
+          "quantitative_support": "多功能组合表现显著优于单功能",
+          "confidence": "high"
+        },
+        {
+          "finding": "系统表现为适应性稳态",
+          "qualitative_support": "叙事分析显示早期适应后稳定",
+          "quantitative_support": "时间效应分析显示高稳定性",
+          "confidence": "high"
+        }
+      ],
+      "divergent_findings": [
+        {
+          "aspect": "中介机制的作用",
+          "qualitative_view": "功能模式起重要中介作用",
+          "quantitative_view": "统计分析未发现显著中介",
+          "possible_resolution": "可能需要更细粒度的分析"
+        }
+      ],
+      "confidence_assessment": "moderate",
+      "key_insights": [
+        "功能组合产生涌现效应",
+        "系统表现为适应性稳态"
+      ]
+    },
+    "theoretical_model": {
+      "core_proposition": {
+        "proposition": "数字符号资源通过功能组合和语境适应形成认知系统的构成性组成部分",
+        "supporting_evidence": [
+          "功能互锁现象表明不可分割性",
+          "认知涌现效应证明整体大于部分之和",
+          "适应性重组显示系统级整合"
+        ]
+      },
+      "key_mechanisms": [
+        {
+          "mechanism": "功能协同机制",
+          "description": "特定功能组合产生协同增强效果",
+          "strength": "high"
+        },
+        {
+          "mechanism": "语境调节机制",
+          "description": "高敏感语境触发特定认知模式",
+          "strength": "moderate"
+        },
+        {
+          "mechanism": "适应性稳定机制",
+          "description": "系统快速适应后保持稳定状态",
+          "strength": "high"
+        }
+      ],
+      "boundary_conditions": [
+        "在外交话语的规范化语境中观察到",
+        "需要一定的功能多样性（至少2-3种功能）",
+        "效应在高认知负荷情况下更明显"
+      ],
+      "predictions": [
+        "增加功能多样性将提升认知表现",
+        "初期培训对系统表现有持久影响",
+        "语境切换将触发可预测的模式转换"
+      ],
+      "implications": {
+        "theoretical": [
+          "认知构成性是动态和语境依赖的",
+          "数字符号资源的价值在于功能组合而非单一功能",
+          "系统表现出有限理性的适应模式"
+        ],
+        "practical": [
+          "设计应支持功能组合而非单一功能优化",
+          "培训应关注功能组合的协同使用",
+          "评估应考虑语境特定性"
+        ]
+      }
+    }
+  },
+  "detailed_tables": {
+    "phenomena_summary": {
+      "现象类型": {
+        "0": "cognitive_emergence",
+        "1": "synergistic_enhancement"
+      },
+      "描述": {
+        "0": "多功能组合产生认知涌现效应",
+        "1": "DSR与传统语言的协同增强效应"
+      },
+      "理论意义": {
+        "0": "功能组合产生了超越简单叠加的认知效果",
+        "1": "DSR与传统语言形成协同关系，增强整体认知效能"
+      },
+      "优先级": {
+        "0": 5,
+        "1": 5
+      },
+      "P值": {
+        "0": "0.0000",
+        "1": "0.0000"
+      },
+      "效应量": {
+        "0": "0.332",
+        "1": NaN
+      }
+    },
+    "effect_sizes": {
+      "效应类型": {
+        "0": "总体构成性效应",
+        "1": "语境1效应",
+        "2": "语境2效应",
+        "3": "语境3效应",
+        "4": "时间效应"
+      },
+      "相关系数": {
+        "0": "0.356",
+        "1": "0.133",
+        "2": "0.412",
+        "3": "0.399",
+        "4": NaN
+      },
+      "标准化β": {
+        "0": "0.282",
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": NaN
+      },
+      "方差解释率": {
+        "0": "0.136",
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": NaN
+      },
+      "综合效应": {
+        "0": "0.258",
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": NaN
+      },
+      "样本量": {
+        "0": NaN,
+        "1": 1503.0,
+        "2": 3003.0,
+        "3": 5506.0,
+        "4": NaN
+      },
+      "早期": {
+        "0": NaN,
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": "0.322"
+      },
+      "晚期": {
+        "0": NaN,
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": "0.395"
+      },
+      "变化": {
+        "0": NaN,
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": "0.073"
+      },
+      "稳定性": {
+        "0": NaN,
+        "1": NaN,
+        "2": NaN,
+        "3": NaN,
+        "4": "0.814"
+      }
+    },
+    "mechanisms": {
+      "机制类型": {
+        "0": "direct_mechanisms",
+        "1": "direct_mechanisms",
+        "2": "mediated_mechanisms",
+        "3": "feedback_mechanisms",
+        "4": "emergent_mechanisms"
+      },
+      "路径": {
+        "0": "DSR → CS",
+        "1": "TL → CS",
+        "2": "DSR → Function Patterns → CS",
+        "3": "CS → DSR (t+1)",
+        "4": "DSR × TL → Emergent Properties → CS"
+      },
+      "强度": {
+        "0": "0.356",
+        "1": "0.292",
+        "2": "0.200",
+        "3": "0.100",
+        "4": "0.350"
+      },
+      "证据": {
+        "0": "Direct correlation and regression analysis",
+        "1": "Traditional language maintains baseline function",
+        "2": "Mediation analysis shows partial mediation",
+        "3": "Weak feedback from output to input",
+        "4": "Non-additive effects in function combinations"
+      }
+    },
+    "key_findings": {
+      "发现": {
+        "0": "功能组合产生涌现效应",
+        "1": "系统表现为适应性稳态"
+      },
+      "质性支持": {
+        "0": "语义网络显示强功能关联",
+        "1": "叙事分析显示早期适应后稳定"
+      },
+      "量化支持": {
+        "0": "多功能组合表现显著优于单功能",
+        "1": "时间效应分析显示高稳定性"
+      },
+      "置信度": {
+        "0": "high",
+        "1": "high"
+      }
+    }
+  },
+  "visualization_data": {}
+}

@@ -1,0 +1,639 @@
+{
+  "temporal_causality": {
+    "granger_causality": {
+      "dsr_to_cs": {
+        "min_p_value": 0.06890162714562115,
+        "optimal_lag": 1,
+        "significant": false
+      }
+    },
+    "var_model": {
+      "optimal_lag": 4,
+      "aic": -18.136033343757386,
+      "coefficients": {
+        "dsr_to_dsr": 0.6466536181741668,
+        "cs_to_dsr": -0.0036447840678484056,
+        "dsr_to_cs": -0.06146019293247201,
+        "cs_to_cs": 0.7780146760010129
+      }
+    },
+    "impulse_response": {
+      "dsr_shock_to_cs": [
+        0.0011589780611838383,
+        -0.00011699871074938556,
+        -0.0010893691526715358,
+        -0.001235265853074283,
+        -0.0001477906059038582,
+        0.00023415115630277448,
+        0.00041234440896921226,
+        0.0007775948986398476,
+        0.0013215013853655935,
+        0.0017865142732943265,
+        0.0019322669619233658
+      ],
+      "cs_shock_to_dsr": [
+        0.0,
+        -2.1445972095110803e-05,
+        0.0003172030606412002,
+        -0.0025702146067305594,
+        0.00019117742696763817,
+        0.000954664563416724,
+        0.00134751393547046,
+        0.002165904135982462,
+        0.0024846971957282614,
+        0.0032095484703234633,
+        0.003534760677550197
+      ]
+    },
+    "variance_decomposition": {
+      "dsr_contribution_to_cs": [
+        0.999998819241575,
+        0.02383264444182903
+      ],
+      "cs_self_contribution": [
+        1.1807584247383204e-06,
+        0.976167355558171
+      ]
+    },
+    "stationarity": {
+      "dsr_cognitive": {
+        "adf_statistic": -2.7417590575545243,
+        "p_value": 0.06708666019557093,
+        "is_stationary": false
+      },
+      "cs_output": {
+        "adf_statistic": -5.757327568209522,
+        "p_value": 5.779099090295223e-07,
+        "is_stationary": true
+      },
+      "constitutive_index": {
+        "adf_statistic": -2.101684854882796,
+        "p_value": 0.24383765282958153,
+        "is_stationary": false
+      }
+    }
+  },
+  "s_curve_fitting": {
+    "s_curve_parameters": {
+      "dsr_cognitive": {
+        "L": 0.3238381862868345,
+        "k": 0.10000000000000002,
+        "t0": 2021.0000000000025,
+        "r_squared": -0.1568293018306628
+      },
+      "constitutive_index": {
+        "L": 0.37424824514500693,
+        "k": 0.10000000000000002,
+        "t0": 2021.000000000017,
+        "r_squared": -0.16035161485652694
+      },
+      "dsr_integration_depth": {
+        "L": 0.31187013064199515,
+        "k": 0.10000000000000002,
+        "t0": 2021.0000000000018,
+        "r_squared": -0.1512949259458698
+      }
+    },
+    "growth_phases": {
+      "dsr_cognitive": [
+        {
+          "year": 2021,
+          "phase": "rapid_growth",
+          "growth_rate": 0.01877580858036132
+        },
+        {
+          "year": 2022,
+          "phase": "rapid_growth",
+          "growth_rate": 0.018729063848097555
+        },
+        {
+          "year": 2023,
+          "phase": "consolidation",
+          "growth_rate": 0.018589756053545015
+        },
+        {
+          "year": 2024,
+          "phase": "consolidation",
+          "growth_rate": 0.018360625659966157
+        },
+        {
+          "year": 2025,
+          "phase": "consolidation",
+          "growth_rate": 0.018224058328676074
+        }
+      ],
+      "constitutive_index": [
+        {
+          "year": 2021,
+          "phase": "rapid_growth",
+          "growth_rate": 0.019561069772723316
+        },
+        {
+          "year": 2022,
+          "phase": "rapid_growth",
+          "growth_rate": 0.019512370034153265
+        },
+        {
+          "year": 2023,
+          "phase": "consolidation",
+          "growth_rate": 0.01936723596562903
+        },
+        {
+          "year": 2024,
+          "phase": "consolidation",
+          "growth_rate": 0.019128522644887624
+        },
+        {
+          "year": 2025,
+          "phase": "consolidation",
+          "growth_rate": 0.0189862436541004
+        }
+      ],
+      "dsr_integration_depth": [
+        {
+          "year": 2021,
+          "phase": "rapid_growth",
+          "growth_rate": 0.01797792949119198
+        },
+        {
+          "year": 2022,
+          "phase": "rapid_growth",
+          "growth_rate": 0.017933171179073115
+        },
+        {
+          "year": 2023,
+          "phase": "consolidation",
+          "growth_rate": 0.01779978327743781
+        },
+        {
+          "year": 2024,
+          "phase": "consolidation",
+          "growth_rate": 0.01758038979340118
+        },
+        {
+          "year": 2025,
+          "phase": "consolidation",
+          "growth_rate": 0.017449625898880994
+        }
+      ]
+    },
+    "inflection_points": {
+      "dsr_cognitive": {
+        "year": 2021,
+        "value": 0.33875535968909826,
+        "growth_rate": 0.01877580858036132
+      },
+      "constitutive_index": {
+        "year": 2021,
+        "value": 0.3837403860619178,
+        "growth_rate": 0.019561069772723316
+      },
+      "dsr_integration_depth": {
+        "year": 2021,
+        "value": 0.327811297498521,
+        "growth_rate": 0.01797792949119198
+      }
+    },
+    "maturity_assessment": {
+      "dsr_cognitive": {
+        "current_value": 0.27868827735170065,
+        "carrying_capacity": 0.3238381862868345,
+        "maturity_ratio": 0.8605787987734621,
+        "years_to_inflection": -3,
+        "current_phase": "consolidation"
+      },
+      "constitutive_index": {
+        "current_value": 0.3399786997353274,
+        "carrying_capacity": 0.37424824514500693,
+        "maturity_ratio": 0.9084309790246274,
+        "years_to_inflection": -3,
+        "current_phase": "consolidation"
+      },
+      "dsr_integration_depth": {
+        "current_value": 0.27093617645041074,
+        "carrying_capacity": 0.31187013064199515,
+        "maturity_ratio": 0.8687467949966209,
+        "years_to_inflection": -3,
+        "current_phase": "consolidation"
+      }
+    }
+  },
+  "path_dependency": {
+    "lock_in_effects": {},
+    "hysteresis_test": {
+      "r2_without_history": 0.002167168054406865,
+      "r2_with_history": 0.14089431526119878,
+      "improvement": 0.1387271472067919,
+      "has_hysteresis": true
+    },
+    "regime_switching": {},
+    "critical_junctures": {}
+  },
+  "ccm_analysis": {
+    "ccm_causality": {
+      "dsr_causes_cs": {
+        "library_sizes": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "mean_rho": [],
+        "convergent": false,
+        "final_rho": 0
+      },
+      "cs_causes_dsr": {
+        "library_sizes": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "mean_rho": [],
+        "convergent": false,
+        "final_rho": 0
+      }
+    },
+    "embedding_parameters": {
+      "optimal_E": 7,
+      "test_results": [
+        {
+          "E": 2,
+          "rho": 0.886653
+        },
+        {
+          "E": 3,
+          "rho": 0.887703
+        },
+        {
+          "E": 4,
+          "rho": 0.888224
+        },
+        {
+          "E": 5,
+          "rho": 0.889165
+        },
+        {
+          "E": 6,
+          "rho": 0.88958
+        },
+        {
+          "E": 7,
+          "rho": 0.889821
+        }
+      ]
+    },
+    "convergence_test": {
+      "bidirectional": false,
+      "dominant_direction": "cs_to_dsr",
+      "asymmetry": 0
+    }
+  },
+  "evolution_stages": {
+    "stage_classification": [
+      {
+        "year": 2021,
+        "growth_phase": "rapid_growth",
+        "integration_level": 0.327811297498521,
+        "irreplaceability": 0.1782536597598244,
+        "performance": 0.5479845350146014,
+        "constitutiveness": 0.3837403860619178
+      },
+      {
+        "year": 2022,
+        "growth_phase": "rapid_growth",
+        "integration_level": 0.3004770685613627,
+        "irreplaceability": 0.1584848283103291,
+        "performance": 0.555586291610335,
+        "constitutiveness": 0.3634179004951567
+      },
+      {
+        "year": 2023,
+        "growth_phase": "consolidation",
+        "integration_level": 0.28658105396487893,
+        "irreplaceability": 0.14665435961311454,
+        "performance": 0.5533987890791051,
+        "constitutiveness": 0.3521568051340893
+      },
+      {
+        "year": 2024,
+        "growth_phase": "consolidation",
+        "integration_level": 0.2875113130524382,
+        "irreplaceability": 0.1475736877614297,
+        "performance": 0.5436880671643307,
+        "constitutiveness": 0.3592706866577565
+      },
+      {
+        "year": 2025,
+        "growth_phase": "consolidation",
+        "integration_level": 0.27093617645041074,
+        "irreplaceability": 0.1318372153683806,
+        "performance": 0.5528157552761094,
+        "constitutiveness": 0.3399786997353274
+      }
+    ],
+    "transition_analysis": {
+      "transitions": [
+        {
+          "year": 2023,
+          "from_phase": "rapid_growth",
+          "to_phase": "consolidation",
+          "duration": 2
+        }
+      ],
+      "phase_durations": {
+        "rapid_growth": 2,
+        "consolidation": 3
+      },
+      "average_phase_length": 2.5
+    },
+    "current_stage": {
+      "year": 2025,
+      "phase": "consolidation",
+      "characteristics": {
+        "integration_trend": "stable",
+        "performance_level": "medium",
+        "constitutiveness_strength": 0.3399786997353274,
+        "maturity_indicators": 1
+      }
+    },
+    "future_trajectory": {
+      "predictions": [
+        {
+          "year": 2026,
+          "predicted_constitutiveness": 0.23295431237627875,
+          "predicted_phase": "consolidation",
+          "uncertainty": 0.1
+        },
+        {
+          "year": 2027,
+          "predicted_constitutiveness": 0.24163573957166518,
+          "predicted_phase": "consolidation",
+          "uncertainty": 0.2
+        },
+        {
+          "year": 2028,
+          "predicted_constitutiveness": 0.25006810116114636,
+          "predicted_phase": "consolidation",
+          "uncertainty": 0.30000000000000004
+        }
+      ],
+      "expected_maturity_year": 2023,
+      "growth_potential": 0.09156902097537259
+    }
+  },
+  "prediction_models": {
+    "arima_forecast": {
+      "model_params": {
+        "order": [
+          1,
+          1,
+          1
+        ],
+        "aic": -307.8242052814341,
+        "bic": -302.0287283832611
+      },
+      "forecast_values": [
+        0.33136702515819166,
+        0.33467299813415907,
+        0.33712125855749575,
+        0.3389343342069489,
+        0.3402770195190612,
+        0.3412713541172374
+      ],
+      "forecast_dates": [
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ]
+    },
+    "ensemble_prediction": {},
+    "scenario_analysis": {
+      "optimistic": {
+        "parameters": {
+          "growth_rate": 0.05,
+          "description": "技术突破和政策支持"
+        },
+        "predictions": [
+          {
+            "month": 1,
+            "value": 0.3432479950924765,
+            "cumulative_growth": 5.000000000000004
+          },
+          {
+            "month": 2,
+            "value": 0.36041039484710036,
+            "cumulative_growth": 10.250000000000004
+          },
+          {
+            "month": 3,
+            "value": 0.3784309145894554,
+            "cumulative_growth": 15.762500000000014
+          },
+          {
+            "month": 4,
+            "value": 0.3973524603189282,
+            "cumulative_growth": 21.550625000000025
+          },
+          {
+            "month": 5,
+            "value": 0.4172200833348746,
+            "cumulative_growth": 27.628156250000035
+          },
+          {
+            "month": 6,
+            "value": 0.43808108750161834,
+            "cumulative_growth": 34.00956406250004
+          },
+          {
+            "month": 7,
+            "value": 0.45998514187669926,
+            "cumulative_growth": 40.71004226562505
+          },
+          {
+            "month": 8,
+            "value": 0.48298439897053425,
+            "cumulative_growth": 47.7455443789063
+          },
+          {
+            "month": 9,
+            "value": 0.507133618919061,
+            "cumulative_growth": 55.1328215978516
+          },
+          {
+            "month": 10,
+            "value": 0.5324902998650141,
+            "cumulative_growth": 62.8894626777442
+          },
+          {
+            "month": 11,
+            "value": 0.5591148148582648,
+            "cumulative_growth": 71.03393581163142
+          },
+          {
+            "month": 12,
+            "value": 0.587070555601178,
+            "cumulative_growth": 79.58563260221301
+          }
+        ],
+        "year_end_value": 0.587070555601178,
+        "year_growth": 79.58563260221301
+      },
+      "baseline": {
+        "parameters": {
+          "growth_rate": 0.02,
+          "description": "当前趋势延续"
+        },
+        "predictions": [
+          {
+            "month": 1,
+            "value": 0.3334409095184057,
+            "cumulative_growth": 2.0000000000000018
+          },
+          {
+            "month": 2,
+            "value": 0.34010972770877385,
+            "cumulative_growth": 4.039999999999999
+          },
+          {
+            "month": 3,
+            "value": 0.3469119222629493,
+            "cumulative_growth": 6.120799999999993
+          },
+          {
+            "month": 4,
+            "value": 0.3538501607082083,
+            "cumulative_growth": 8.243215999999997
+          },
+          {
+            "month": 5,
+            "value": 0.36092716392237245,
+            "cumulative_growth": 10.408080320000002
+          },
+          {
+            "month": 6,
+            "value": 0.3681457072008199,
+            "cumulative_growth": 12.616241926399985
+          },
+          {
+            "month": 7,
+            "value": 0.3755086213448363,
+            "cumulative_growth": 14.868566764928005
+          },
+          {
+            "month": 8,
+            "value": 0.38301879377173303,
+            "cumulative_growth": 17.16593810022655
+          },
+          {
+            "month": 9,
+            "value": 0.3906791696471677,
+            "cumulative_growth": 19.509256862231084
+          },
+          {
+            "month": 10,
+            "value": 0.39849275304011106,
+            "cumulative_growth": 21.899441999475712
+          },
+          {
+            "month": 11,
+            "value": 0.4064626081009133,
+            "cumulative_growth": 24.337430839465224
+          },
+          {
+            "month": 12,
+            "value": 0.41459186026293154,
+            "cumulative_growth": 26.824179456254527
+          }
+        ],
+        "year_end_value": 0.41459186026293154,
+        "year_growth": 26.824179456254527
+      },
+      "conservative": {
+        "parameters": {
+          "growth_rate": 0.01,
+          "description": "资源约束和竞争加剧"
+        },
+        "predictions": [
+          {
+            "month": 1,
+            "value": 0.33017188099371547,
+            "cumulative_growth": 1.0000000000000009
+          },
+          {
+            "month": 2,
+            "value": 0.33347359980365265,
+            "cumulative_growth": 2.0100000000000007
+          },
+          {
+            "month": 3,
+            "value": 0.3368083358016892,
+            "cumulative_growth": 3.0301000000000133
+          },
+          {
+            "month": 4,
+            "value": 0.3401764191597061,
+            "cumulative_growth": 4.060401000000002
+          },
+          {
+            "month": 5,
+            "value": 0.34357818335130313,
+            "cumulative_growth": 5.101005010000015
+          },
+          {
+            "month": 6,
+            "value": 0.34701396518481614,
+            "cumulative_growth": 6.152015060099991
+          },
+          {
+            "month": 7,
+            "value": 0.3504841048366643,
+            "cumulative_growth": 7.213535210701005
+          },
+          {
+            "month": 8,
+            "value": 0.35398894588503094,
+            "cumulative_growth": 8.285670562808
+          },
+          {
+            "month": 9,
+            "value": 0.35752883534388125,
+            "cumulative_growth": 9.36852726843609
+          },
+          {
+            "month": 10,
+            "value": 0.36110412369732003,
+            "cumulative_growth": 10.46221254112043
+          },
+          {
+            "month": 11,
+            "value": 0.36471516493429323,
+            "cumulative_growth": 11.566834666531634
+          },
+          {
+            "month": 12,
+            "value": 0.36836231658363616,
+            "cumulative_growth": 12.682503013196955
+          }
+        ],
+        "year_end_value": 0.36836231658363616,
+        "year_growth": 12.682503013196955
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "total_units": 10012,
+  "ded_elements_found": 10496,
+  "avg_ded_per_unit": 1.048341989612465,
+  "media_distribution": {
+    "Western": 4277,
+    "CN": 3753,
+    "Other": 1982
+  },
+  "topic_distribution": {
+    "BR": 3172,
+    "GG": 3031,
+    "CR": 1349,
+    "SD": 2232,
+    "CE": 228
+  },
+  "sensitivity_distribution": {
+    "high": 5506,
+    "medium": 3003,
+    "low": 1503
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "cognitive_network": {
+    "network_properties": {
+      "num_nodes": 9,
+      "num_edges": 13,
+      "density": 0.3611111111111111,
+      "average_clustering": 0.3851851851851852,
+      "average_path_length": 1.9722222222222223,
+      "diameter": 4,
+      "assortativity": -0.11551155115511548
+    },
+    "node_attributes": {
+      "DSR_core": {
+        "degree": 4,
+        "degree_centrality": 0.5,
+        "betweenness_centrality": 0.03571428571428571,
+        "closeness_centrality": 0.6153846153846154,
+        "eigenvector_centrality": 0.4532210377986463,
+        "pagerank": 0.15615812484914066
+      },
+      "DSR_bridge": {
+        "degree": 4,
+        "degree_centrality": 0.5,
+        "betweenness_centrality": 0.03571428571428571,
+        "closeness_centrality": 0.6153846153846154,
+        "eigenvector_centrality": 0.4532210377986463,
+        "pagerank": 0.1512167949068556
+      },
+      "DSR_integrate": {
+        "degree": 5,
+        "degree_centrality": 0.625,
+        "betweenness_centrality": 0.46428571428571425,
+        "closeness_centrality": 0.7272727272727273,
+        "eigenvector_centrality": 0.48154977887873673,
+        "pagerank": 0.16866227280951707
+      },
+      "TL_formal": {
+        "degree": 5,
+        "degree_centrality": 0.625,
+        "betweenness_centrality": 0.46428571428571425,
+        "closeness_centrality": 0.6666666666666666,
+        "eigenvector_centrality": 0.423609024693624,
+        "pagerank": 0.18078758056650462
+      },
+      "TL_pragmatic": {
+        "degree": 1,
+        "degree_centrality": 0.125,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.42105263157894735,
+        "eigenvector_centrality": 0.11140130052917302,
+        "pagerank": 0.05555762276379197
+      },
+      "TL_cultural": {
+        "degree": 1,
+        "degree_centrality": 0.125,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.42105263157894735,
+        "eigenvector_centrality": 0.11140130052917302,
+        "pagerank": 0.04318558267290354
+      },
+      "CS_output": {
+        "degree": 3,
+        "degree_centrality": 0.375,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.5,
+        "eigenvector_centrality": 0.3650160224588852,
+        "pagerank": 0.06535436158653515
+      },
+      "CS_adapt": {
+        "degree": 2,
+        "degree_centrality": 0.25,
+        "betweenness_centrality": 0.25,
+        "closeness_centrality": 0.5,
+        "eigenvector_centrality": 0.13604871357252463,
+        "pagerank": 0.09891677696362888
+      },
+      "CS_stable": {
+        "degree": 1,
+        "degree_centrality": 0.125,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.34782608695652173,
+        "eigenvector_centrality": 0.035779013649988284,
+        "pagerank": 0.08016088288112228
+      }
+    },
+    "edge_weights": {},
+    "network_evolution": [
+      {
+        "period": "2021-Q1",
+        "edge_count": 16,
+        "density": 0.4444444444444444
+      },
+      {
+        "period": "2021-Q2",
+        "edge_count": 17,
+        "density": 0.4722222222222222
+      },
+      {
+        "period": "2021-Q3",
+        "edge_count": 14,
+        "density": 0.3888888888888889
+      },
+      {
+        "period": "2021-Q4",
+        "edge_count": 15,
+        "density": 0.4166666666666667
+      },
+      {
+        "period": "2022-Q1",
+        "edge_count": 20,
+        "density": 0.5555555555555556
+      },
+      {
+        "period": "2022-Q2",
+        "edge_count": 19,
+        "density": 0.5277777777777778
+      },
+      {
+        "period": "2022-Q3",
+        "edge_count": 12,
+        "density": 0.3333333333333333
+      },
+      {
+        "period": "2022-Q4",
+        "edge_count": 13,
+        "density": 0.3611111111111111
+      },
+      {
+        "period": "2023-Q1",
+        "edge_count": 12,
+        "density": 0.3333333333333333
+      },
+      {
+        "period": "2023-Q2",
+        "edge_count": 13,
+        "density": 0.3611111111111111
+      },
+      {
+        "period": "2023-Q3",
+        "edge_count": 13,
+        "density": 0.3611111111111111
+      },
+      {
+        "period": "2023-Q4",
+        "edge_count": 13,
+        "density": 0.3611111111111111
+      },
+      {
+        "period": "2024-Q1",
+        "edge_count": 17,
+        "density": 0.4722222222222222
+      },
+      {
+        "period": "2024-Q2",
+        "edge_count": 15,
+        "density": 0.4166666666666667
+      },
+      {
+        "period": "2024-Q3",
+        "edge_count": 13,
+        "density": 0.3611111111111111
+      },
+      {
+        "period": "2024-Q4",
+        "edge_count": 13,
+        "density": 0.3611111111111111
+      }
+    ]
+  },
+  "diffusion_patterns": {
+    "temporal_diffusion": {
+      "adoption_rate": 0.49646107178968657,
+      "half_adoption_date": null,
+      "adoption_acceleration": -4.2722181637458847e-07
+    },
+    "spatial_diffusion": {
+      "topic_adoption_rates": {
+        "主权议题": 0.32188791319087756,
+        "全球治理": 0.30722277818354493,
+        "危机响应": 0.27514517497592283,
+        "双边关系": 0.30561401834573043,
+        "文化交流": 0.34254084523485645
+      },
+      "topic_adoption_variance": {
+        "主权议题": 0.1158676835700078,
+        "全球治理": 0.12824697933728427,
+        "危机响应": 0.13544111636791792,
+        "双边关系": 0.12651687822625388,
+        "文化交流": 0.11038545048506339
+      },
+      "early_adopter_topics": [
+        "文化交流",
+        "主权议题",
+        "全球治理"
+      ]
+    },
+    "adoption_curves": {
+      "model": "logistic",
+      "parameters": {
+        "carrying_capacity": 0.48319107868065503,
+        "growth_rate": 0.006031289388028264,
+        "midpoint": 306.168729042484
+      },
+      "goodness_of_fit": -23.657956078846667
+    },
+    "diffusion_speed": {
+      "average_speed": NaN,
+      "max_speed": NaN,
+      "speed_trend": 0,
+      "peak_diffusion_date": "2021-05-06"
+    }
+  },
+  "network_effects": {
+    "direct_effects": {
+      "density_level_1": {
+        "dsr_coefficient": 0.10034504366087127,
+        "sample_size": 2504,
+        "r_squared": 0.1609191535697796
+      },
+      "density_level_2": {
+        "dsr_coefficient": 0.11565301320806588,
+        "sample_size": 5007,
+        "r_squared": 0.15760251454828045
+      },
+      "density_level_3": {
+        "dsr_coefficient": 0.10779586991931624,
+        "sample_size": 2501,
+        "r_squared": 0.07228168950901126
+      }
+    },
+    "indirect_effects": {
+      "dsr_cognitive_via_dsr_bridging_score": {
+        "indirect_effect": 0.08209565705393991,
+        "a_path": 1.6575788319160754,
+        "b_path": 0.0495274526153556
+      },
+      "dsr_cognitive_via_tl_functional": {
+        "indirect_effect": 0.026440078931941512,
+        "a_path": 0.3655451803778158,
+        "b_path": 0.07233053628176384
+      },
+      "dsr_cognitive_via_dsr_integration_depth": {
+        "indirect_effect": -0.031492368949378916,
+        "a_path": 1.0551697714697739,
+        "b_path": -0.02984578387372902
+      }
+    },
+    "spillover_effects": {
+      "lag_1d": {
+        "coefficient": -0.004354187484562635,
+        "p_value": 0.22678818587906224,
+        "significant": false
+      },
+      "lag_7d": {
+        "coefficient": 0.00017165841645296943,
+        "p_value": 0.9620171530215075,
+        "significant": false
+      },
+      "lag_30d": {
+        "coefficient": -0.007791002694875684,
+        "p_value": 0.03094302384594992,
+        "significant": true
+      }
+    },
+    "network_multiplier": {
+      "multiplier": 1.0742520605564334,
+      "low_density_effect": 0.10034504366087127,
+      "high_density_effect": 0.10779586991931624,
+      "amplification": 7.425206055643341
+    }
+  },
+  "influence_propagation": {
+    "propagation_paths": {
+      "total_paths": 9,
+      "average_path_length": 1.7777777777777777,
+      "path_length_distribution": {
+        "1": 4,
+        "2": 3,
+        "3": 2
+      },
+      "most_common_length": 1
+    },
+    "influence_decay": {
+      "decay_rate": 0,
+      "half_life": Infinity,
+      "model_fit": false
+    },
+    "cascade_patterns": {},
+    "critical_mass": {
+      "critical_adoption_level": 0.1,
+      "effect_jump": 0.6090595434869098,
+      "pre_critical_effect": -0.06228743099210388,
+      "post_critical_effect": 0.546772112494806
+    }
+  },
+  "community_structure": {
+    "communities": {
+      "community_0": {
+        "size": 4,
+        "nodes": [
+          "DSR_bridge",
+          "CS_output",
+          "DSR_core",
+          "DSR_integrate"
+        ],
+        "type_distribution": {
+          "cs": 1,
+          "dsr": 3
+        },
+        "average_centrality": 0.43825196923372867,
+        "dominant_type": "dsr"
+      },
+      "community_1": {
+        "size": 3,
+        "nodes": [
+          "TL_cultural",
+          "TL_pragmatic",
+          "TL_formal"
+        ],
+        "type_distribution": {
+          "tl": 3
+        },
+        "average_centrality": 0.21547054191732337,
+        "dominant_type": "tl"
+      },
+      "community_2": {
+        "size": 2,
+        "nodes": [
+          "CS_adapt",
+          "CS_stable"
+        ],
+        "type_distribution": {
+          "cs": 2
+        },
+        "average_centrality": 0.08591386361125646,
+        "dominant_type": "cs"
+      }
+    },
+    "modularity": 0.29877068968043174,
+    "community_interactions": {
+      "comm_0_comm_1": {
+        "num_edges": 3,
+        "average_weight": 0.5772075184186862,
+        "key_connections": [
+          [
+            "DSR_bridge",
+            "TL_formal"
+          ],
+          [
+            "DSR_core",
+            "TL_formal"
+          ],
+          [
+            "DSR_integrate",
+            "TL_formal"
+          ]
+        ]
+      },
+      "comm_0_comm_2": {
+        "num_edges": 1,
+        "average_weight": 0.3001236903833797,
+        "key_connections": [
+          [
+            "DSR_integrate",
+            "CS_adapt"
+          ]
+        ]
+      }
+    },
+    "bridge_nodes": [
+      {
+        "node": "DSR_integrate",
+        "bridges": 3,
+        "betweenness": 0.46428571428571425
+      },
+      {
+        "node": "TL_formal",
+        "bridges": 2,
+        "betweenness": 0.46428571428571425
+      },
+      {
+        "node": "CS_adapt",
+        "bridges": 2,
+        "betweenness": 0.25
+      },
+      {
+        "node": "DSR_core",
+        "bridges": 2,
+        "betweenness": 0.03571428571428571
+      },
+      {
+        "node": "DSR_bridge",
+        "bridges": 2,
+        "betweenness": 0.03571428571428571
+      }
+    ]
+  },
+  "critical_nodes": {
+    "hub_nodes": [
+      {
+        "node": "DSR_integrate",
+        "label": "DSR整合",
+        "type": "dsr",
+        "degree_centrality": 0.625,
+        "connections": 5
+      },
+      {
+        "node": "TL_formal",
+        "label": "正式语言",
+        "type": "tl",
+        "degree_centrality": 0.625,
+        "connections": 5
+      }
+    ],
+    "bottleneck_nodes": [
+      {
+        "node": "DSR_integrate",
+        "label": "DSR整合",
+        "type": "dsr",
+        "betweenness_centrality": 0.46428571428571425,
+        "paths_controlled": 33
+      },
+      {
+        "node": "TL_formal",
+        "label": "正式语言",
+        "type": "tl",
+        "betweenness_centrality": 0.46428571428571425,
+        "paths_controlled": 33
+      }
+    ],
+    "influence_nodes": [
+      {
+        "node": "DSR_integrate",
+        "label": "DSR整合",
+        "type": "dsr",
+        "influence_score": 0.45682812462336503,
+        "rank": 1
+      },
+      {
+        "node": "TL_formal",
+        "label": "正式语言",
+        "type": "tl",
+        "influence_score": 0.44766503533774,
+        "rank": 2
+      },
+      {
+        "node": "DSR_core",
+        "label": "DSR核心",
+        "type": "dsr",
+        "influence_score": 0.28259011824384306,
+        "rank": 3
+      },
+      {
+        "node": "DSR_bridge",
+        "label": "DSR桥接",
+        "type": "dsr",
+        "influence_score": 0.28160185225538603,
+        "rank": 4
+      },
+      {
+        "node": "CS_output",
+        "label": "认知输出",
+        "type": "cs",
+        "influence_score": 0.19857407680908407,
+        "rank": 5
+      }
+    ],
+    "vulnerability_assessment": {
+      "DSR_integrate": {
+        "connectivity_loss": true,
+        "diameter_increase": Infinity,
+        "component_increase": 1
+      },
+      "TL_formal": {
+        "connectivity_loss": true,
+        "diameter_increase": Infinity,
+        "component_increase": 2
+      },
+      "DSR_core": {
+        "connectivity_loss": false,
+        "diameter_increase": 0.0,
+        "component_increase": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "M1_baseline": {
+    "formula": "cs_output ~ dsr_cognitive + tl_functional + sensitivity_code + media_culture_code",
+    "r_squared": 0.1439221586582622,
+    "adj_r_squared": 0.14357996705584708,
+    "aic": -34930.63133716717,
+    "bic": -34894.57363890441,
+    "coefficients": {
+      "Intercept": 0.49837625489346105,
+      "dsr_cognitive": 0.10736661972227522,
+      "tl_functional": 0.07622408853960365,
+      "sensitivity_code": -0.004955064235722789,
+      "media_culture_code": 0.0033779367714048963
+    },
+    "p_values": {
+      "Intercept": 0.0,
+      "dsr_cognitive": 1.2277529902283987e-131,
+      "tl_functional": 4.575789239522464e-27,
+      "sensitivity_code": 5.653479378437334e-15,
+      "media_culture_code": 4.517393645181007e-09
+    },
+    "conf_intervals": {
+      "0": {
+        "Intercept": 0.4939333214516962,
+        "dsr_cognitive": 0.09887424896941543,
+        "tl_functional": 0.06239634330120819,
+        "sensitivity_code": -0.0061965596731003054,
+        "media_culture_code": 0.002249775534382839
+      },
+      "1": {
+        "Intercept": 0.5028191883352259,
+        "dsr_cognitive": 0.11585899047513501,
+        "tl_functional": 0.09005183377799911,
+        "sensitivity_code": -0.0037135687983452723,
+        "media_culture_code": 0.004506098008426954
+      }
+    },
+    "summary": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:              cs_output   R-squared:                       0.144\nModel:                            OLS   Adj. R-squared:                  0.144\nMethod:                 Least Squares   F-statistic:                     420.6\nDate:                Fri, 04 Jul 2025   Prob (F-statistic):               0.00\nTime:                        06:37:51   Log-Likelihood:                 17470.\nNo. Observations:               10012   AIC:                        -3.493e+04\nDf Residuals:                   10007   BIC:                        -3.489e+04\nDf Model:                           4                                         \nCovariance Type:            nonrobust                                         \n======================================================================================\n                         coef    std err          t      P>|t|      [0.025      0.975]\n--------------------------------------------------------------------------------------\nIntercept              0.4984      0.002    219.881      0.000       0.494       0.503\ndsr_cognitive          0.1074      0.004     24.782      0.000       0.099       0.116\ntl_functional          0.0762      0.007     10.805      0.000       0.062       0.090\nsensitivity_code      -0.0050      0.001     -7.824      0.000      -0.006      -0.004\nmedia_culture_code     0.0034      0.001      5.869      0.000       0.002       0.005\n==============================================================================\nOmnibus:                      244.006   Durbin-Watson:                   1.669\nProb(Omnibus):                  0.000   Jarque-Bera (JB):              271.628\nSkew:                          -0.359   Prob(JB):                     1.04e-59\nKurtosis:                       3.369   Cond. No.                         51.8\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.",
+    "diagnostics": {
+      "heteroscedasticity_pvalue": 2.3148053777916296e-33,
+      "normality_pvalue": 1.0391208459345535e-59,
+      "vif": [
+        {
+          "Variable": "dsr_cognitive",
+          "VIF": null
+        },
+        {
+          "Variable": "tl_functional",
+          "VIF": null
+        },
+        {
+          "Variable": "sensitivity_code",
+          "VIF": null
+        },
+        {
+          "Variable": "media_culture_code",
+          "VIF": null
+        }
+      ],
+      "durbin_watson": 1.6690539862555651
+    }
+  },
+  "M2_interaction": {
+    "formula": "cs_output ~ dsr_cognitive * tl_functional + \n                    dsr_cognitive * sensitivity_code + \n                    dsr_cognitive * media_culture_code + \n                    I(dsr_cognitive > dsr_cognitive.quantile(0.5)) * I(tl_functional > tl_functional.quantile(0.5))",
+    "r_squared": 0.17827790119830644,
+    "adj_r_squared": 0.17745626126349823,
+    "aic": -35328.713341525916,
+    "bic": -35249.38640534785,
+    "coefficients": {
+      "Intercept": 0.5577858471214237,
+      "I(dsr_cognitive > dsr_cognitive.quantile(0.5))[T.True]": -0.0012226640149717062,
+      "I(tl_functional > tl_functional.quantile(0.5))[T.True]": 0.005650006975359983,
+      "I(dsr_cognitive > dsr_cognitive.quantile(0.5))[T.True]:I(tl_functional > tl_functional.quantile(0.5))[T.True]": -0.004682012096033725,
+      "dsr_cognitive": -0.10086879126340043,
+      "tl_functional": 0.04829591463638458,
+      "dsr_cognitive:tl_functional": 0.034677029383030966,
+      "sensitivity_code": -0.028926326524002136,
+      "dsr_cognitive:sensitivity_code": 0.08628615138541779,
+      "media_culture_code": -0.0024358137908485596,
+      "dsr_cognitive:media_culture_code": 0.021264633729023086
+    },
+    "p_values": {
+      "Intercept": 0.0,
+      "I(dsr_cognitive > dsr_cognitive.quantile(0.5))[T.True]": 0.47771449095041174,
+      "I(tl_functional > tl_functional.quantile(0.5))[T.True]": 0.0018776133703656312,
+      "I(dsr_cognitive > dsr_cognitive.quantile(0.5))[T.True]:I(tl_functional > tl_functional.quantile(0.5))[T.True]": 0.0257151926624796,
+      "dsr_cognitive": 4.691732950824532e-06,
+      "tl_functional": 0.05575189070523671,
+      "dsr_cognitive:tl_functional": 0.6144857078914303,
+      "sensitivity_code": 8.426362706637379e-83,
+      "dsr_cognitive:sensitivity_code": 1.8978125191182373e-73,
+      "media_culture_code": 0.07752517225864916,
+      "dsr_cognitive:media_culture_code": 1.880377574706435e-06
+    },
+    "marginal_effects": {
+      "dsr_at_tl_0.25": -0.08985500187411617,
+      "dsr_at_tl_0.5": -0.08803733761777913,
+      "dsr_at_tl_0.75": -0.08601735325880022
+    },
+    "interaction_significance": {
+      "dsr_tl": 0.6144857078914303,
+      "dsr_sensitivity": 1.8978125191182373e-73
+    }
+  },
+  "M3_nonlinear": {
+    "polynomial_model": {
+      "r_squared": 0.1869744004634799,
+      "adj_r_squared": 0.18624282373924184,
+      "aic": -35437.2376352766,
+      "significant_nonlinear_terms": [
+        "dsr_cognitive:tl_functional",
+        "dsr_cognitive:sensitivity_code",
+        "tl_functional:sensitivity_code"
+      ]
+    },
+    "thresholds": {
+      "quantile_0.25": {
+        "dsr_value": 0.11941074999999993,
+        "slope": 0.12041149990690059
+      },
+      "quantile_0.5": {
+        "dsr_value": 0.36573400908494313,
+        "slope": 0.13108887884164577
+      },
+      "quantile_0.75": {
+        "dsr_value": 0.39122348476123675,
+        "slope": 0.13404361812680676
+      }
+    },
+    "nonlinearity_test": {
+      "reset_f_statistic": 30.68668077134893,
+      "reset_p_value": 3.1091164864882614e-08,
+      "nonlinearity_detected": true
+    }
+  },
+  "M4_var_causality": {
+    "optimal_lag": 5,
+    "aic": -16.142498939704208,
+    "granger_causality": {
+      "cs_output_causes_dsr_cognitive": {
+        "statistic": 7.654695589772736,
+        "p_value": 3.359581695500453e-07,
+        "significant": true
+      },
+      "cs_output_causes_tl_functional": {
+        "statistic": 3.951435150148433,
+        "p_value": 0.0013911624145447033,
+        "significant": true
+      },
+      "dsr_cognitive_causes_cs_output": {
+        "statistic": 9.854967960410544,
+        "p_value": 1.9851462025434476e-09,
+        "significant": true
+      },
+      "dsr_cognitive_causes_tl_functional": {
+        "statistic": 1.4825053221052442,
+        "p_value": 0.19175889986074632,
+        "significant": false
+      },
+      "tl_functional_causes_cs_output": {
+        "statistic": 2.1019202665091763,
+        "p_value": 0.062049510256226716,
+        "significant": false
+      },
+      "tl_functional_causes_dsr_cognitive": {
+        "statistic": 6.200586866574551,
+        "p_value": 9.416513405666378e-06,
+        "significant": true
+      }
+    },
+    "impulse_responses": {
+      "dsr_to_cs": [
+        0.0031025123263458197,
+        -0.0008919119857033504,
+        -1.212310948488771e-05
+      ],
+      "cs_to_dsr": [
+        0.04833860020688957,
+        0.11626947922856369,
+        0.0
+      ]
+    },
+    "variance_decomposition": {
+      "cs_explained_by_dsr": [
+        0.0,
+        0.00040357978387275495,
+        0.0007706698174991035,
+        0.0029934205002416932,
+        0.005981171682407562,
+        0.008235515993686033,
+        0.008774109934772858,
+        0.00930424201425986,
+        0.009850565233314517,
+        0.010266738665035904
+      ],
+      "dsr_explained_by_cs": [
+        0.1473723756982319,
+        0.14705695678027586,
+        0.146407467264847,
+        0.14658686127690648,
+        0.14655461214861698,
+        0.14628877710981938,
+        0.14636973543229229,
+        0.1464230249260017,
+        0.1464890147993354,
+        0.14652979864390514
+      ]
+    }
+  },
+  "M5_hierarchical": {
+    "context_specific_models": {
+      "low": {
+        "n_obs": 1503,
+        "r_squared": 0.05001439497861471,
+        "dsr_coef": -0.004740681557092532,
+        "dsr_pvalue": 0.6167621312288464,
+        "tl_coef": 0.12652665889093384,
+        "time_trend": 0.0069437251790828314
+      },
+      "medium": {
+        "n_obs": 3003,
+        "r_squared": 0.2006868195386704,
+        "dsr_coef": 0.10155881062531086,
+        "dsr_pvalue": 2.1036617041143264e-44,
+        "tl_coef": 0.14044765041590251,
+        "time_trend": 0.007079842856745143
+      },
+      "high": {
+        "n_obs": 5506,
+        "r_squared": 0.16481797772102513,
+        "dsr_coef": 0.16864640749545162,
+        "dsr_pvalue": 6.072901622460507e-145,
+        "tl_coef": 0.04928041210732105,
+        "time_trend": 0.006616061005145129
+      }
+    },
+    "heterogeneity_test": {
+      "coefficient_range": 0.17338708905254416,
+      "f_statistic": 918.2823823590192,
+      "p_value": 0.0,
+      "heterogeneity_significant": true
+    },
+    "random_effects_approximation": {
+      "within_variance": 0.0019219958297890017,
+      "between_variance": 9.036234909976445e-05,
+      "icc": 0.04490371050627924,
+      "random_effects_important": false
+    }
+  },
+  "model_comparison": {
+    "summary_table": [
+      {
+        "Model": "M1_baseline",
+        "R_squared": 0.1439221586582622,
+        "AIC": -34930.63133716717
+      },
+      {
+        "Model": "M2_interaction",
+        "R_squared": 0.17827790119830644,
+        "AIC": -35328.713341525916
+      },
+      {
+        "Model": "M3_nonlinear",
+        "R_squared": 0.1869744004634799,
+        "AIC": -35437.2376352766
+      },
+      {
+        "Model": "M4_var",
+        "R_squared": null,
+        "AIC": -16.142498939704208
+      },
+      {
+        "Model": "M5_hierarchical",
+        "R_squared": 0.13850639741277007,
+        "AIC": null
+      }
+    ],
+    "best_r_squared": "M3_nonlinear",
+    "best_aic": "M3_nonlinear",
+    "cross_validation_scores": {
+      "M1": {
+        "mean_cv_score": 0.14022922396477538,
+        "std_cv_score": 0.01758222264435959
+      },
+      "M2": {
+        "mean_cv_score": 0.17009742345205214,
+        "std_cv_score": 0.01915584933002637
+      }
+    }
+  },
+  "hypothesis_tests": {
+    "H1": {
+      "hypothesis": "H1: DSR对CS有显著正向影响",
+      "evidence": {
+        "M1_dsr_significant": true,
+        "M1_dsr_positive": true,
+        "granger_dsr_to_cs": true,
+        "bidirectional_causality": true
+      },
+      "conclusion": "支持"
+    },
+    "H2": {
+      "hypothesis": "H2: 语境敏感度调节DSR的构成性功能",
+      "evidence": {
+        "interaction_significant": true,
+        "heterogeneity_significant": true,
+        "threshold_effects": true
+      },
+      "conclusion": "支持"
+    },
+    "H3": {
+      "hypothesis": "H3: DSR构成性随时间演化",
+      "evidence": {
+        "time_trend_in_hierarchical": false,
+        "variance_decomposition_changes": true
+      },
+      "conclusion": "支持"
+    },
+    "overall_support": 3
+  }
+}
