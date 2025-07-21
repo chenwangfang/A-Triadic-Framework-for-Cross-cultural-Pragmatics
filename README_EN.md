@@ -179,7 +179,7 @@ If you use this project's code or data, please cite:
   title={A Triadic Framework for Cross-cultural Pragmatics: 
          Digital Symbolic Resources as Constitutive Components 
          of Distributed Cognition},
-  author={Chen, Wangfang},
+  author={Chen, Fang and Liangwang, De},
   year={2025},
   howpublished={\url{https://github.com/chenwangfang/A-Triadic-Framework-for-Cross-cultural-Pragmatics}}
 }
@@ -191,7 +191,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) file for 
 
 ## Contact
 
-- Principal Investigator: Chen Wangfang
+- Principal Investigators: Fang Chen and De Liangwang
 - Project Homepage: [GitHub Repository](https://github.com/chenwangfang/A-Triadic-Framework-for-Cross-cultural-Pragmatics)
 
 ## Acknowledgments
