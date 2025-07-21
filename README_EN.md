@@ -179,7 +179,7 @@ If you use this project's code or data, please cite:
   title={A Triadic Framework for Cross-cultural Pragmatics: 
          Digital Symbolic Resources as Constitutive Components 
          of Distributed Cognition},
-  author={Chen, Fang and Wang, Deliang},
+  author={To be provided after review},
   year={2025},
   howpublished={\url{https://github.com/chenwangfang/A-Triadic-Framework-for-Cross-cultural-Pragmatics}}
 }
@@ -191,8 +191,8 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) file for 
 
 ## Contact
 
-- Principal Investigators: Fang Chen and Deliang Wang
-- Email: 15397647129@163.com
+- Principal Investigators: To be provided after review
+- Email: To be provided after review
 - Project Homepage: [GitHub Repository](https://github.com/chenwangfang/A-Triadic-Framework-for-Cross-cultural-Pragmatics)
 
 ## Acknowledgments
