@@ -179,7 +179,7 @@ plt.savefig('output.jpg', dpi=1200, format='jpg')
   title={A Triadic Framework for Cross-cultural Pragmatics: 
          Digital Symbolic Resources as Constitutive Components 
          of Distributed Cognition},
-  author={Chen, Fang and Liangwang, De},
+  author={Chen, Fang and Wang, Deliang},
   year={2025},
   howpublished={\url{https://github.com/chenwangfang/A-Triadic-Framework-for-Cross-cultural-Pragmatics}}
 }
@@ -191,7 +191,8 @@ plt.savefig('output.jpg', dpi=1200, format='jpg')
 
 ## 联系方式
 
-- 项目负责人：Fang Chen and De Liangwang
+- 项目负责人：Fang Chen and Deliang Wang
+- 联系邮箱：15397647129@163.com
 - 项目主页：[GitHub Repository](https://github.com/chenwangfang/A-Triadic-Framework-for-Cross-cultural-Pragmatics)
 
 ## 致谢
